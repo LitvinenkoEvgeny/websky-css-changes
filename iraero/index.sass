@@ -2,66 +2,24 @@
 @import "../common/mixins"
 @import "mixins"
 
-
-// seatMap tooltip z-index error
-.seatSelect .seat:hover .seatName
-  z-index: 1
-
 /* ==== #31373 ==== */
 
-// 29
-.chooseFlight__table__item__content__link
-  +adaptivity(phone)
-    width: 100%
-    height: 100%
-    display: flex
-    justify-content: center
-    align-items: center
-    padding: 0
+.orderSearchForm .iata,
+.orderSearchForm .inpTo .iata
+  right: 15px
+  font-size: .9em
 
-// 30
-.checkoutServices__i .drop_mobile .passengersTable .route
-  flex-wrap: wrap
++setTabletFullWidthAndHeight
 
++priceItemActive
+  background: #2aabe8
+  color: #ffffff
 
-// 31
-.baggage_table
-  td
-    +adaptivity(phone)
-      padding: 5px
+.compareTabsWrap .tabsControl li a
+  background-color: #2aabe8
 
-// 32
-.pay-logo
-  display: none
-
+.chooseResult__i .col:nth-child(2) .col__i
+  padding-right: 10px
 
 /* ==== END #31373 ==== */
-
-.searchSteps.searchSteps_add span a
-  padding: 6px 10px
-
-  
-/* #34118 */
-.headerRight
-  height: auto
-
-.selectedInfo__i>a.milesPay .val,
-.selectedInfo__i>a.milesPay .miles
-  +adaptivity(tablet)
-    padding-right: 30px
-
-.selectedInfo__i>a:after
-  +adaptivity(tablet)
-    right: 5px
-/* END #34118 */
-
-/* ==== #34598 ==== */
-
-.checkPassengerDataInfo
-  &__content
-    color: red
-    font-size: 1.2em
-    text-align: center
-
-/* ==== END #34598 ==== */
 
