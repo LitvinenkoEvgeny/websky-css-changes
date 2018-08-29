@@ -33,20 +33,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_mixins.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/_mixins.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yamal/index.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_mixins.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/_mixins.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -147,8 +147,8 @@
         <option value="$PROJECT_DIR$/somonair/index.sass" />
         <option value="$PROJECT_DIR$/common/_mixins.sass" />
         <option value="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/yamal/_variables.sass" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/yamal/index.sass" />
       </list>
     </option>
@@ -329,17 +329,17 @@
       <workItem from="1535444062156" duration="5650000" />
       <workItem from="1535461230253" duration="818000" />
       <workItem from="1535464148896" duration="719000" />
-      <workItem from="1535529398853" duration="2918000" />
+      <workItem from="1535529398853" duration="3882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234289000" />
+    <option name="totallyTimeSpent" value="235253000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="27" width="950" height="1053" extended-state="4" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.47263157" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.47263157" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -348,7 +348,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32343584" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31919405" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31919405" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -619,18 +619,6 @@
     <entry file="file://$PROJECT_DIR$/bekair/OpenSkyIcons (with arrow seat)/Read Me.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="378">
-            <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/node-sass/src/libsass/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -641,13 +629,6 @@
     <entry file="file://$PROJECT_DIR$/yamal/_mixins.sass">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/_mixins.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yamal/_variables.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -655,10 +636,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="126">
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/_mixins.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yamal/index.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
