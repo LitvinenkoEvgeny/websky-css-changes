@@ -33,11 +33,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_mixins.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_mixins.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/_mixins.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
               <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/node-sass/src/libsass/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="324">
+                <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -76,8 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/flyone/flyone.css/flyone.css" />
-        <option value="$PROJECT_DIR$/_mixins.sass" />
         <option value="$PROJECT_DIR$/flyone/_variables.sass" />
         <option value="$PROJECT_DIR$/flyone/flyone.sass" />
         <option value="$PROJECT_DIR$/_pegas-variables.sass" />
@@ -127,6 +148,8 @@
         <option value="$PROJECT_DIR$/nordavia/index.sass" />
         <option value="$PROJECT_DIR$/somonair/index.sass" />
         <option value="$PROJECT_DIR$/common/_mixins.sass" />
+        <option value="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -300,12 +323,12 @@
       <workItem from="1535444062156" duration="5650000" />
       <workItem from="1535461230253" duration="818000" />
       <workItem from="1535464148896" duration="719000" />
-      <workItem from="1535529398853" duration="2320000" />
+      <workItem from="1535529398853" duration="2667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233691000" />
+    <option name="totallyTimeSpent" value="234038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="27" width="950" height="1053" extended-state="4" />
@@ -320,7 +343,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32343584" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31919405" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31919405" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -339,23 +362,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nordavia/_mixins.sass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redwings/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1921">
-          <caret line="20087" column="22" selection-start-line="20087" selection-start-column="22" selection-end-line="20087" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nordwind/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -630,6 +636,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bekair/OpenSkyIcons (with arrow seat)/Read Me.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/node-sass/src/libsass/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="324">
+            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
