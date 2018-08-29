@@ -5,7 +5,8 @@
 
 nordwind/index.css/
 
-в workspace в инструментах разработчика
+в workspace (devtools -> Sources -> Filesystem) в инструментах разработчика
+
 выполнить
 
 ```
