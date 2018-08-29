@@ -1,0 +1,12 @@
+@media screen and (max-width: 935px) {
+  .invoice__i > payment-frame > iframe {
+    height: 755px; } }
+
+.invoice__i > payment-frame > iframe .websky-pay__footer {
+  max-width: 400px; }
+  @media screen and (max-width: 529px) {
+    .invoice__i > payment-frame > iframe .websky-pay__footer {
+      max-width: 100%; } }
+  @media screen and (max-width: 529px) {
+    .invoice__i > payment-frame > iframe .websky-pay__footer {
+      font-size: 20em; } }

@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "autoprefixer": "^8.6.4",
+    "node-sass": "^4.9.0",
+    "postcss": "^6.0.23",
+    "postcss-cli": "^5.0.1"
+  }
+}

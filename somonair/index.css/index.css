@@ -1,0 +1,30 @@
+/* ==== END changeHeightMixin in common/_mixins.sass ==== */
+/* ==== END equalize input height in passengers step ==== */
+/* ==== #31373 ==== */
+@media only screen and (max-width: 768px) {
+  .chooseFlight__table__item__content__link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; } }
+
+.chooseFlight__table__item__content.active .chooseFlight__table__item__content__link {
+  background-color: #ffb41a;
+  color: #fff; }
+
+/* ==== equalize input height in passengers step ==== */
+.ui-select-passengers .selectize-input {
+  padding: 15px 10px;
+  height: 43px; }
+
+.ui-select-passengers .selectize-input {
+  transform: translate(0, -1px); }
+
+@media only screen and (max-width: 768px) {
+  .selectedInfo__i .drop__i {
+    padding-left: 10px;
+    padding-right: 10px; } }
+
+/* ==== END #31373 ==== */

@@ -1,0 +1,138 @@
+@import "variables"
+@import "mixins"
+
+// ============== mixins =============
+
+=colorifySeat($number, $color)
+  .seat-map-color-group-#{$number},
+  .seatMap .seat-map-color-group-#{$number}
+    background-color: $color
+
+// ============== END mixins =========
+
+/* ==== fonts ==== */
+
+//+font-face("OpenSkyIcons", "localhost:8080/OpenSkyIcons/OpenSkyIcons")
+
+/* ==== END fonts ==== */
+
+/* ==== search ==== */
+
+.orderSearchForm
+  .item.item_peoples
+    .col
+      width: 50%
+    .item__i
+      width: 100%
+      margin: 0
+    .inp__i
+      display: flex
+      //position: relative
+
+      .inpCol:nth-child(1)
+        flex: 1
+      //.inpCol:nth-child(2)
+        min-width: 25%
+
+
+.flightTable > table > tbody > tr.headrow > td
+  border: 1px solid #D8D8D8
+
+/* ==== END search ==== */
+
+.flightTable
+  .infoBoxWrap
+    top: -10px
+    right: -40px
+    &:hover
+      cursor: pointer
+  .contentRow
+    td:not(:first-child)
+      a
+        position: absolute
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+        display: flex
+        justify-content: center
+        align-items: center
+        &:hover
+          background: $yellowBrandColor
+
+.searchSteps
+  ol
+    li
+      &.active
+        &:after
+          border-color: $gray
+      &:after
+        border-color: $blueBrandColor
+      &.prev
+        &:after
+          border-color: $blueBrandColor
+          pointer-events: none
+
+      a
+        &:hover
+          color: #666666
+
+
+// ============== extra services =============
+
+.seatSelect
+  .info
+    ul
+      +adaptivity(phone)
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+      li
+        margin: 0
+        padding: 10px 0 10px 30px
+        clear: both
+        +adaptivity(phone)
+          flex: 25%
+
+        span
+          position: initial
+          transform: translate(0, 0)
+
++colorifySeat(0, #36a035)
++colorifySeat(1, #72597f)
++colorifySeat(2, #603a2e)
++colorifySeat(3, #4e35a0)
++colorifySeat(4, #a03536)
++colorifySeat(5, #462e60)
+
+.seatMap
+  .planeBody__i table tr.wingsStart
+    td:last-child .seat:after,
+    td:first-child .seat:after
+      transform: rotate(40deg) skew(40deg)
+      height: 71px
+      top: 23px
+      right: -107px
+      pointer-events: none
+
+    td:first-child .seat:after
+      transform: rotate(-40deg) skew(-40deg)
+      left: -107px
+
+  .planeBody__i table tr.wingsEnd
+    td:last-child .seat:after,
+    td:first-child .seat:after
+      height: 73px
+      width: 59px
+      top: -85px
+      transform: none
+      pointer-events: none
+
+    td:first-child .seat:after
+      left: -99px
+
+    td:last-child .seat:after
+      right: -98px
+      left: initial
+
+// ============== END extra services =========

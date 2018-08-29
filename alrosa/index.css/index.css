@@ -1,0 +1,48 @@
+/* ==== END changeHeightMixin in common/_mixins.sass ==== */
+/* ==== END equalize input height in passengers step ==== */
+/* ==== #31373 ==== */
+/* ==== changeHeightMixin in common/_mixins.sass ==== */
+.flightTable .contentRow td:not(.firstCol) {
+  height: 10px; }
+
+@media only screen and (max-width: 768px) {
+  .chooseFlight__table__item__content__link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; } }
+
+.chooseFlight__table__item__content.active .chooseFlight__table__item__content__link,
+.flightTable .contentRow td.active a {
+  color: #ffffff; }
+
+.flightTable .contentRow td.active .infoBoxWrap {
+  color: #ffffff; }
+
+.passengersInfo input[type="text"]:not([name="bonusCard"])::-webkit-input-placeholder,
+.passengersInfo input[type="password"]:not([name="bonusCard"])::-webkit-input-placeholder,
+.passengersInfo input[type="tel"]:not([name="bonusCard"])::-webkit-input-placeholder,
+.passengersInfo input[type="email"]:not([name="bonusCard"])::-webkit-input-placeholder {
+  color: #ffffff; }
+
+.passengersInfo input[type="text"]:not([name="bonusCard"]):-moz-placeholder,
+.passengersInfo input[type="password"]:not([name="bonusCard"]):-moz-placeholder,
+.passengersInfo input[type="tel"]:not([name="bonusCard"]):-moz-placeholder,
+.passengersInfo input[type="email"]:not([name="bonusCard"]):-moz-placeholder {
+  color: #ffffff; }
+
+.passengersInfo input[type="text"]:not([name="bonusCard"])::-moz-placeholder,
+.passengersInfo input[type="password"]:not([name="bonusCard"])::-moz-placeholder,
+.passengersInfo input[type="tel"]:not([name="bonusCard"])::-moz-placeholder,
+.passengersInfo input[type="email"]:not([name="bonusCard"])::-moz-placeholder {
+  color: #ffffff; }
+
+.passengersInfo input[type="text"]:not([name="bonusCard"]):-ms-input-placeholder,
+.passengersInfo input[type="password"]:not([name="bonusCard"]):-ms-input-placeholder,
+.passengersInfo input[type="tel"]:not([name="bonusCard"]):-ms-input-placeholder,
+.passengersInfo input[type="email"]:not([name="bonusCard"]):-ms-input-placeholder {
+  color: #ffffff; }
+
+/* ==== END #31373 ==== */

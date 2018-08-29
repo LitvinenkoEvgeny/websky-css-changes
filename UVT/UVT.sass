@@ -1,0 +1,130 @@
+@import "variables"
+@import "mixins"
+
+\:root
+  font-size: 16px
+
+body
+  font-size: 16px
+  color: black
+
+/* ==== Header ==== */
+
+.header
+  background: $white
+  border-bottom: 1px solid #ddd
+  .logo
+    .img
+      background: $logo
+      +fastTransition(opacity, .15s)
+      &:hover
+        opacity: .6
+
+.userNav
+  &__i
+    a
+      color: $black
+      +fastTransition(color, .1s)
+      &:hover
+        color: $redBrandColor
+
+.selectize-control.single .selectize-input,
+.selectize-control.single .selectize-input input
+  span
+    +fastTransition(color, .1s)
+
+  &:after
+    border-color: $black transparent transparent transparent !important
+    +fastTransition(border-color transform, .1s)
+
+  &:hover
+    span
+      color: $redBrandColor
+
+    &:after
+      border-color: $redBrandColor transparent transparent transparent !important
+
+.ui-select-header .selectize-input .ui-select-match
+  color: $black
+  &:hover
+    color: $redBrandColor
+
+.ui-select-header .ui-select-placeholder.text-muted
+  color: $black
+  &:hover
+    color: $redBrandColor
+
+.selectize-dropdown [data-selectable]
+  color: $black
+
+/* ==== END Header ==== */
+
+
+/* ==== Search step ==== */
+
+.searchSteps
+  ol
+    li
+      &.active
+        color: $white
+        background: $blueBrandColor
+        &:after
+          border-color: $white
+      a
+        &:hover
+          background: $lightBlueBrandColor
+          color: $white
+      &.prev
+        &:hover
+          &:after
+            border-color: $white
+            color: $white
+
+.orderSearchForm
+  .btnTransfer
+    &:hover
+      background: $redBrandColor
+      border-color: $redBrandColor
+
+  .valueControl
+    &.active
+      a
+        &:hover
+          background: $blueBrandColor
+        &.btnMinus
+          &:hover
+            background: $blueBrandColor
+            i
+              color: $white
+
+    a
+      i
+        color: $blueBrandColor
+      &:hover
+        background: $redBrandColor
+
+.btn
+  &.btn_search
+    background: $blueBrandColor
+    color: $white
+    &:hover
+      background: $redBrandColor
+
+/* ==== END Search step ==== */
+
+/* ==== Choose flight step ==== */
+
+.chooseDate
+  .tableWrap
+    table
+      td
+        &.active
+          background: $blueBrandColor
+
+          a
+            color: $white
+            &:hover
+              background: $lightBlueBrandColor
+
+/* ==== END Choose flight step ==== */
+

@@ -1,0 +1,29 @@
+/* ==== Booking ==== */
+.food {
+  display: flex; }
+  .food .list__i wrap {
+    display: flex;
+    flex-wrap: wrap; }
+  .food .name {
+    padding: 0 10px; }
+
+.checkoutServices__i .passengersTable .food .item {
+  flex: 50%; }
+  .checkoutServices__i .passengersTable .food .item .food_wrap {
+    flex-direction: column;
+    align-items: center; }
+
+/* ==== END Booking ==== */
+.passengersBlock_row-control-droporder-passenger-outer.active {
+  background-color: rgba(138, 23, 118, 0.4);
+  color: #ffffff; }
+
+.passengersBlock_row-control-droporder-passenger-outer.active:after {
+  border-left-color: rgba(138, 23, 118, 0.4); }
+
+.passengersBlock_row-menu .list__i.isotopeGrid wrap {
+  display: flex;
+  flex-flow: wrap row; }
+
+.passengersBlock_row-menu .item {
+  flex: 50%; }

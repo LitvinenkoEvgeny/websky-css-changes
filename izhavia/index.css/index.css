@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/* ==== Fonts ==== */
+@font-face {
+  font-family: 'museo500';
+  src: url("/resources/oxygen/assets/custom/fonts/subset-MuseoSansCyrl-500.eot");
+  src: url("/resources/oxygen/assets/custom/fonts/subset-MuseoSansCyrl-500.eot?#iefix") format("embedded-opentype"), url("/resources/oxygen/assets/custom/fonts/subset-MuseoSansCyrl-500.woff2") format("woff2"), url("/resources/oxygen/assets/custom/fonts/subset-MuseoSansCyrl-500.woff") format("woff"), url("/resources/oxygen/assets/custom/fonts/subset-MuseoSansCyrl-500.ttf") format("truetype"), url("/resources/oxygen/assets/custom/fonts/subset-MuseoSansCyrl-500.svg#MuseoSansCyrl-500") format("svg"); }
+
+@font-face {
+  font-family: 'museo700';
+  src: url("/resources/oxygen/assets/custom/fonts/subset-MuseoSansCyrl-700.eot");
+  src: url("/resources/oxygen/assets/custom/fonts/subset-MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("/resources/oxygen/assets/custom/fonts/subset-MuseoSansCyrl-700.woff2") format("woff2"), url("/resources/oxygen/assets/custom/fonts/subset-MuseoSansCyrl-700.woff") format("woff"), url("/resources/oxygen/assets/custom/fonts/subset-MuseoSansCyrl-700.ttf") format("truetype"), url("/resources/oxygen/assets/custom/fonts/subset-MuseoSansCyrl-700.svg#MuseoSansCyrl-500") format("svg"); }
+
+@font-face {
+  font-family: 'museo900';
+  src: url("/resources/oxygen/assets/custom/fonts/subset-MuseoSansCyrl-900.eot");
+  src: url("/resources/oxygen/assets/custom/fonts/subset-MuseoSansCyrl-900.eot?#iefix") format("embedded-opentype"), url("/resources/oxygen/assets/custom/fonts/subset-MuseoSansCyrl-900.woff2") format("woff2"), url("/resources/oxygen/assets/custom/fonts/subset-MuseoSansCyrl-900.woff") format("woff"), url("/resources/oxygen/assets/custom/fonts/subset-MuseoSansCyrl-900.ttf") format("truetype"), url("/resources/oxygen/assets/custom/fonts/subset-MuseoSansCyrl-900.svg#MuseoSansCyrl-500") format("svg"); }
+
+@font-face {
+  font-family: 'segoe';
+  src: url("/resources/oxygen/assets/custom/fonts/subset-SegoeUI.eot");
+  src: url("/resources/oxygen/assets/custom/fonts/subset-SegoeUI.eot?#iefix") format("embedded-opentype"), url("/resources/oxygen/assets/custom/fonts/subset-SegoeUI.woff2") format("woff2"), url("/resources/oxygen/assets/custom/fonts/subset-SegoeUI.woff") format("woff"), url("/resources/oxygen/assets/custom/fonts/subset-SegoeUI.ttf") format("truetype"), url("/resources/oxygen/assets/custom/fonts/subset-SegoeUI.svg#MuseoSansCyrl-500") format("svg"); }
+
+/* ==== END Fonts ==== */
+.flightTable table > tbody > tr.headrow > td.econom_type1,
+.compareTableWrap table tr:first-child td.col2.econom_type1,
+.flightTable .econom_type1,
+.compareTabsWrap .tabsControl li.econom_type1 > a,
+.compareTabsWrap .item.econom_type1 .name {
+  background-color: #cb1926 !important; }
+
+.flightTable table > tbody > tr.headrow > td.econom_type2,
+.compareTableWrap table tr:first-child td.col2.econom_type2,
+.flightTable .econom_type2,
+.compareTabsWrap .tabsControl li.econom_type2 > a,
+.compareTabsWrap .item.econom_type2 .name {
+  background-color: #b51622 !important; }
+
+.flightTable table > tbody > tr.headrow > td.business_type1,
+.compareTableWrap table tr:first-child td.col2.business_type1,
+.flightTable .business_type1,
+.compareTabsWrap .tabsControl li.business_type1 > a,
+.compareTabsWrap .item.business_type1 .name {
+  background-color: #9e141d !important; }
+
+.flightTable table > tbody > tr.headrow > td.business_type2,
+.compareTableWrap table tr:first-child td.col2.business_type2,
+.flightTable .business_type2,
+.compareTabsWrap .tabsControl li.business_type2 > a,
+.compareTabsWrap .item.business_type2 .name {
+  background-color: #e6323f !important; }
+
+.passengersInfo .customCheckbox span {
+  top: 2px; }
+
+.payMethods .iconfirm__i .customCheckbox span {
+  top: -2px; }
+
+.btn_receipt_cont a.show_receipt,
+.btn_receipt_cont a.send_receipt {
+  background: #00569f;
+  color: #ffffff; }
+  .btn_receipt_cont a.show_receipt:hover,
+  .btn_receipt_cont a.send_receipt:hover {
+    background-color: #e21c2a; }
+
+.btn_receipt_cont a.send_receipt {
+  background: #00569f url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDM5LjQ3NCAzOS40NzQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDM5LjQ3NCAzOS40NzQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiPgo8cGF0aCBkPSJNMzguMzQ3LDQuODI1YzAuNjE5LDAsMS4xMjcsMC41MDgsMS4xMjcsMS4xMjd2MjcuNTcxYzAsMC42MTktMC41MDgsMS4xMjctMS4xMjcsMS4xMjdoLTAuMjdIMS4zODEgIGgtMC4yN0MwLjQ5MiwzNC42NDksMCwzNC4xNDEsMCwzMy41MjJWNS45NTJjMC0wLjYxOSwwLjQ5Mi0xLjEyNywxLjExMS0xLjEyN2gwLjI3aDAuMzE3aDAuNTg3YzExLjgyNSwwLDIzLjY1LDAsMzUuNDksMGgwLjMwMiAgSDM4LjM0N3ogTTE5LjcyOSwyMC4zNDhsOC40NDQtNy4zMDFsNi45MDQtNS45ODRoLTAuMDMySDM0LjQ5Yy05LjY1LDAtMTkuMzE2LDAtMjguOTgzLDBoLTAuNTRoLTAuNTRINC4zODFsNi45MDQsNS45ODQgIEwxOS43MjksMjAuMzQ4eiBNMjkuNjMzLDE0LjcyOWwtOS4xNTgsNy45MzZjLTAuNDEzLDAuMzY1LTEuMDQ4LDAuMzgxLTEuNDc2LDAuMDE2bC05LjE3NC03Ljk1MkwyLjIzOCw4LjE1OHYyMy4xNThsNy41ODctNi41ODcgIGw0LjI1NC0zLjY2N2MwLjQ2LTAuNDEzLDEuMTc1LTAuMzY1LDEuNTcxLDAuMTExYzAuNDEzLDAuNDYsMC4zNDksMS4xNzUtMC4xMTEsMS41NzFsLTQuMjU0LDMuNjgybC02LjkwNCw1Ljk2OGgzMC42OTcgIGwtNi45MDQtNS45NjhsLTQuMjU0LTMuNjgyYy0wLjQ2LTAuMzk3LTAuNTA4LTEuMTExLTAuMTExLTEuNTcxYzAuNDEzLTAuNDc2LDEuMTExLTAuNTI0LDEuNTcxLTAuMTExbDQuMjU0LDMuNjY3bDcuNjAzLDYuNTg3ICBWOC4xNThMMjkuNjMzLDE0LjcyOXoiIGZpbGw9IiNmZmZmZmYiLz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==") center no-repeat;
+  background-size: 26px 26px; }
+
+.aeroexpress-table .customCheckbox span {
+  transform: none;
+  top: 3px; }
+
+.passengersInfo input[type="text"]::-webkit-input-placeholder,
+.passengersInfo input[type="password"]::-webkit-input-placeholder,
+.passengersInfo input[type="tel"]::-webkit-input-placeholder,
+.passengersInfo input[type="email"]::-webkit-input-placeholder {
+  color: #ffffff; }
+
+.passengersInfo input[type="text"]:-moz-placeholder,
+.passengersInfo input[type="password"]:-moz-placeholder,
+.passengersInfo input[type="tel"]:-moz-placeholder,
+.passengersInfo input[type="email"]:-moz-placeholder {
+  color: #ffffff; }
+
+.passengersInfo input[type="text"]::-moz-placeholder,
+.passengersInfo input[type="password"]::-moz-placeholder,
+.passengersInfo input[type="tel"]::-moz-placeholder,
+.passengersInfo input[type="email"]::-moz-placeholder {
+  color: #ffffff; }
+
+.passengersInfo input[type="text"]:-ms-input-placeholder,
+.passengersInfo input[type="password"]:-ms-input-placeholder,
+.passengersInfo input[type="tel"]:-ms-input-placeholder,
+.passengersInfo input[type="email"]:-ms-input-placeholder {
+  color: #ffffff; }
+
+/* ====  деф цвет вылез https://yadi.sk/i/cOQAziay3ZsYx5 ==== */
+.chooseFlight__table__item__content.active .chooseFlight__table__item__content__link {
+  background: transparent;
+  border: 1px solid #e21c2a; }
+
+.chooseFlight__table__item__content__link {
+  background-color: transparent; }
+
+/* ==== END  деф цвет вылез https://yadi.sk/i/cOQAziay3ZsYx5 ==== */
+/* ==== 1) в моб версии сравнение тарифов кривое https://yadi.sk/i/PvUs37Sb3ZsYoh ==== */
+.compareTabsWrap table td span i {
+  text-align: center;
+  width: 20px; }
+
+.compareTabsWrap table td:last-child wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.compareTabsWrap table td:last-child span {
+  padding-left: 0; }
+
+/* ==== END 1) в моб версии сравнение тарифов кривое https://yadi.sk/i/PvUs37Sb3ZsYoh ==== */
+/* ==== 4) разные отступы между строками. и дублирование поля "Пол" https://yadi.sk/i/HhPKacE73ZsZAx ==== */
+.ui-select-passengers .selectize-input {
+  padding: 9px 10px;
+  height: 42px; }
+
+/* ==== END 4) разные отступы между строками. и дублирование поля "Пол" https://yadi.sk/i/HhPKacE73ZsZAx ==== */
+/* 5) выбор места Готово - желтый https://yadi.sk/i/ssOHENo33ZsZSx */
+.popup_selectSeat .seatSelect .btnRow .btn {
+  background: #e21c2a;
+  color: #ffffff;
+  border-color: #e21c2a; }
+
+/* 8) В IE такой ховер https://yadi.sk/i/nXLrbWR23Zsanf */
+.chooseDate .tableWrap table td a {
+  height: auto; }
+
+/* #38781 */
+.refundInfo {
+  width: 50%;
+  margin-left: auto;
+  text-align: right; }
+  .refundInfo p {
+    font-size: .8em; }
+  @media only screen and (max-width: 515px) {
+    .refundInfo {
+      width: 100%;
+      text-align: center; } }

@@ -1,0 +1,324 @@
+@import "variables";
+@import "mixins";
+
+/* ==== Search ==== */
+
+.pika {
+	&-prev,
+	&-next {
+		color: $gray;
+
+		&:after {
+			color: inherit;
+			@include fastTransition(color)
+		}
+
+		&:hover {
+			color: $mainBrandColor;
+			border-color: $mainBrandColor;
+
+			&:after {
+				color: $mainBrandColor;
+			}
+		}
+	}
+}
+
+.is-selected .pika-button.pika-day,
+.is-endrange .pika-button.pika-day,
+.is-startrange .pika-button.pika-day {
+	background: #f83c00;
+}
+
+.is-inrange .pika-button.pika-day {
+	background-color: #ffad91 !important;
+}
+
+.btnMinus,
+.btnPlus {
+	&:not(.disabled) {
+		background: #ff7245;
+		i {
+			color: $white;
+		}
+	}
+}
+
+.orderSearchForm {
+	.btnMinus,
+	.btnPlus {
+		i {
+
+			color: $white;
+		}
+	}
+}
+
+.pikaday {
+	&-top {
+		&__label {
+			color: $mainBrandColor;
+		}
+	}
+
+	.is-inrange {
+		background: #ffad91;
+	}
+
+	.is-select,
+	.is-startrange,
+	.is-endrange {
+		& .pika-button.pika-day {
+			background: #f83c00;
+		}
+	}
+}
+
+.flightTable .contentRow td.active a,
+.flightTable tr td.active {
+	background: #ff855f;
+	color: #ffffff;
+}
+
+.flightTable {
+
+	.econom_type1 {
+		overflow: hidden;
+	}
+
+	.contentRow {
+
+		> td:not(:first-child) {
+
+			&:hover {
+				cursor: pointer;
+			}
+
+			&:not(.active) {
+				&:hover {
+					background-color: #eaeaea;
+					a {
+						background-color: inherit;
+					}
+
+				}
+			}
+
+			&.active {
+				&:hover {
+					background: #ff855f;
+					a {
+						background-color: inherit;
+					}
+				}
+			}
+		}
+	}
+}
+
+.chooseDate {
+	.tableWrap {
+		table td a {
+			color: #666666;
+		}
+	}
+
+	.item {
+		&.active {
+			background: #ff855f;
+			color: white;
+
+			a {
+				color: inherit;
+
+				strong {
+					color: inherit;
+				}
+			}
+		}
+	}
+}
+
+.chooseFlight__table__item__content.active {
+	.chooseFlight__table__item__content__link {
+		background: #ff855f;
+		color: $white;
+	}
+}
+
+.compareTabsWrap .tabsControl li {
+	width: 25%;
+}
+
+/* ==== END Search ==== */
+
+/* ==== Passengers ==== */
+
+.passengerInfo {
+	tr:nth-child(2) {
+		td:nth-child(1) {
+			.ng-untouched {
+				.ui-select-placeholder.text-muted {
+					color: #666666 !important;
+					display: inline-block !important;
+				}
+			}
+		}
+	}
+}
+
+.customCheckbox {
+	input:checked + span {
+		border-color: $mainBrandColor;
+		&:after {
+			color: $mainBrandColor;
+		}
+	}
+}
+
+/* ==== END Passengers ==== */
+
+/* ==== Booking ==== */
+
+.checkoutServices {
+	&__i {
+		.list > .item {
+			&.active {
+				.top {
+					.iconBox {
+						border-color: #ff5f2c;
+
+						i {
+							color: $white;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/* ==== END Booking ==== */
+
+/* ==== Profile ==== */
+
+.lkSteps {
+	ul {
+		li {
+
+			&.active {
+				a {
+					background: #ff5f2c;
+				}
+			}
+
+			a {
+				background: #ff7245;
+				color: #fff;
+
+				&:hover {
+					background: #f83c00;
+				}
+			}
+		}
+	}
+}
+
+.btn.btn_save {
+	background: #ff7245;
+	&:hover {
+		background: #f83c00;
+	}
+}
+
+/* ==== END Profile ==== */
+
+/* ==== Booking ==== */
+
+.seatSelect {
+	.info {
+		ul li {
+			&.selected {
+				span {
+					background-color: $lightOrangeBrandColor;
+				}
+			}
+		}
+	}
+	.seat {
+		&.seat-auto-assigned {
+			background: $white;
+			border: 1px solid $gray
+		}
+		&.active {
+			background-color: $lightOrangeBrandColor;
+		}
+	}
+}
+
+.seatMap {
+	.planeBody__i {
+		table {
+			tr.wingsStart {
+
+				td:first-child .seat:after,
+				td:last-child .seat:after {
+					content: "";
+					position: absolute;
+					top: 56px;
+					width: 105px;
+					-webkit-transform: rotate(-45deg);
+					transform: rotate(90deg) skew(23deg);
+					height: 80px;
+					left: -116px;
+					right: 20px;
+					background: #ccc;
+					pointer-events: none;
+				}
+
+				/* Левое крыло */
+				td:first-child .seat:after {
+				}
+
+				/* Правое крыло */
+				td:last-child .seat:after {
+					transform: rotate(-90deg) skew(-23deg);
+					left: 35px;
+				}
+
+			}
+
+			tr {
+				td {
+					div.seat-prop-exit:before {
+						display: none;
+					}
+				}
+			}
+
+			tr.wingsEnd {
+				td:first-child .seat:after,
+				td:last-child .seat:after {
+					height: 70px;
+					transform: none;
+					width: 79px;
+					top: 0;
+					pointer-events: none;
+				}
+
+				td:first-child .seat:after {
+					left: -103px;
+				}
+
+				td:last-child .seat:after {
+					right: -105px;
+				}
+			}
+		}
+
+		tr.atWing td:last-child > div:before {
+		}
+	}
+}
+
+/* ==== END Booking ==== */

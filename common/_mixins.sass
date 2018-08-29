@@ -1,0 +1,69 @@
+=changeHeight()
+  /* ==== changeHeightMixin in common/_mixins.sass ==== */
+
+  .flightTable .contentRow td:not(.firstCol)
+    height: 10px
+
+/* ==== END changeHeightMixin in common/_mixins.sass ==== */
+
+=setTabletFullWidthAndHeight()
+  .chooseFlight__table__item__content__link
+    +adaptivity(tablet)
+      width: 100%
+      height: 100%
+      display: flex
+      justify-content: center
+      align-items: center
+      padding: 0
+
+=priceItem()
+  .chooseFlight__table__item__content__link
+    @content
+
+=priceItemActive()
+  .chooseFlight__table__item__content.active .chooseFlight__table__item__content__link
+    @content
+
+=equalInputHeight($height)
+  /* ==== equalize input height in passengers step ==== */
+
+  .ui-select-passengers .selectize-input
+    padding: 15px 10px
+    height: $height
+
+/* ==== END equalize input height in passengers step ==== */
+
+=transformInputY($yTransform)
+  .ui-select-passengers .selectize-input
+    transform: translate(0, $yTransform)
+
+=setBasketPadding($padding)
+  .selectedInfo__i .drop__i
+    +adaptivity(tablet)
+      padding-left: $padding
+      padding-right: $padding
+
+=disabledCalendarStyles
+  .is-disabled .pika-button.pika-day
+    @content
+
+=enabledCalendarStyles
+  .pika-button.pika-day
+    @content
+
+=weekendCalendarStyles
+  .pika-single table tbody tr td:not(.is-disabled):not(.is-startrange):not(.is-today):not(.is-endrange):not(.is-selected):nth-child(6) button,
+  .pika-single table tbody tr td:not(.is-disabled):not(.is-startrange):not(.is-today):not(.is-endrange):not(.is-selected):nth-child(7) button
+    @content
+
+=rangeCalendarStyles
+  .is-inrange .pika-button
+    @content
+
+=rangeStartEndStyles
+  .is-startrange .pika-button.pika-day
+    @content
+
+=unavalibleStyles
+  .pika-lendar__availability-highlight .pika-button.unavailable
+    @content

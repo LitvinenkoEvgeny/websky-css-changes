@@ -1,0 +1,55 @@
+#checkinForm .list > .item .top{
+	background: #004993;
+}
+#checkinForm .list > .item .top .iconBox{
+    background: #f97522;
+    border-radius: 3px;
+    box-shadow: none;
+}
+#checkinForm .list > .item.active .top .iconBox{
+	background: #004993;
+    border: 2px solid #fff;
+}
+#checkinForm .list > .item.active .top .iconBox i,
+#checkinForm .list > .item.active .top .name h2,
+.baggage .passenger__link__i__name{
+	color: #fff;
+}
+#checkinForm .list > .item .top .btn{
+	border-color: #f97522;
+    background: #f97522;
+    color: #fff;
+    border-radius: 3px;
+}
+#checkinForm .list > .item .top .btn.active{
+	background: none;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 0;
+    border: 0;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.6);
+    font-weight: 600;
+}
+.webRegistration .registration__footer .btn_next,
+.webRegistration .registration__footer .btn_back,
+.webRegistration .webRegistration__footer .btn_search,
+#checkinForm .twisted-order-cont .btn-goto-segment{
+	border-radius: 3px;
+}
+.regSteps ol li.active span{
+    padding: 16px 19px 18px;
+}
+.baggage .passenger.active .passenger__link{
+	background: #f97522;
+    cursor: default;
+}
+.seatSelect .info ul li.free span,
+.seatMap .seat{
+    background: #d0ecf9;
+}
+.seatSelect .info ul li.paid span{
+	background: #004993;
+}
+.seatSelect .info ul li.selected span,
+.seatSelect .seat.seat-selected{
+    background: #f97523;
+}

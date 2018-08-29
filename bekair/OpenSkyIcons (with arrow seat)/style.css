@@ -1,0 +1,285 @@
+@font-face {
+  font-family: 'OpenSkyIcons';
+  src:  url('fonts/OpenSkyIcons.eot?dkbs0b');
+  src:  url('fonts/OpenSkyIcons.eot?dkbs0b#iefix') format('embedded-opentype'),
+    url('fonts/OpenSkyIcons.ttf?dkbs0b') format('truetype'),
+    url('fonts/OpenSkyIcons.woff?dkbs0b') format('woff'),
+    url('fonts/OpenSkyIcons.svg?dkbs0b#OpenSkyIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon_"], [class*=" icon_"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'OpenSkyIcons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_79cm-inner:before {
+  content: "\e93e";
+  color: #4e4e4e;
+}
+.icon_79cm-outer:before {
+  content: "\e94b";
+  color: #4e4e4e;
+}
+.icon_sports-equipment:before {
+  content: "\e93c";
+  color: #b2b2b2;
+}
+.icon_aeroexpress:before {
+  content: "\e93a";
+  color: #4e4e4e;
+}
+.icon_captcha-reload:before {
+  content: "\e93b";
+  color: #4c73ae;
+}
+.icon_cart:before {
+  content: "\e93d";
+  color: #fff;
+}
+.icon_meal:before {
+  content: "\e939";
+  color: #4e4e4e;
+}
+.icon_timer:before {
+  content: "\e937";
+  color: #ccc;
+}
+.icon_umbrella:before {
+  content: "\e938";
+  color: #4d4d4d;
+}
+.icon_alert:before {
+  content: "\e936";
+  color: #aa1818;
+}
+.icon_backflight:before {
+  content: "\e935";
+  color: #b3b3b3;
+}
+.icon_transfer2:before {
+  content: "\e934";
+  color: #cbcbcb;
+}
+.icon_changeflight:before {
+  content: "\e92e";
+  color: #b2b2b2;
+}
+.icon_info2:before {
+  content: "\e92f";
+  color: rgba(27, 117, 188, 0.5);
+}
+.icon_kids:before {
+  content: "\e930";
+  color: #b3b3b3;
+}
+.icon_none:before {
+  content: "\e931";
+  color: #e5e5e5;
+}
+.icon_seat4:before {
+  content: "\e932";
+  color: #b3b3b3;
+}
+.icon_terminal:before {
+  content: "\e933";
+  color: #ccc;
+}
+.icon_seat2:before {
+  content: "\e91e";
+  color: rgba(255, 255, 255, 0.55);
+}
+.icon_seat3:before {
+  content: "\e91f";
+  color: rgba(255, 255, 255, 0.75);
+}
+.icon_smallbag:before {
+  content: "\e920";
+  color: rgba(255, 255, 255, 0.6);
+}
+.icon_smallplus:before {
+  content: "\e921";
+  color: rgba(255, 255, 255, 0.55);
+}
+.icon_triangle:before {
+  content: "\e922";
+  color: rgba(255, 255, 255, 0.5);
+}
+.icon_wayArrow:before {
+  content: "\e923";
+  color: #1b75bc;
+}
+.icon_wifi:before {
+  content: "\e924";
+  color: #ccc;
+}
+.icon_media:before {
+  content: "\e925";
+  color: #ccc;
+}
+.icon_night:before {
+  content: "\e926";
+  color: #ccc;
+}
+.icon_reload:before {
+  content: "\e927";
+  color: rgba(255, 255, 255, 0.55);
+}
+.icon_run:before {
+  content: "\e928";
+  color: #ccc;
+}
+.icon_helper:before {
+  content: "\e929";
+  color: rgba(255, 255, 255, 0.7);
+}
+.icon_boldArrow:before {
+  content: "\e92a";
+  color: #1b75bc;
+}
+.icon_electro:before {
+  content: "\e92b";
+  color: #ccc;
+}
+.icon_bag:before {
+  content: "\e92c";
+  color: rgba(255, 255, 255, 0.55);
+}
+.icon_back:before {
+  content: "\e92d";
+  color: rgba(255, 255, 255, 0.55);
+}
+.icon_car:before {
+  content: "\e91a";
+  color: #4d4d4d;
+}
+.icon_fork:before {
+  content: "\e91b";
+  color: #4e4e4e;
+}
+.icon_gift:before {
+  content: "\e91c";
+  color: #4d4d4d;
+}
+.icon_seat:before {
+  content: "\e91d";
+  color: #4e4e4e;
+}
+.icon_fb:before {
+  content: "\e911";
+  color: #fff;
+}
+.icon_time:before {
+  content: "\e914";
+  color: #b3b3b3;
+}
+.icon_tw:before {
+  content: "\e915";
+  color: #fff;
+}
+.icon_vk:before {
+  content: "\e916";
+  color: #fff;
+}
+.icon_yt:before {
+  content: "\e918";
+  color: #fff;
+}
+.icon_inst:before {
+  content: "\e919";
+  color: #fff;
+}
+.icon_percent .path1:before {
+  content: "\e904";
+  color: rgba(27, 117, 188, 0.4);
+}
+.icon_percent .path2:before {
+  content: "\e905";
+  margin-left: -1.3125em;
+  color: rgba(255, 255, 255, 0.4);
+}
+.icon_percent .path3:before {
+  content: "\e906";
+  margin-left: -1.3125em;
+  color: rgba(255, 255, 255, 0.4);
+}
+.icon_percent .path4:before {
+  content: "\e907";
+  margin-left: -1.3125em;
+  color: rgba(255, 255, 255, 0.4);
+}
+.icon_milesPay:before {
+  content: "\e917";
+  color: #a7c9e3;
+}
+.icon_rightArr:before {
+  content: "\e90e";
+  color: #ccc;
+}
+.icon_web:before {
+  content: "\e90f";
+  color: #b3b3b3;
+}
+.icon_users:before {
+  content: "\e910";
+  color: #b3b3b3;
+}
+.icon_queen:before {
+  content: "\e912";
+  color: #b3b3b3;
+}
+.icon_plane2:before {
+  content: "\e913";
+  color: #b3b3b3;
+}
+.icon_check:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon_transfer:before {
+  content: "\e901";
+  color: #ccc;
+}
+.icon_plus:before {
+  content: "\e902";
+  color: #1b75bc;
+}
+.icon_minus:before {
+  content: "\e903";
+  color: #ccc;
+}
+.icon_remove:before {
+  content: "\e908";
+  color: #ccc;
+}
+.icon_user:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon_selectArr:before {
+  content: "\e90a";
+  color: #b3b3b3;
+}
+.icon_plane:before {
+  content: "\e90b";
+  color: rgba(27, 117, 188, 0.86);
+}
+.icon_info:before {
+  content: "\e90c";
+  color: #1b75bc;
+}
+.icon_calendar:before {
+  content: "\e90d";
+  color: #ccc;
+}

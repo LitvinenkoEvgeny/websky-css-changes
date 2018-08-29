@@ -1,0 +1,421 @@
+.pika-single {
+  color: #333;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-bottom-color: #bbb;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .pika-single.is-bound {
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.5); }
+    @media only screen and (min-width: 960px) {
+      .pika-single.is-bound {
+        margin-left: 10px; } }
+  .pika-single table tbody tr td:not(.is-disabled):not(.is-startrange):not(.is-today):not(.is-endrange):not(.is-selected):nth-child(6) button, .pika-single table tbody tr td:not(.is-disabled):not(.is-startrange):not(.is-today):not(.is-endrange):not(.is-selected):nth-child(7) button {
+    color: #004993; }
+    .pika-single table tbody tr td:not(.is-disabled):not(.is-startrange):not(.is-today):not(.is-endrange):not(.is-selected):nth-child(6) button:hover, .pika-single table tbody tr td:not(.is-disabled):not(.is-startrange):not(.is-today):not(.is-endrange):not(.is-selected):nth-child(7) button:hover {
+      color: #fff; }
+
+.pika-label {
+  color: #808080; }
+
+.pika-prev,
+.pika-next {
+  background: #fff; }
+
+.pika-prev {
+  border: 1px solid #999999; }
+  .pika-prev:hover {
+    border-color: #004993;
+    background: #004993; }
+    .pika-prev:hover:after {
+      color: #fff; }
+  .pika-prev:after {
+    color: #CCCCCC; }
+
+.pika-next {
+  border: 1px solid #999999; }
+  .pika-next:hover {
+    border-color: #004993;
+    background: #004993; }
+    .pika-next:hover:after {
+      color: #fff; }
+  .pika-next:after {
+    color: #CCCCCC; }
+
+.pika-table th {
+  color: #CCCCCC;
+  font-family: "Arial", sans-serif; }
+.pika-table abbr {
+  border-bottom: none; }
+
+.pika-button {
+  color: #666;
+  background: #f5f5f5; }
+  .is-today .pika-button {
+    color: #004993;
+    font-weight: bold; }
+  .is-selected .pika-button {
+    color: #fff;
+    font-weight: bold;
+    background: #004993; }
+  .is-disabled .pika-button, .is-outside-current-month .pika-button {
+    color: #CCCCCC;
+    opacity: 1; }
+  .pika-button:hover {
+    color: #fff;
+    background: #ff8000;
+    box-shadow: none; }
+
+.pika-week {
+  font-size: 11px;
+  color: #999; }
+
+.is-inrange .pika-button {
+  background: rgba(0, 73, 147, 0.2) !important; }
+
+.is-startrange .pika-button {
+  color: #fff;
+  background: #6CB31D;
+  box-shadow: none; }
+
+.is-endrange .pika-button {
+  color: #fff;
+  background: #004993;
+  box-shadow: none; }
+
+.pika-single td {
+  border: none; }
+  @media only screen and (max-width: 767px) {
+    .pika-single td {
+      border: none !important; } }
+@media only screen and (max-width: 767px) {
+  .orderSearchForm .pika-single {
+    padding: 23px 15px 36px; } }
+.ticketChange .pika-single td, .passengerInfo .pika-single td {
+  border: none; }
+  @media only screen and (max-width: 767px) {
+    .ticketChange .pika-single td, .passengerInfo .pika-single td {
+      border: none !important; } }
+
+.is-startrange .pika-button.pika-day {
+  background: #004993;
+  color: #fff;
+  border-radius: 0; }
+  .is-startrange .pika-button.pika-day:after {
+    opacity: 1; }
+
+.is-endrange .pika-button.pika-day {
+  background: #004993;
+  color: #fff;
+  border-radius: 0; }
+  .is-endrange .pika-button.pika-day:after {
+    opacity: 1; }
+
+.is-selected .pika-button.pika-day {
+  background: #004993;
+  color: #fff;
+  border-radius: 0; }
+  .is-selected .pika-button.pika-day:after {
+    opacity: 1; }
+
+.pika-button.pika-day {
+  background: #F2F2F2;
+  font-family: "Arial", sans-serif;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-radius: 0; }
+  .pika-button.pika-day:hover {
+    background: #004993;
+    color: #fff;
+    border-radius: 0; }
+    .pika-button.pika-day:hover:after {
+      opacity: 1; }
+
+/* BEGIN Buttons */
+.btn {
+  color: #fff; }
+  .btn.btn_search {
+    background: #004993; }
+    .btn.btn_search:hover {
+      background: #f97522; }
+  .btn.btn_subscribe {
+    background: #004993; }
+  .btn.btn_back {
+    border: 1px solid #E6E6E6;
+    color: #666666; }
+  .btn.btn_next {
+    background: #004993;
+    color: #fff; }
+    .btn.btn_next:hover {
+      background: #f97522; }
+  .btn.btn_noBack {
+    color: #004993;
+    border: 1px solid #004993; }
+    .btn.btn_noBack:hover {
+      background: #004993;
+      color: #fff; }
+  .btn.btn_save {
+    background: #004993; }
+    .btn.btn_save:hover {
+      background: #f97522; }
+  .btn.btn_routeInvoice {
+    background: #004993; }
+    .btn.btn_routeInvoice:hover {
+      background: #f97522; }
+  .btn.btn_print {
+    background: #004993; }
+    .btn.btn_print:hover {
+      background: #f97522; }
+  .btn.disabled {
+    background: #F2F2F2 !important;
+    color: #666666 !important; }
+    .btn.disabled:hover {
+      cursor: default; }
+
+/* END Buttons */
+/*BEGIN Modal*/
+.modal .modal-header {
+  background: #004993; }
+
+/*END Modal*/
+/*BEGIN SelectPicker*/
+.selectpicker .selectpicker-list .selectpicker-item:hover {
+  background: rgba(0, 73, 147, 0.2); }
+
+/*END SelectPicker*/
+/*BEGIN CheckBox*/
+.customCheckbox input:checked + span:after {
+  color: #004993; }
+
+/*END CheckBox*/
+/*BEGIN RadioButton*/
+.radioBtn input:checked + span {
+  border-color: #004993; }
+  .radioBtn input:checked + span:after {
+    background: #004993; }
+
+/*END RadioButton*/
+/*BEGIN Popovers*/
+.popover .popover-inner {
+  color: #fff;
+  background: #004993; }
+.popover svg.svg-symbol-popover-arrow * {
+  fill: #004993; }
+
+/*END Popovers*/
+/*BEGIN Tooltips*/
+.tooltip-cont .tooltip svg.svg-symbol-tooltip-arrow * {
+  fill: #f97522; }
+.tooltip-cont .tooltip .tooltip-inner {
+  background: #f97522;
+  color: #fff; }
+
+.tooltip-err-cont .tooltip svg.svg-symbol-tooltip-arrow * {
+  fill: #b30f18; }
+.tooltip-err-cont .tooltip .tooltip-inner {
+  background: #b30f18;
+  color: #fff; }
+
+/* END Tooltips */
+/* BEGIN Popups */
+.popup_webRegistration .popup__i__webReg__dataPassenger {
+  background: #004993; }
+  .popup_webRegistration .popup__i__webReg__dataPassenger__name {
+    color: #fff; }
+  .popup_webRegistration .popup__i__webReg__dataPassenger .pass-ffp,
+  .popup_webRegistration .popup__i__webReg__dataPassenger .pass-document,
+  .popup_webRegistration .popup__i__webReg__dataPassenger .pass-visa {
+    display: inline-block;
+    padding: 3px 10px;
+    background: #fff;
+    border-radius: 4px; }
+  .popup_webRegistration .popup__i__webReg__dataPassenger .pass-data-empty {
+    color: #b2b2b2; }
+.popup_webRegistration .popup__i__webReg__info .route_item .route_container .route_table .dep__point_city,
+.popup_webRegistration .popup__i__webReg__info .route_item .route_container .route_table .arr__point_city,
+.popup_webRegistration .popup__i__webReg__info .route_item .route_container .route_table .arr__time,
+.popup_webRegistration .popup__i__webReg__info .route_item .route_container .route_table .dep__time {
+  color: #004993; }
+
+.popup__i__inputBox__input[type=text]:focus, .popup__i__inputBox__input[type=password]:focus {
+  border-color: #004993; }
+.popup__i__footer__buttons__button {
+  background: #004993;
+  color: #fff; }
+  .popup__i__footer__buttons__button:hover, .popup__i__footer__buttons__button:active, .popup__i__footer__buttons__button:focus {
+    background: #f97522; }
+.popup__i__footer__links__link {
+  color: #004993; }
+  .popup__i__footer__links__link:hover, .popup__i__footer__links__link:active {
+    color: #f97522; }
+
+/* END Popups */
+.webRegistration .btn_next {
+  background: #004993;
+  color: #fff; }
+  .webRegistration .btn_next:hover, .webRegistration .btn_next:active, .webRegistration .btn_next:focus, .webRegistration .btn_next:focus:hover {
+    background: #f97522; }
+.webRegistration h2 {
+  color: #004993; }
+.webRegistration__searchResults .info__tip i {
+  color: #004993; }
+.webRegistration__searchResults .passengers__tableTickets__check .customCheckbox input:checked + span:after {
+  background: #004993; }
+.webRegistration__search__change_link {
+  color: #004993; }
+  .webRegistration__search__change_link:hover, .webRegistration__search__change_link:active {
+    color: #f97522; }
+.webRegistration .registration__info__table .info__tip i {
+  color: #004993; }
+.webRegistration .registration__info__table .route_item .route_container .route_table .dep__point_city,
+.webRegistration .registration__info__table .route_item .route_container .route_table .arr__point_city,
+.webRegistration .registration__info__table .route_item .route_container .route_table .arr__time,
+.webRegistration .registration__info__table .route_item .route_container .route_table .dep__time {
+  color: #004993; }
+.webRegistration .registration__passengers .route .item .passenger .ready .passenger_lnk {
+  background: #004993; }
+  .webRegistration .registration__passengers .route .item .passenger .ready .passenger_lnk:before {
+    border-color: transparent transparent transparent #004993; }
+    @media only screen and (max-width: 767px) {
+      .webRegistration .registration__passengers .route .item .passenger .ready .passenger_lnk:before {
+        border-color: transparent; } }
+.webRegistration .registration__passengers .route .item .passenger .name {
+  color: #fff; }
+.webRegistration .registration__passengers .route .item .passenger table td i {
+  color: #fff; }
+.webRegistration .registration__passengers .route .item .passenger .seatNum {
+  color: #fff; }
+  .webRegistration .registration__passengers .route .item .passenger .seatNum i {
+    color: #fff; }
+.webRegistration .registration__passengers .route .item .passenger .price {
+  color: #fff; }
+.webRegistration .registration__passengers .route .item .passenger .data_link {
+  color: #fff; }
+  .webRegistration .registration__passengers .route .item .passenger .data_link_error {
+    color: #b30f18;
+    border-color: #b30f18; }
+  .webRegistration .registration__passengers .route .item .passenger .data_link_noActive {
+    color: rgba(255, 255, 255, 0.6); }
+    .webRegistration .registration__passengers .route .item .passenger .data_link_noActive .seatNum {
+      color: rgba(255, 255, 255, 0.6); }
+.webRegistration .registration__passengers_ready .route .item .passenger .passenger_lnk {
+  background: #004993; }
+.webRegistration .registration__passengers_ready .route .item .passenger .condition,
+.webRegistration .registration__passengers_ready .route .item .passenger .cancel__link {
+  color: #fff; }
+.webRegistration .registration__passengers_ready .route .item .passenger .mail__link,
+.webRegistration .registration__passengers_ready .route .item .passenger .print__link,
+.webRegistration .registration__passengers_ready .route .item .passenger .qr__link {
+  border-color: #fff;
+  background-color: #fff; }
+  .webRegistration .registration__passengers_ready .route .item .passenger .mail__link:hover, .webRegistration .registration__passengers_ready .route .item .passenger .mail__link:focus, .webRegistration .registration__passengers_ready .route .item .passenger .mail__link:active, .webRegistration .registration__passengers_ready .route .item .passenger .mail__link:focus:hover,
+  .webRegistration .registration__passengers_ready .route .item .passenger .print__link:hover,
+  .webRegistration .registration__passengers_ready .route .item .passenger .print__link:focus,
+  .webRegistration .registration__passengers_ready .route .item .passenger .print__link:active,
+  .webRegistration .registration__passengers_ready .route .item .passenger .print__link:focus:hover,
+  .webRegistration .registration__passengers_ready .route .item .passenger .qr__link:hover,
+  .webRegistration .registration__passengers_ready .route .item .passenger .qr__link:focus,
+  .webRegistration .registration__passengers_ready .route .item .passenger .qr__link:active,
+  .webRegistration .registration__passengers_ready .route .item .passenger .qr__link:focus:hover {
+    border-color: #bbe4f7;
+    background-color: #bbe4f7; }
+.webRegistration .registration__passengers_ready .route .item .passenger .dropPassenger__passenger__header {
+  background: #004993;
+  color: #fff; }
+.webRegistration .registration__footer__bnt_clear:last-child {
+  margin-right: 0; }
+.webRegistration input[type=text]:focus, .webRegistration input[type=password]:focus {
+  border-color: #004993; }
+.webRegistration__conditions a {
+  text-decoration: underline;
+  color: #004993;
+  cursor: pointer; }
+
+/* BEGIN regSteps */
+.regSteps {
+  background: #fff;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2); }
+  .regSteps ol li {
+    color: #b1b1b1;
+    padding-left: 19px; }
+    .regSteps ol li:after {
+      border-color: #b1b1b1;
+      color: #b1b1b1;
+      display: none; }
+    .regSteps ol li.prev a {
+      background: #fff;
+      color: #004993;
+      padding-left: 19px; }
+      .regSteps ol li.prev a:hover, .regSteps ol li.prev a:active, .regSteps ol li.prev a:focus {
+        background: #f97522;
+        color: #fff; }
+    .regSteps ol li.prev:after {
+      border-color: #004993;
+      color: #004993;
+      display: none; }
+    .regSteps ol li.active {
+      background: #f97522;
+      color: #fff; }
+      .regSteps ol li.active:after {
+        color: #fff;
+        border-color: #fff;
+        display: none; }
+      .regSteps ol li.active a {
+        background: #f97522;
+        color: #fff;
+        padding-left: 19px; }
+        .regSteps ol li.active a:hover {
+          background: #f97522; }
+    @media only screen and (max-width: 767px) {
+      .regSteps ol li:after {
+        background: 0 0;
+        border: none;
+        display: block; }
+      .regSteps ol li.prev:after {
+        border: none;
+        background: transparent;
+        display: block; }
+      .regSteps ol li.active:after {
+        border-color: transparent;
+        background: 0 0;
+        display: block; } }
+
+/* END regSteps */
+.sendBoardingPass__section__emails .add-mail {
+  color: #004993;
+  border-color: #004993; }
+
+#checkinForm .accordion-head .passenger__icon_ready {
+  color: #fff; }
+  #checkinForm .accordion-head .passenger__icon_ready.error-text {
+    color: #b30f18; }
+#checkinForm .accordion-head .baggage_icon i {
+  color: #fff; }
+
+.accordion-head .baggage_icon i {
+  color: #fff; }
+
+.passengerDataSeat__tabs__item.passenger-item-active {
+  color: #fff !important;
+  background: #004993; }
+
+#editPaxCont .passenger-item {
+  color: inherit; }
+
+.invalid-control {
+  border-color: #D8ADA5 !important;
+  background: #FCF9E6 !important; }
+
+@media only screen and (max-width: 767px) {
+  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .baggage_icon,
+  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .seatNum,
+  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .data_link {
+    position: relative;
+    top: auto;
+    left: auto; }
+  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .name {
+    padding-top: 0;
+    font-size: 12px !important;
+    line-height: normal;
+    padding-bottom: 10px; } }
+
+/*# sourceMappingURL=custom.css.map */

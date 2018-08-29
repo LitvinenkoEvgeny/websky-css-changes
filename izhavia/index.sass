@@ -1,0 +1,123 @@
+@import "variables"
+@import "mixins"
+
+=colorizeFlightType($selector, $color)
+  .flightTable table > tbody > tr.headrow > td.#{$selector},
+  .compareTableWrap table tr:first-child td.col2.#{$selector},
+  .flightTable .#{$selector},
+  .compareTabsWrap .tabsControl li.#{$selector} > a,
+  .compareTabsWrap .item.#{$selector} .name
+    background-color: $color !important
+
++colorizeFlightType(econom_type1, $economLight)
++colorizeFlightType(econom_type2, $economStandart)
++colorizeFlightType(business_type1, $businessLight)
++colorizeFlightType(business_type2, $businessStandart)
+
+
+
+//.passengerInfo
+  .phone-mask-desc
+    top: 34px
+
+// only in passengers step
+.passengersInfo
+  .customCheckbox span
+    top: 2px
+
+.payMethods
+  .iconfirm
+    &__i
+      //height: 100%
+      .customCheckbox span
+        top: -2px
+        //top: 50%
+        //transform: translate(0, -50%)
+
+.btn_receipt_cont
+  a.show_receipt,
+  a.send_receipt
+    background: $brandBlueColor
+    color: $white
+
+    &:hover
+      background-color: $redBrandColor
+
+  a.send_receipt
+    background: $brandBlueColor $emailIconWhite
+    background-size: 26px 26px
+
+// https://yadi.sk/i/LLcCZ3bM3ZdPB2 чекбокс и текст нужно выровнять
+.aeroexpress-table
+  .customCheckbox span
+    transform: none
+    top: 3px
+
+
+// динамические подсказки сейчас работают, но есть дублирование в самом поле.
+.passengersInfo input[type="text"],
+.passengersInfo input[type="password"],
+.passengersInfo input[type="tel"],
+.passengersInfo input[type="email"]
+  +placeholder
+    color: $white
+
+
+/* ====  деф цвет вылез https://yadi.sk/i/cOQAziay3ZsYx5 ==== */
+
+.chooseFlight__table__item__content.active .chooseFlight__table__item__content__link
+  background: transparent
+  border: 1px solid $redBrandColor
+
+.chooseFlight__table__item__content__link
+  background-color: transparent
+
+/* ==== END  деф цвет вылез https://yadi.sk/i/cOQAziay3ZsYx5 ==== */
+
+/* ==== 1) в моб версии сравнение тарифов кривое https://yadi.sk/i/PvUs37Sb3ZsYoh ==== */
+
+.compareTabsWrap table td span i
+  text-align: center
+  width: 20px
+
+.compareTabsWrap table td:last-child
+  wrap
+    display: flex
+    justify-content: center
+    align-items: center
+  span
+    padding-left: 0
+
+
+/* ==== END 1) в моб версии сравнение тарифов кривое https://yadi.sk/i/PvUs37Sb3ZsYoh ==== */
+
+/* ==== 4) разные отступы между строками. и дублирование поля "Пол" https://yadi.sk/i/HhPKacE73ZsZAx ==== */
+
+.ui-select-passengers .selectize-input
+  padding: 9px 10px
+  height: 42px
+
+
+/* ==== END 4) разные отступы между строками. и дублирование поля "Пол" https://yadi.sk/i/HhPKacE73ZsZAx ==== */
+
+/* 5) выбор места Готово - желтый https://yadi.sk/i/ssOHENo33ZsZSx */
+.popup_selectSeat .seatSelect .btnRow .btn
+  background: $redBrandColor
+  color: $white
+  border-color: $redBrandColor
+
+
+/* 8) В IE такой ховер https://yadi.sk/i/nXLrbWR23Zsanf */
+.chooseDate .tableWrap table td a
+  height: auto
+  
+/* #38781 */
+.refundInfo
+  width: 50%
+  margin-left: auto
+  text-align: right
+  p
+    font-size: .8em
+  +adaptivity(phone)
+    width: 100%
+    text-align: center

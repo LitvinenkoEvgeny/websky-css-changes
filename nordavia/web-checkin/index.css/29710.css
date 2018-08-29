@@ -1,0 +1,69 @@
+/* ==== 29710 ==== */
+.seatMap .planeBody__i {
+  left: -70px; }
+@media only screen and (max-width: 768px) {
+  .seatMap .planeBody__i {
+    left: auto; } }
+.seatMap .planeBody__i:after, .seatMap .planeBody__i:before {
+  content: '';
+  width: 2px;
+  top: 0;
+  bottom: 0;
+  background: #cccccc;
+  display: block;
+  position: absolute; }
+.seatMap .planeBody__i:after {
+  left: 0; }
+.seatMap .planeBody__i:before {
+  right: 0; }
+
+.seatInfo .emergency_exit::after, .seatMap .emergency_exit::after {
+  display: none; }
+
+.seatMap {
+  padding-top: 120px; }
+@media only screen and (max-width: 768px) {
+  .seatMap {
+    padding-top: 20px; } }
+
+.seatSelect .info ul li {
+  margin-bottom: 20px; }
+
+.seatInfo ul li.free {
+  display: none; }
+
+.seatInfo ul li.paid {
+  display: none; }
+
+.seat-cost-199 {
+  background: #c2e2fe !important; }
+
+.seat-cost-249 {
+  background: #6fafe8 !important; }
+
+.seat-cost-1000 {
+  background: #004993 !important; }
+
+.seatSelect .info ul li.selected span, .seatSelect .seat.seat-selected {
+  background: #f97523 !important; }
+
+.regSteps {
+  box-shadow: none; }
+.regSteps__i ol {
+  display: flex;
+  align-items: center; }
+.regSteps__i ol li:not(:first-child) {
+  margin-left: 10px; }
+.regSteps__i ol li.active span {
+  padding: 8px; }
+
+.regSteps ol li.prev a:hover,
+.regSteps ol li.prev a:active,
+.regSteps ol li.prev a:focus {
+  padding: 8px; }
+
+.regSteps ol li.prev a {
+  padding: 8px; }
+
+/* ==== END 29710 ==== */
+

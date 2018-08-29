@@ -1,0 +1,1415 @@
+@import 'pegas-variables'
+@import 'mixins'
+
+/* #36314 L.E. */
+
+body
+  background: #1b6e83 radial-gradient(#41a086, #14619f)
+  //background-size: 100% 400%
+
+
+/* Search passengers */
+.search-form
+  background: #ffffff url($formBgImg) no-repeat
+  padding: 156px 30px 60px
+  border-radius: 4px
+
+.fields
+  display: flex
+  flex-direction: column
+  align-items: flex-end
+
+.webRegistration
+
+  &__search
+    &__next
+      //display: flex
+      //.search-btn
+        margin-left: auto
+      //.search-btn
+        margin-right: 15px
+        @media only screen and (max-width: 767px)
+          margin-right: 0
+
+  .inp:not(:first-child)
+    margin-top: 25px
+
+  h2
+    text-align: left
+
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="tel"]:focus,
+  input[type="email"]:focus
+    border-color: $mainGreenColor
+
+//.search-btn
+  margin-left: auto
+  width: 35%
+  @media only screen and (max-width: 1040px) and (min-width: 768px)
+    width: 45%
+
+
+.change-btn
+  margin-left: auto
+  color: $blueColor
+
+.inp
+  &:nth-child(3)
+    position: relative
+    &::after
+      content: ''
+      background: url($calendarIcon) no-repeat
+      position: absolute
+      top: 8px
+      right: 15px
+      display: block
+      width: 20px
+      height: 25px
+      background-size: contain
+      pointer-events: none
+
+/* addNewPassengerForm */
+
+#newSearchForm
+  display: block
+  background: #fff
+  padding: 50px 30px
+  margin-top: 30px
+
+  .fields
+    flex-direction: row
+    //+adaptivity(tablet)
+      flex-direction: column
+      padding-bottom: 70px !important
+
+.webRegistration__searchResults .passengers__header_second
+  +adaptivity(tablet)
+    padding-bottom: 30px
+
+.webRegistration__newSearch
+  margin-bottom: -28px
+/* END addNewPassengerForm */
+
+
+/* END of Search passengers */
+
+/* checkin */
+
+/* Регистрация на рейсы */
+
+.webRegistration
+  .registration__info
+    border-radius: 4px
+    &__table
+      .success-text
+      margin-top: 3px
+      &__beginTime_time,
+      &__endTime_time
+        margin-top: 3px
+  .registration
+    &__passengers
+      .route
+      .item
+        .passenger
+          .price
+            padding-right: 10px
+  &__toReg
+    margin-top: 88px
+    .btn_search
+      margin-top: 0
+  .inp
+    width: percent(260, 872)
+    +adaptivity(tablet)
+      width: 150px
+      margin-right: 10px
+  &__searchForm
+    margin-top: 0
+  &__searchResults
+    .info
+      &__arrDate,
+      &__flight,
+      &__registration
+        padding-top: 0
+    .passengers
+      border-bottom-right-radius: 0
+      border-bottom-left-radius: 0
+      padding-top: 20px
+      &__header
+        margin-bottom: 15px
+        display: none
+      &__tableTickets
+        height: 85px
+        border-collapse: separate
+        border-spacing: 0 1em
+        &__strong
+          display: block
+          text-transform: uppercase
+        &__tr
+          border-radius: 4px
+          height: 85px
+          line-height: 22px
+          max-width: 902px
+          margin-bottom: 10px
+
+          +adaptivity(tablet)
+            display: flex
+            padding-bottom: 30px
+
+          +adaptivity(phone)
+            padding-bottom: 0
+            margin-bottom: 40px
+
+          +adaptivity(phone)
+            flex-direction: column
+            height: auto !important
+            background: #eef9fd
+            text-align: center
+
+        &__name
+          padding-left: 35px
+          background: #eef9fd
+          padding-right: 90px
+          height: 85px
+
+          +adaptivity(tablet)
+            padding: 0
+            display: flex
+            align-items: center
+            justify-content: center
+            flex: 1
+            text-align: center
+
+          +adaptivity(phone)
+            width: 100%
+
+          .passengers__tableTickets__strong
+            text-transform: none
+            font-weight: normal
+            color: $black
+        &__tickets
+          +adaptivity(tablet)
+            padding: 0
+            flex: 1
+        &__birthDate
+          background: #eef9fd
+          +adaptivity(tablet)
+            display: flex
+            align-items: center
+            justify-content: center
+            flex: 1
+        &__birthDate-label
+          font-weight: 700
+          display: block
+          text-transform: uppercase
+        &__lastName,
+        &__firstName
+          color: $black
+          font-weight: normal
+
+        &__firstName
+          margin-top: 5px
+        &__ticketNumber
+          margin-top: 15px
+        &__birthDate
+          background: #eef9fd
+        &__birtDate__date
+          margin-top: 15px
+        &__birtDate
+          &__title
+            &_strong
+              color: $gray
+              font-weight: bold
+          &__date
+            color: $black
+        &__ticketNumber
+          color: $black
+        &__tickets
+          background: #eef9fd
+          display: flex
+          height: 85px
+          justify-content: center
+          align-items: center
+
+
+        &__check
+          .customCheckbox
+            input + span
+              background: $white $passengerManIconGray center no-repeat
+              left: 0
+              width: 49px
+              height: 49px
+              border: none
+              border-radius: 50%
+
+              &:after
+                display: none
+
+              +adaptivity(phone)
+                left: -12px
+                top: -20px
+
+            input:checked + span
+              background: $white $passengerManIcon center no-repeat
+              //box-shadow: 0 0 9px 0 #49c900, inset 0 0 3px 0 #49c900
+
+    .info
+      display: flex
+      justify-content: space-between
+      padding: 30px 20px 20px
+      line-height: 30px
+
+      &__registration__condition
+        margin-left: 0
+
+      &__airplane
+        align-self: center
+
+      &__airplane-icon
+        width: 25px
+        height: 25px
+        background: $airplaneIcon center no-repeat
+        display: block
+        background-size: contain
+      &__flight-num
+        color: #00bbff
+        font-weight: 600
+
+      &__dep-city,
+      &__arr-city
+        font-weight: 600
+        color: $black
+
+      &__registration
+        padding-top: 0
+
+  &__searchForm
+    .inp:first-child
+      margin-left: 160px
+
+
+#checkinForm .route
+  +adaptivity(tablet)
+    padding-bottom: 40px
+.seatInfo
+  ul li
+    &:nth-child(1)
+      display: none
+    &:nth-child(2)
+      padding-right: 15px
+  .paid
+    position: relative
+    color: transparent
+    &:after
+      content: 'Свободно'
+      display: inline-block
+      left: 0
+      padding-right: 15px
+      margin-bottom: 10px
+      padding-left: 25px
+      color: #666666
+      position: absolute
+      font-size: 12px
+      line-height: 14px
+.webRegistration .registration__passengers__seatMap .view-craft-box
+  +adaptivity(tablet)
+    margin-top: 20px
+
+.webRegistration .registration__passengers .box__i .col:first-child
+  width: 40%
+  position: relative
+  margin-right: 0
+  +adaptivity(tablet)
+    flex: 100%
+
+.webRegistration .registration__passengers .box__i .col:last-child
+  width: 60%
+  margin-bottom: 0
+  +adaptivity(tablet)
+    flex: 100%
+
+.icon_seat-reservation:before
+  content: 'не выбрано'
+  word-spacing: -5px
+  color: $black
+
+.seatMap
+  padding-top: 0
+  .planeBody__i
+    width: 439px
+    &::after
+      display: none
+
+
+// Легенда на всю ширину
+.webRegistration .registration__passengers__seatMap
+  .info
+    &-top
+      width: 100%
+      text-align: center
+    &-bottom
+      display: none
+    &__i
+      display: inline-block
+
+.planeBody
+  &__i
+    width: 100%
+    background: $seatMapSkin no-repeat -33px top
+    padding-top: 80px
+    background-size: 110% 100%
+    border-left-color: transparent
+
+
+.add-new-passenger-form
+  border-top-right-radius: 0
+  border-top-left-radius: 0
+  .textInp
+    //width: 75% !important
+    float: right
+
+.add-new-passenger
+  &__label
+    color: #000000
+    line-height: 21px
+  &__label-td
+    width: 100px
+
+  &__add-button
+    margin-top: 0
+    .search-btn
+      margin-right: 0
+      width: 100%
+
+
+#checkinForm
+  .route
+    +adaptivity(tablet)
+      width: 100%
+    .item
+      .passenger
+        &.selected-passenger-item
+          &:before
+            +triangle-right
+
+#checkinForm .route .item .passenger .passenger_lnk.accordion-head-opened
+  background: #e3f6fd
+  box-shadow: $yOffsetBoxShadow
+  &:before
+    +triangle-right
+
+#checkinForm .route .item .passenger .passenger_lnk:after
+  background: $mainGreenColor
+
+#checkinForm .route .item .passenger .passenger_lnk.accordion-head-opened:before
+  display: block
+  border-left-color: #e3f6fd
+  border-width: 10px 0 11px 10px
+  top: 50%
+  transform: translate(0, -50%)
+
+.popup_webRegistration .popup__i__webReg__dataPassenger
+  background: $greenGradient
+  color: #ffffff
+
+.popup_webRegistration .popup__i__webReg__dataPassenger__name,
+.popup_webRegistration .popup__i__webReg__dataPassenger .pass-data-empty
+  color: #ffffff
+
+.webRegistration .registration__passengers .route .item .passenger .dropPassenger__item__caption
+  font-weight: bold
+  color: #000000
+
+.webRegistration .registration__info__table .route_item .route_container .route_table .dep__point_airport
+  min-width: 80px
+
+#checkinForm .route .item .passenger table
+  td:first-child
+    width: 100%
+    .name
+      max-width: 100%
+      font-weight: 400
+
+.arr__point
+  align-items: center
+
+.dep__point
+  align-items: center
+
+.seatSelect
+  &__i
+    box-shadow: $blueBoxShadow
+    display: flex
+    flex-wrap: wrap
+
+.webRegistration
+  .registration__passengers
+    margin-top: 20px
+
+    .box
+      border-radius: 4px
+
+    .box__i
+      padding-top: 0
+      box-shadow: inset 1px 10px 25px #e7eff1
+      padding-bottom: 0
+
+      .seatSelect__i
+        display: flex
+        background: $white
+
+      .placeInfo
+        display: none
+
+      .col
+        &:first-child
+          border-right: $separateBorder
+          padding-right: 0
+          padding-left: 0
+          width: 40%
+
+    &__seatMap
+      .info-bottom
+        bottom: -50px
+
+    .accordion-body
+      display: none
+
+    .route
+      .item
+        .passenger
+          .data_link
+            display: none
+            color: inherit
+
+          &__icon_ready
+            display: none
+
+          .passenger_lnk
+            min-height: 50px
+            height: 89px
+            &:before
+              display: none
+              border-width: 10px 0 11px 10px
+
+            table
+              tr
+                display: flex
+                flex-direction: column
+
+
+
+            .baggage_icon
+              display: none
+
+            .seatNum
+              margin-top: 10px
+              color: $black
+              &:before
+                content: 'Место: '
+
+            .price
+              margin-top: 5px
+              color: $black
+              .rub
+                font-weight: 400
+
+#checkinForm .list > .item .top .name h2
+  text-align: left
+
+// app.js
+// registration
+.td
+  &--full-width
+    width: 100%
+  &--highlight
+    background-color: $lightBlueColor
+  &--vacenter
+    padding: 0
+    height: 40px
+    vertical-align: middle
+
+.registration-info
+  padding-top: 25px
+  &__label
+    color: $gray
+    &--bold
+      font-weight: bold
+// end app.js
+
+/* END Регистрация на рейсы */
+
+
+/* Питание */
+
+// box shadow в питании
+    box-shadow: $blueBoxShadow
+#checkinForm .route .item .passenger:first-child .passenger_lnk,
+#checkinForm .serviceSelect .serviceSelect__i,
+.foodSorting ul li a
+  box-shadow:  inset 0 13px 26px -8px #e6eff1
+
+
+
+.foodSlider .list__i .item
+  &.active
+    position: relative
+    overflow: visible
+    a
+      background: $lightBlueColor
+
+#checkinForm
+
+  .list
+    > .item
+      &.active
+        .top
+          &:after
+            //display: none
+
+  .serviceSelect
+    .serviceSelect
+      &__i
+        display: flex
+        padding-bottom: 0
+
+
+  .drop
+    &__i
+      padding-top: 0
+      margin-top: 20px
+      padding-bottom: 0
+
+      .title
+        display: none
+
+      .col
+        &:first-child
+          border-right: $separateBorder
+          padding: 0
+          width: 40%
+
+        &:last-child
+          margin-left: 0
+          width: 60%
+
+
+  .food
+    .name
+      p
+        display: none
+
+  .serviceSelect
+    //box-shadow: inset 1px 10px 25px #e7eff1
+
+    table tr
+      display: flex
+      flex-direction: column
+
+      td:nth-child(2)
+        margin-top: 30px
+
+      .choose
+        padding-bottom: 10px
+  .route
+    .item
+      .passenger
+        margin-bottom: 0
+        &.active
+          .passenger_lnk
+            border-bottom-color: transparent
+            &:before
+              +triangle-right
+
+        &:not(.active)
+          .passenger_lnk
+            &:before
+              display: none
+
+        .passenger_lnk
+          padding-bottom: 0
+          border-bottom: $separateBorder
+
+
+          .remove-meal
+            &:after
+              top: 65px
+
+
+#checkinForm .list > .item.active .top:after
+  display: none
+
+#checkinForm .route .item .drop
+  overflow: visible
+  margin-top: 0
+  background: $white
+
+#checkinForm .list > .item .drop .drop__i
+  background: $white
+  margin-top: 0
+  padding-top: 0
+  padding-bottom: 0
+
+#checkinForm .route .item .passenger.active .passenger_lnk
+  background: #e3f6fd
+
+#checkinForm .route .item .passenger.active,
+#checkinForm .route .item .passenger.selected-passenger-item
+  table td .name
+    color: $black
+
+#checkinForm .route .item .passenger:not(.active):not(.selected-passenger-item) table td .name
+  color: $blueColor
+
+
+#checkinForm .route .item .passenger table td .choose
+  color: #000000
+
+#checkinForm .route .item .passenger.active .passenger_lnk .remove:after
+  color: $blueColor
+
+#checkinForm .route .item .passenger .passenger_lnk .remove-meal:after
+  color: $blueColor
+  width: 22px
+  height: 22px
+  border: 1px solid $blueColor
+  border-radius: 50%
+  text-align: center
+  line-height: 21px
+  padding-right: 1px
+
+.foodSorting
+  ul
+    display: flex
+    li
+      padding-right: 0
+      flex: 1
+      text-align: center
+      position: relative
+
+      &.active a
+        background: #ffffff
+        color: #666666
+
+      a
+        background: #e4e5e5
+        padding: 50px 0 17px
+        &:after
+          content: ''
+          position: absolute
+          width: 30px
+          height: 30px
+          background-color: #000000
+          background-position-x: -10px
+          left: 50%
+          top: 15px
+          transform: translate(-50%, 0)
+
+      +setMealIcon(1, $allMealIcon, $allMealIconGreen)
+      +setMealIcon(2, $chickenIcon, $chickenIconGreen)
+      +setMealIcon(3, $meatIcon, $meatIconGreen)
+
+.food
+  .item
+    padding-top: 15px
+
+    .name:before,
+    &.active .name:before
+      position: absolute
+      top: initial
+      bottom: 10px
+      width: 50%
+      padding: 15px 4px
+      border-radius: 4px
+      text-align: center
+      line-height: 0
+      border: 1px solid #49c900
+      left: 30px
+      pointer-events: all
+
+    &.active
+      .name
+        &:before
+          content: 'Добавлено в заказ'
+          background: linear-gradient(to top, $lightGreenColor 0%, $mainGreenColor 100%)
+          color: #ffffff
+          width: 80%
+    .name
+      position: initial
+      &:after
+        display: none
+
+    a
+      position: relative
+      pointer-events: none
+
+    &.active a
+      position: relative
+      background: #ffffff
+
+      &:before,
+      &:after
+        content: ''
+        display: block
+        position: absolute
+
+      &:before
+        z-index: 2
+        border: 2px solid #ffffff
+        width: 18px
+        height: 10px
+        top: -9px
+        left: 95.55555555555556%
+        transform: rotate(-45deg)
+        border-top-color: transparent
+        border-right-color: transparent
+      &:after
+        z-index: 1
+        width: 28px
+        height: 28px
+        top: -14px
+        left: 93.33333333333333%
+        background: linear-gradient(to bottom, $mainGreenColor 30%, #84cd30 60%)
+        border-radius: 50%
+
+  .item .name:before
+    content: 'Выбрать'
+    cursor: pointer
+    background: #ffffff
+    color: #49c900
+
+  .description
+    padding-bottom: 100px
+
+#checkinForm .food .name
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  align-items: baseline
+
+  .price
+    position: absolute
+    bottom: 70px
+    left: 30px
+    top: initial
+    display: block
+
+//.registration__passengers
+  .passenger:not(.selected-passenger-item)
+    .name
+      color: $blueColor !important
+
+//[data-code="meal"]
+  .passenger:not(.active)
+    .name
+      color: $blueColor
+
+//#checkinForm .route .item .passenger:not(.active),
+  .name
+    color: $blueColor
+
+
+/* END Питание */
+
+
+/* Регистрируемый багаж */
+
+.baggage-picker-cont
+  text-align: center
+
+#checkinForm .baggage .baggageControl
+  margin-left: 0
+
+.baggage
+  strong
+    font-weight: 400
+  .passenger
+    &.active
+      .passenger__link
+        background: transparent
+    &__link
+      background: transparent
+      &__i
+        &__name
+          color: $black
+          font-weight: 400
+          font-size: 18px
+  .baggage__i
+    border-bottom: 3px solid #e2e2e2
+    box-shadow: none
+    &:nth-child(1)
+      box-shadow: inset 0 22px 33px -11px #e6eff1
+  .baggageInfo
+    font-weight: 700
+    color: $black
+    padding-left: 15px
+
+  .baggage-picker-cont
+    display: flex
+    flex-direction: row-reverse
+  table
+    tr:nth-child(1)
+      td:nth-child(1),
+      td:nth-child(2)
+        display: none
+
+    tr:nth-child(2)
+      background: #e3f6fd
+
+    tr:last-child
+      height: 65px
+      border-radius: 4px
+      td
+        padding: 0 10px
+
+
+  td
+    border: none
+
+
+#checkinForm .baggage .baggage__i
+  box-shadow: none
+
+#checkinForm .baggage .baggageInfo
+  padding-left: 15px
+
+/* END Регистрируемый багаж */
+
+/*# END checkin */
+
+
+/* Tablet styles */
+@media only screen and (max-width: 767px)
+
+  .webRegistration
+    .registration__info__table
+      .route_item
+        .route_container
+          .route_table
+            .dep,
+            .arr
+              width: 150px
+
+  #oxyCheckinApp
+    #checkinForm
+      .route
+        .item
+          .passenger
+            table
+              td
+                &:first-child
+                  vertical-align: top
+                  padding-bottom: 20px
+
+                  .name
+                    display: inline
+                    font-size: 13px !important
+
+
+    .webRegistration
+      .route
+        .item
+          .passenger
+            .data_link,
+            .baggage_icon,
+            .seatNum
+              left: initial
+              top: 10px
+
+  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .data_link,
+  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .baggage_icon,
+  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .seatNum,
+  .webRegistration .registration__passengers .route .item .passenger .price,
+  #checkinForm .accordion-head .passenger__icon_ready
+    left: initial
+    top: 10px
+
+  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .data_link
+    right: 190px
+
+  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .baggage_icon
+    right: 155px
+
+  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .seatNum
+    right: 120px
+
+  .webRegistration .registration__passengers .route .item .passenger .price
+    position: absolute
+    right: 40px
+
+  /* Выбор питания */
+
+  .foodSlider
+    .list
+      &__i
+        .item
+        &.active
+          a
+            background: linear-gradient(142deg, $lightGreenColor 60%, $mainGreenColor 100%)
+
+  .foodSlider .name:before,
+  .foodSlider .name:after
+    display: none
+
+  .foodSlider .list
+    overflow: visible
+
+  .foodSlider .list__i .item.active:before
+    content: ''
+    display: block
+    position: absolute
+    z-index: 2
+    border: 2px solid #ffffff
+    width: 18px
+    height: 10px
+    top: -9px
+    left: 88.34080717488789%
+    transform: rotate(-45deg)
+    border-top-color: transparent
+    border-right-color: transparent
+
+  .foodSlider .list__i .item.active:after
+    content: ''
+    display: block
+    position: absolute
+    z-index: 1
+    width: 28px
+    height: 28px
+    top: -14px
+    left: 87.593423019432%
+    background: linear-gradient(to bottom, $mainGreenColor 30%, #84cd30 60%)
+    border-radius: 50%
+
+
+.food
+  .list
+    &__i
+      margin-left: 0
+      margin-right: 0
+  .item
+    width: 45%
+    margin: 0 2.5% 10px
+
+/* END Выбор питания */
+
+/* ==== confirm check-in ==== */
+
+.popup
+  &__i
+    &__inputBox
+      &__input
+        &[type="text"],
+        &[type="password"],
+        &[type="email"]
+          &:focus
+            border-color: $mainGreenColor
+    &__footer
+      &__links
+        &__link
+          color: $blueColor
+
+/* ==== END confirm check-in ==== */
+
+
+@media only screen and (min-width: 768px)
+
+  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .data_link, #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .baggage_icon, #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .seatNum, .webRegistration .registration__passengers .route .item .passenger .price, #checkinForm .accordion-head .passenger__icon_ready
+    top: 0px
+
+  #checkinForm .accordion-head .passenger__icon_ready
+    top: 10px
+
+/* END checkin styles */
+
+/* END Tablet styles */
+
+/* Mobile styles */
+@media only screen and (max-width: 425px)
+
+  .route .dropPassenger__passenger__inner
+    padding: 24px 0
+
+@media (max-width: 500px)
+
+  .webRegistration .registration__info__table .route_item .route_container .route_table .dep__date,
+  .webRegistration .registration__info__table .route_item .route_container .route_table .arr__date
+    padding: 30px 0
+
+  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .data_link,
+  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .baggage_icon,
+  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .seatNum,
+  .webRegistration .registration__passengers .route .item .passenger .price,
+  #checkinForm .accordion-head .passenger__icon_ready
+    left: initial
+    top: 50px
+
+  .webRegistration .registration__info__table .route_item .route_container .route_table .dep__time,
+  .webRegistration .registration__info__table .route_item .route_container .route_table .arr__time
+    top: 50%
+    transform: translateY(-35%)
+
+  .webRegistration .registration__info__table .route_item .route_container .route_table .dep__point,
+  .webRegistration .registration__info__table .route_item .route_container .route_table .arr__point
+    top: initial
+    left: 0
+    top: 10px
+    margin-left: 0
+
+  .webRegistration .registration__info__table .route_item .route_container .route_table .dep,
+  .webRegistration .registration__info__table .route_item .route_container .route_table .arr
+    width: 100%
+
+  .webRegistration .registration__info__table .route_item .route_container .route_table .arr
+    margin-top: 25px
+
+/* END Mobile styles */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#newSearchForm
+  position: relative
+  margin-top: 0
+  border-top-left-radius: 0
+  border-top-right-radius: 0
+  padding: 0 20px
+
+  .fields
+    background: #f2fbed
+    position: relative
+    margin-left: 30px
+    padding: 8px 0
+
+    +adaptivity(phone)
+      align-items: center
+
+      .inp
+        width: 250px
+
+      .inp:first-of-type
+        margin-left: 0
+
+
+    &:before
+      content: ''
+      width: 49px
+      height: 49px
+      left: -30px
+      display: inline-block
+      position: absolute
+      align-self: center
+      background: $white $addPassengerIcon center no-repeat
+      border-radius: 50%
+      //display: none
+    &:after
+      //display: none
+      content: 'Добавить пассажира'
+      position: absolute
+      color: $black
+      font-weight: 400
+      left: 30px
+      width: 120px
+      white-space: pre-wrap
+      line-height: 20px
+      top: 50%
+      transform: translate(0, -50%)
+
+
+    +adaptivity(tablet)
+      height: auto
+      margin-left: 10px
+
+      &:before
+        top: -25px
+        left: -12px
+
+
+    +adaptivity(phone)
+      display: flex
+      flex-direction: column
+      padding-top: 50px
+      padding-bottom: 70px
+      margin-left: 0
+
+      &:after
+        top: 10px
+        width: 100%
+        left: 50%
+        transform: translate(-50%,0)
+        text-align: center
+
+  // в новой форме поиска кнопку влево
+  .webRegistration__search__next .search-btn
+    margin-left: 0
+    position: absolute
+    right: 0
+    bottom: 133px
+    height: 39px
+    +adaptivity(tablet)
+      width: 150px
+    +adaptivity(phone)
+      width: 250px
+      left: 50%
+      bottom: 120px
+      transform: translate(-52%, 0)
+
+
+.webRegistration .btn_next
+  +adaptivity(phone)
+    margin-right: 0
+
+.webRegistration .btn_next
+  +adaptivity(phone)
+    margin-right: 0
+
+.webRegistration
+  &__newSearch
+    display: none
+
+
+#addNewOrderPassengerCont
+  .btn.btn_search
+    display: none
+
+.webRegistration
+  &__search
+    &__next
+      margin-top: 0
+      padding-right: 10px
+
+  &__searchForm
+    padding-bottom: 60px
+
+
+.search-form
+  display: block !important
+  &__fields
+    height: 89px
+    display: flex
+    align-items: center
+    padding-right: 20px
+
+    .inp:nth-child(3)
+      &:after
+        display: none
+
+  &__add-new-passenger-checkbox
+    position: absolute
+    opacity: 0
+  &__add-new-passenger-custom-check
+    position: absolute
+    content: ''
+    width: 49px
+    height: 49px
+    left: -30px
+    top: 50%
+    transform: translate(0, -50%)
+    display: inline-block
+    align-self: center
+    background: $white $addPassengerIconGray center no-repeat
+    border-radius: 50%
+
+    &--active
+      background-image: $addPassengerIcon
+
+    +adaptivity(tablet)
+      top: 10px
+      left: -10px
+
+  &__label
+    position: absolute
+    top: -18px
+    color: $black
+
+  &__add-new-passenger-label
+    padding: 0 40px 0 30px
+    white-space: pre
+    display: flex
+    align-items: center
+    color: $black
+    line-height: 22px
+
+    +adaptivity(tablet)
+      padding-left: 50px
+
+  &__footer
+    +adaptivity(tablet)
+      width: 100%
+  &__search-btn-wrp
+    margin-top: 10px
+    height: 39px
+    +adaptivity(tablet)
+      padding-right: 0
+
+
+.webRegistration input[type="text"],
+.webRegistration input[type="password"],
+.webRegistration input[type="tel"],
+.webRegistration input[type="email"]
+  position: relative
+  +placeholder
+    position: absolute
+    //color: $black
+    //top: -10px
+    //transform: translate(0, -30px)
+
+
+
+#newSearchForm
+  display: block !important
+  margin-top: 0
+  padding: 0 20px 50px
+  table
+    width: 100%
+    tr
+      height: 85px
+
+      td
+        vertical-align: middle
+        &:first-child
+          width: 30px
+        &:not(:first-child)
+          background: #f2fbed
+          padding: 10px
+        &:nth-child(2)
+          padding-left: 33px
+
+.text
+  &--blue
+    color: #01abe8
+  &--light
+    color: $lightGrayTextColor
+.info
+  &__dep-city,
+  &__arr-city
+    font-weight: 400
+    font-size: 18px
+  &__flight-icon
+    background: $airplaneIcon center no-repeat
+    width: 22px
+    height: 18px
+    align-self: center
+  &__registration__condition
+    text-transform: uppercase
+
+// app.js comment it
+// when go to jsless version
+//.searchForm
+//  &__header
+//    text-align: right
+//    color: $black
+//    font-size: 2.2em
+//    padding-right: 20px
+//    margin-bottom: 40px
+//
+//.webRegistration
+//  .registration__info
+//    display: flex
+//    flex-wrap: wrap
+//    padding-top: 20px
+//
+//.registration-info
+//  display: flex
+//  &__main-info
+//    flex: 70%
+//    display: flex
+//    justify-content: space-between
+//    padding-right: 30px
+//  &__flightInfo
+//    > *
+//      margin: 10px 0
+//  &__dep
+//    > *
+//      margin: 10px 0
+//  &__arr
+//    > *
+//      margin: 10px 0
+//  &__arr-city,
+//  &__dep-city
+//    font-size: 18px
+//    color: $black
+//  &__flight-icon
+//    background: $airplaneIcon center no-repeat
+//    width: 22px
+//    height: 18px
+//    align-self: center
+//  &__choose-place
+//    flex: 25%
+//    align-self: center
+//  &__bottom
+//    flex: 100%
+//    padding: 15px 5px
+//    background: #eef9fd
+//    display: flex
+//    border-radius: 4px
+//    margin-top: 25px
+//  //justify-content: space-between
+//  &__status
+//    margin-right: 20px
+//  &__start
+//    margin-right: 20px
+//  &__end
+//    margin-right: 0
+//  &__label
+//    text-transform: uppercase
+//
+//.webRegistration .registration__passengers .route .item .passenger .passenger_lnk .price
+//  padding-left: 30px
+//
+//#checkinForm .route .item .passenger .passenger_lnk
+//  padding-top: 0
+//  display: flex
+//  align-items: center
+//
+//.selected-seat-number
+//  display: none
+//
+//.seatInfo
+//  position: absolute
+//  bottom: 0
+//  padding-bottom: 20px
+//  ul
+//    li
+//      padding: 0 20px
+//      margin: 10px 0
+//      position: relative
+//      span
+//        position: absolute
+//        width: 16px
+//        height: 16px
+//        display: block
+//        border-radius: 3px
+//        left: 0
+//        top: 50%
+//        -ms-transform: translate(0, -50%)
+//        transform: translate(0, -50%)
+//  .free span
+//    background-color: #b1cfd7
+//  .paid span
+//    background-color: #01729c
+//  .selected span
+//    background-color: #49c900
+//  .disabled span
+//    border: 1px solid #b1cfd7
+//    background-color: #ffffff
+//
+//.seatSelect .info .seatInfo
+//  display: none
+//
+//
+//.webRegistration .registration__passengers__seatMap .view-craft-box
+//  margin-top: 0
+// end of app.js
+
+

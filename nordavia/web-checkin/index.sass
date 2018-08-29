@@ -1,0 +1,88 @@
+@import "variables"
+@import "mixins"
+
+/* ==== 29710 ==== */
+
+.seatMap .planeBody__i
+  left: -70px
+
+  +adaptivity(tablet)
+    left: auto
+
+  &:after,
+  &:before
+    content: ''
+    width: 2px
+    top: 0
+    bottom: 0
+    background: #cccccc
+    display: block
+    position: absolute
+  &:after
+    left: 0
+  &:before
+    right: 0
+
+// hide emergence exit
+.seatInfo .emergency_exit::after, .seatMap .emergency_exit::after
+  display: none
+
+//.free:nth-of-type(2)
+  background-color: #000000
+
+// tooltip visibility
+.seatMap
+  padding-top: 120px
+  +adaptivity(tablet)
+    padding-top: 20px
+
+.seatSelect .info ul li
+  margin-bottom: 20px
+
+
+.seatInfo
+  ul
+    li.free
+      display: none
+    li.paid
+      display: none
+
+
+.seat-cost-199
+  background: rgb(194, 226, 254) !important
+
+.seat-cost-249
+  background: rgb(111, 175, 232) !important
+
+.seat-cost-1000
+  background: rgb(0, 73, 147) !important
+
+.seatSelect .info ul li.selected span, .seatSelect .seat.seat-selected
+  background: #f97523 !important
+
+
+// regSteps error
+$regStepsItemPadding: 8px
+.regSteps
+  box-shadow: none
+  margin-top: 40px
+  &__i
+    ol
+      display: flex
+      align-items: center
+
+      li
+        &:not(:first-child)
+          margin-left: 10px
+        &.active
+          span
+            padding: $regStepsItemPadding
+.regSteps ol li.prev a:hover,
+.regSteps ol li.prev a:active,
+.regSteps ol li.prev a:focus
+  padding: $regStepsItemPadding
+
+.regSteps ol li.prev a
+  padding: $regStepsItemPadding
+
+/* ==== END 29710 ==== */

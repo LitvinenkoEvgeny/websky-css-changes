@@ -1,0 +1,289 @@
+@import "variables"
+@import "mixins"
+
+/* ==== Search passenger ==== */
+
+.uvt-container .c-menu .nav a:hover,
+.uvt-container .c-menu .nav a:active,
+.uvt-container .c-menu .nav a:focus
+  opacity: 1
+
+#oxygenApp #fakeBookingStepsCont li.active a,
+#oxygenApp #privateMenu li.active a,
+#oxygenApp #bookingSteps li.active a,
+#oxygenApp #fakeBookingStepsCont li.active button.btn-link,
+#oxygenApp #privateMenu li.active button.btn-link,
+#oxygenApp #bookingSteps li.active button.btn-link
+  background-color: $blueBrandColor
+  &:hover
+    cursor: pointer
+    background-color: $redBrandColor
+
+#oxygenApp #fakeBookingStepsCont li a,
+#oxygenApp #privateMenu li a,
+#oxygenApp #bookingSteps li a,
+#oxygenApp #fakeBookingStepsCont li button.btn-link,
+#oxygenApp #privateMenu li button.btn-link,
+#oxygenApp #bookingSteps li button.btn-link
+  background-color: $lightBlueBrandColor
+  opacity: 1
+  color: $white
+  &:hover
+    background-color: $redBrandColor
+
+#oxygenApp
+  #bookingSteps > li.disabled
+    cursor: not-allowed
+    opacity: .6
+
+  .btn-info
+    background-color: $lightBlueBrandColor
+    border-color: $lightBlueBrandColor
+    opacity: 1
+    &:hover
+      background-color: $redBrandColor
+      border-color: $redBrandColor
+      color: $white !important
+
+  .appbar-right
+    .bootstrap-select
+      &.open
+        > .btn
+          background-color: $redBrandColor
+          border-color: $redBrandColor
+          color: $white
+
+      > .btn-success
+        background-color: $lightBlueBrandColor
+        border-color: $lightBlueBrandColor
+        color: $white !important
+        opacity: 1
+        &:hover
+          background-color: $redBrandColor
+          border-color: $redBrandColor
+
+  #searchForm
+    .checkbox
+      cursor: pointer
+
+    .bootstrap-select
+      > .btn
+        border-color: $lightBlueBrandColor
+        background-color: $white
+        color: $darkGray !important
+
+  .tooltip
+    .tooltip-inner
+      background-color: $blueBrandColor
+    &.top
+      .tooltip-arrow
+        border-top-color: $blueBrandColor
+
+  .well-info
+    background-color: $lightBlueBrandColor
+    border-color: $lightBlueBrandColor
+
+    .form-control
+      border-color: $lightBlueBrandColor
+
+  input[type="checkbox"] + label span.chb span.chb-flag
+    background-color: $redBrandColor
+
+  .datepicker table tr td.active:active,
+  .datepicker table tr td.active:hover:active,
+  .datepicker table tr td.active.disabled:active,
+  .datepicker table tr td.active.disabled:hover:active,
+  .datepicker table tr td.active.active,
+  .datepicker table tr td.active:hover.active,
+  .datepicker table tr td.active.disabled.active,
+  .datepicker table tr td.active.disabled:hover.active
+    background-color: $redBrandColor
+
+  .dropdown-menu > li > a:hover,
+  .dropdown-menu > li > a:focus
+    background-color: $lightBlueBrandColor
+
+  .search-button-cont
+    .btn-primary
+      background-color: $blueBrandColor
+
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary:active,
+  .btn-primary.active
+    background-color: $redBrandColor
+    border-color: $redBrandColor
+
+  #searchPeriod
+    .tooltip
+      .tooltip-arrow
+        border-top-color: $lightBlueBrandColor
+      .tooltip-inner
+        background-color: $lightBlueBrandColor
+
+    #searchPeriodTable
+      margin: 0
+      width: 100%
+      table.oneway
+        max-width: 100%
+        table-layout: fixed
+
+        td, td
+          word-wrap: break-word
+
+        td.period-table-cell-selected
+          background-color: $lightBlueBrandColor
+          border-color: $lightBlueBrandColor
+
+        th.selected-date
+          background-color: $blueBrandColor
+          border-color: $lightBlueBrandColor
+          color: $white
+
+    .chart
+      .dates
+        .selected-date
+          color: $redBrandColor
+
+      .prices
+        .price-label
+          .selected-price
+            background-color: $blueBrandColor
+            border-color: $blueBrandColor
+
+/* ==== END Search passenger ==== */
+
+/* ==== Search result ==== */
+
+
+#oxygenApp
+  #searchResult
+    #companyFlightsTable
+      th.sort-button-active
+        .sort-flag
+          border-color: $lightRedBrandColor
+
+  svg.svg-symbol-time *
+    fill: $blueBrandColor
+
+#oxygenApp
+  #searchResult
+
+    .btn-success
+      +blueButton
+
+  .btn-primary
+    +blueButton
+
+  .modal-header
+    background-color: $blueBrandColor
+
+  .price-detail-table
+    td.info
+      background-color: $lightBlueBrandColor
+
+  #variantPriceBody
+    .flight-detail-cont
+      .flight-detail
+        .segment-label-cell
+          color: $black
+
+/* ==== END Search result ==== */
+
+/* ============== Passengers ============= */
+
+#oxygenApp
+
+  .btn-default,
+  .btn-default:hover,
+  .btn-default:focus
+    background-color: $white
+    border-color: #b2b2b2
+    color: $black !important
+
+  #orderBlock
+    background-color: $blueBrandColor
+
+    .order-section
+      background-color: $lightBlueBrandColor !important
+
+      a.collapsed .caret
+        margin-top: 0
+        top: 14px
+
+      .order-section-head
+        .info,
+        label
+          color: $redBrandColor
+
+        .caret
+          border-width: 4px 4px 4px 4px
+          top: 16px
+
+  .order-section-head
+    background-color: $white !important
+    &:hover
+      background: $white !important
+      opacity: 1
+
+  #orderInfoFlights
+    .flight-detail-cont
+      label
+        color: $white
+      .info
+        color: $redBrandColor
+
+    .flight-detail-header
+      .tooltip-arrow
+        border-left-color: $blueBrandColor
+
+  #orderPriceBlock
+    background-color: $lightBlueBrandColor
+
+    .order-price-head
+      color: $white
+      .order-price-icon
+        svg *
+          fill: $white
+
+    .order-price-body
+      .order-price-detail
+        table td
+          .order-price-detail-icon svg *
+            fill: $blueBrandColor
+
+  #passengersForm
+    background-color: $lightBlueBrandColor
+
+    form.customer-form .customer-form-head .customer-icon svg *,
+    form.passenger-form .customer-form-head .customer-icon svg *,
+    form.customer-form .passenger-form-head .customer-icon svg *,
+    form.passenger-form .passenger-form-head .customer-icon svg *,
+    form.customer-form .customer-form-head .passenger-icon svg *,
+    form.passenger-form .customer-form-head .passenger-icon svg *,
+    form.customer-form .passenger-form-head .passenger-icon svg *,
+    form.passenger-form .passenger-form-head .passenger-icon svg *
+      fill: $white
+
+    form.customer-form .customer-form-head,
+    form.passenger-form .customer-form-head,
+    form.customer-form .passenger-form-head,
+    form.passenger-form .passenger-form-head
+      color: $white
+
+/* ============== END Passengers ========= */
+
+
+/* ==== extraServices ==== */
+
+#oxygenApp
+  #orderPriceBlock
+    .order-price-body
+      .order-price-detail
+        table
+          td.cell-ticket
+            .info-popup
+              svg *
+                fill: $blueBrandColor
+
+/* ==== END extraServices ==== */

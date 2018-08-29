@@ -1,0 +1,119 @@
+/* ==== Fonts ==== */
+/* ==== END Fonts ==== */
+/* ==== fonts ==== */
+/* ==== END fonts ==== */
+/* ==== search ==== */
+.orderSearchForm .item.item_peoples .col {
+  width: 50%; }
+
+.orderSearchForm .item.item_peoples .item__i {
+  width: 100%;
+  margin: 0; }
+
+.orderSearchForm .item.item_peoples .inp__i {
+  display: flex; }
+  .orderSearchForm .item.item_peoples .inp__i .inpCol:nth-child(1) {
+    flex: 1; }
+
+.flightTable > table > tbody > tr.headrow > td {
+  border: 1px solid #D8D8D8; }
+
+/* ==== END search ==== */
+.flightTable .infoBoxWrap {
+  top: -10px;
+  right: -40px; }
+  .flightTable .infoBoxWrap:hover {
+    cursor: pointer; }
+
+.flightTable .contentRow td:not(:first-child) a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .flightTable .contentRow td:not(:first-child) a:hover {
+    background: #FFEE02; }
+
+.searchSteps ol li.active:after {
+  border-color: #E6E6E6; }
+
+.searchSteps ol li:after {
+  border-color: #00ADC8; }
+
+.searchSteps ol li.prev:after {
+  border-color: #00ADC8;
+  pointer-events: none; }
+
+.searchSteps ol li a:hover {
+  color: #666666; }
+
+@media only screen and (max-width: 515px) {
+  .seatSelect .info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; } }
+
+.seatSelect .info ul li {
+  margin: 0;
+  padding: 10px 0 10px 30px;
+  clear: both; }
+  @media only screen and (max-width: 515px) {
+    .seatSelect .info ul li {
+      flex: 25%; } }
+  .seatSelect .info ul li span {
+    position: initial;
+    transform: translate(0, 0); }
+
+.seat-map-color-group-0,
+.seatMap .seat-map-color-group-0 {
+  background-color: #36a035; }
+
+.seat-map-color-group-1,
+.seatMap .seat-map-color-group-1 {
+  background-color: #72597f; }
+
+.seat-map-color-group-2,
+.seatMap .seat-map-color-group-2 {
+  background-color: #603a2e; }
+
+.seat-map-color-group-3,
+.seatMap .seat-map-color-group-3 {
+  background-color: #4e35a0; }
+
+.seat-map-color-group-4,
+.seatMap .seat-map-color-group-4 {
+  background-color: #a03536; }
+
+.seat-map-color-group-5,
+.seatMap .seat-map-color-group-5 {
+  background-color: #462e60; }
+
+.seatMap .planeBody__i table tr.wingsStart td:last-child .seat:after,
+.seatMap .planeBody__i table tr.wingsStart td:first-child .seat:after {
+  transform: rotate(40deg) skew(40deg);
+  height: 71px;
+  top: 23px;
+  right: -107px;
+  pointer-events: none; }
+
+.seatMap .planeBody__i table tr.wingsStart td:first-child .seat:after {
+  transform: rotate(-40deg) skew(-40deg);
+  left: -107px; }
+
+.seatMap .planeBody__i table tr.wingsEnd td:last-child .seat:after,
+.seatMap .planeBody__i table tr.wingsEnd td:first-child .seat:after {
+  height: 73px;
+  width: 59px;
+  top: -85px;
+  transform: none;
+  pointer-events: none; }
+
+.seatMap .planeBody__i table tr.wingsEnd td:first-child .seat:after {
+  left: -99px; }
+
+.seatMap .planeBody__i table tr.wingsEnd td:last-child .seat:after {
+  right: -98px;
+  left: initial; }

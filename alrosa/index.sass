@@ -1,0 +1,29 @@
+@import "variables"
+@import "mixins"
+@import "../common/mixins"
+
+
+/* ==== #31373 ==== */
+// 10
++changeHeight
++setTabletFullWidthAndHeight
+
+
+.chooseFlight__table__item__content.active .chooseFlight__table__item__content__link,
+.flightTable .contentRow td.active a
+  color: #ffffff
+
+.flightTable .contentRow td.active
+  .infoBoxWrap
+    color: #ffffff
+
+.passengersInfo input[type="text"],
+.passengersInfo input[type="password"],
+.passengersInfo input[type="tel"],
+.passengersInfo input[type="email"]
+  &:not([name="bonusCard"])
+    +placeholder
+      color: #ffffff
+
+/* ==== END #31373 ==== */
+

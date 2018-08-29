@@ -1,0 +1,82 @@
+@import "variables"
+@import "mixins"
+
+
+.flightTable table
+  > tbody
+    > tr
+      > td.firstCol
+        .sortingWrap
+          padding-right: 0
+          padding-left: 0
+
+
+/* ==== booking ==== */
+
+.radioBtn.all-plastic-card .customCheckbox input:checked+span:after
+  color: $redBrandColor
+
+/* ==== END booking ==== */
+  
+/* ==== popups ==== */
+
+.geo-warning
+  &__inner
+    border-color: $grayBrandColor
+  &__footer
+    .btn
+      &.is-blue
+        background: transparent
+        color: $grayBrandColor
+        font-family: inherit
+      &.is-yellow
+        background: $redBrandColor
+        &:hover
+          background: $secondRedBrandColor
+
+
+// popup geo
+.popup.popup_geo .popup__i__footer__buttons
+  display: flex
+  flex-direction: column
+  .btn
+    margin: 5px 0
+
+/* ==== END popups ==== */
+
+
+/* ==== #31373 ==== */
+
+// 68
+.flightTable .infoBoxWrap
+  +adaptivity(tablet)
+    position: initial
+
+.chooseResult__i .tariff__content__item, .searchResultsPlain__i .tariff__content__item
+  +adaptivity(phone)
+    flex: 50%
+
+// 69
+.selectedInfo__i .item__i
+  padding: 20px 25px
+
+
+// 70
+.seatSelect .seat.seat.active:after
+  transform: translate(2px, 2px)
+
+// 72
+.content-booking .icon_umbrella
+  background: $insuranceIcon center no-repeat
+  background-size: contain
+  width: 35px
+  height: 35px
+/* ==== END #31373 ==== */
+
+
+.roundTripDiscount__i
+  border-left: 3px solid #cd202c
+
+
+.insuranceSelect__i .passenger
+  background-color: #e8e8e8
