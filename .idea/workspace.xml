@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="229e10bd-30c3-4e12-8081-c3b6855d7f05" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aurora/index.css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/aurora/index.css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aurora/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/aurora/index.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-checkin" beforeDir="false" afterPath="$PROJECT_DIR$/web-checkin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-checkin/SeatMapClassifier.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-checkin/SeatMapClassifier.js" afterDir="false" />
     </list>
@@ -35,19 +38,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yamal/index.sass">
+        <entry file="file://$PROJECT_DIR$/aurora/index.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="1962">
+              <caret line="109" selection-start-line="109" selection-end-line="109" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/iraero/index.sass">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aurora/index.css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="468">
+              <caret line="86" selection-start-line="86" selection-end-line="86" />
             </state>
           </provider>
         </entry>
@@ -55,24 +58,10 @@
       <file leaf-file-name="_mixins.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/_mixins.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+            <state relative-caret-position="54">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_variables.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yamal/_variables.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_mixins.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yamal/_mixins.sass">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -98,6 +87,7 @@
       <find>&quot;checkinForm&quot;</find>
       <find>\{</find>
       <find>\{|;|\}</find>
+      <find>:not(.firstC</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -109,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/severstal-avia.ru/index.css/index.css" />
         <option value="$PROJECT_DIR$/pegasfly/websky/index.css/custom.css" />
         <option value="$PROJECT_DIR$/pegasfly/websky/index.css/custom-templates.js" />
         <option value="$PROJECT_DIR$/pegasfly/websky/index.css/custom.js" />
@@ -153,13 +142,14 @@
         <option value="$PROJECT_DIR$/pegasfly/index.sass" />
         <option value="$PROJECT_DIR$/nordavia/index.sass" />
         <option value="$PROJECT_DIR$/somonair/index.sass" />
-        <option value="$PROJECT_DIR$/common/_mixins.sass" />
         <option value="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.gitignore" />
         <option value="$PROJECT_DIR$/yamal/_variables.sass" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/yamal/index.sass" />
         <option value="$PROJECT_DIR$/iraero/_variables.sass" />
         <option value="$PROJECT_DIR$/iraero/index.sass" />
+        <option value="$PROJECT_DIR$/common/_mixins.sass" />
+        <option value="$PROJECT_DIR$/aurora/index.sass" />
       </list>
     </option>
   </component>
@@ -186,7 +176,7 @@
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="960" />
     <option name="y" value="27" />
-    <option name="width" value="950" />
+    <option name="width" value="930" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -205,7 +195,7 @@
             <path>
               <item name="websky" type="b2602c69:ProjectViewProjectNode" />
               <item name="websky" type="462c0819:PsiDirectoryNode" />
-              <item name="iraero" type="462c0819:PsiDirectoryNode" />
+              <item name="aurora" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="websky" type="b2602c69:ProjectViewProjectNode" />
@@ -237,11 +227,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aurora" />
       <recent name="$PROJECT_DIR$/iraero" />
       <recent name="$PROJECT_DIR$/yamal" />
       <recent name="$PROJECT_DIR$/somonair" />
       <recent name="$PROJECT_DIR$/ifly" />
-      <recent name="$PROJECT_DIR$/nordavia/web-checkin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pegasfly" />
@@ -345,15 +335,17 @@
       <workItem from="1535461230253" duration="818000" />
       <workItem from="1535464148896" duration="719000" />
       <workItem from="1535529398853" duration="3882000" />
-      <workItem from="1535538385361" duration="1135000" />
+      <workItem from="1535538385361" duration="10704000" />
+      <workItem from="1535616559367" duration="22000" />
+      <workItem from="1535620855792" duration="3000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236388000" />
+    <option name="totallyTimeSpent" value="245982000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="27" width="950" height="1053" extended-state="4" />
+    <frame x="960" y="27" width="940" height="1053" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.47263157" />
@@ -365,7 +357,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32343584" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31919405" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31919405" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -384,26 +376,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pegasfly/_pegas-variables.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nordwind/_variables.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="6304" selection-start-line="16" selection-start-column="6304" selection-end-line="16" selection-end-column="6304" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/severstal-avia.ru/index.css/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alrosa/_mixins.sass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/alrosa/_variables.sass">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -633,16 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yamal/_mixins.sass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yamal/_variables.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -655,13 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yamal/index.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iraero/_variables.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -669,17 +624,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/_mixins.sass">
+    <entry file="file://$PROJECT_DIR$/yamal/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iraero/index.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aurora/_mixins.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamal/_variables.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamal/_mixins.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aurora/_variables.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/_mixins.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aurora/index.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1962">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aurora/index.css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
         </state>
       </provider>
     </entry>

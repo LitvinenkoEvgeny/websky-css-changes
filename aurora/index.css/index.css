@@ -1,4 +1,109 @@
 /* ==== END changeHeightMixin in common/_mixins.sass ==== */
 /* ==== END equalize input height in passengers step ==== */
 /* ==== #31373 ==== */
+.pikaday-top__label {
+  color: #002C57; }
+
+.flightTable .timeTable tr td:first-child a {
+  line-height: initial; }
+
+.flightTable .contentRow td:not(.firstCol) a {
+  line-height: 59px; }
+
+.tooltip .tooltiptext {
+  padding: 10px; }
+  @media only screen and (min-width: 1440px) {
+    .tooltip .tooltiptext {
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%); } }
+  @media only screen and (max-width: 768px) {
+    .tooltip .tooltiptext {
+      position: fixed;
+      left: 50%;
+      transform: translate(-50%, 70%); } }
+
+.chooseFlight__table__item__columnTitle {
+  border-bottom: 1px solid #e6e6e6;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6; }
+  .chooseFlight__table__item__columnTitle .name a {
+    color: #666666;
+    font-size: 1.2em;
+    font-weight: bold; }
+
+.chooseFlight__table__item__content.active .chooseFlight__table__item__content__link {
+  background: #002C57;
+  color: #fff; }
+
+@media only screen and (max-width: 768px) {
+  .chooseFlight__table__item__content__link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; } }
+
+.chooseDate.mobileShow .chooseDate__i .item.active a, .chooseDate.mobileShow .chooseDate__i .item.active strong {
+  color: #fff; }
+
+.compareTabsWrap .tabsControl li a {
+  background: #ff9d25; }
+
+.remark_text {
+  top: 136px;
+  margin-right: 10px; }
+
+.mainNavMobile .item {
+  border-top: none; }
+
+.checkoutServices__i .list > .item.active .top .iconBox {
+  background: #002C57; }
+  .checkoutServices__i .list > .item.active .top .iconBox i {
+    color: #ffffff; }
+
+.checkoutServices__i .list > .item.active .top .name h2,
+.checkoutServices__i .list > .item.active .top .price h3 {
+  color: #ffffff; }
+
+@media only screen and (max-width: 515px) {
+  .checkoutServices__i .drop_mobile .passengersTable .route {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+.checkoutServices__i .passengersTable__link_select {
+  cursor: default; }
+  .checkoutServices__i .passengersTable__link_select:hover {
+    border-bottom-color: #1b75bc; }
+
+.seatInfo ul {
+  display: flex;
+  flex-direction: column; }
+  .seatInfo ul li {
+    margin: 5px 0; }
+
+.seatSelect .info ul li.rfiscs-seat-label {
+  padding-left: 20px; }
+
+.seatSelect .info ul li span {
+  position: relative;
+  top: 50%;
+  transform: translate(50%, 0); }
+
+.seatMap .planeBody__i table tr.atWing td:last-child > div:before,
+.seatMap .planeBody__i table tr.atWing td:last-child > div:before,
+.seatMap .planeBody__i table tr.wingsEnd td:last-child .seat:after,
+.seatMap .planeBody__i table tr.atWing td:first-child > div:before,
+.seatMap .planeBody__i table tr.atWing td:first-child > div:before,
+.seatMap .planeBody__i table tr.wingsEnd td:first-child .seat:after,
+.seatMap .planeBody__i table tr.wingsStart td:last-child .seat:after,
+.seatMap .planeBody__i table tr.wingsStart td:first-child .seat:after {
+  display: none; }
+
+.pay-logo {
+  display: none; }
+
 /* ==== END #31373 ==== */

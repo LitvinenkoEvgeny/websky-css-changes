@@ -2,10 +2,112 @@
 @import "mixins"
 @import "../common/mixins"
 
-
 /* ==== #31373 ==== */
 
+.pikaday-top__label
+  color: #002C57
 
+.flightTable .timeTable tr td:first-child a
+  line-height: initial
+
+.flightTable .contentRow td:not(.firstCol) a
+  line-height: 59px
+
+.tooltip
+  .tooltiptext
+    padding: 10px
+    +adaptivity(desktop)
+      position: fixed
+      left: 50%
+      top: 50%
+      transform: translate(-50%, -50%)
+    +adaptivity(tablet)
+      position: fixed
+      left: 50%
+      transform: translate(-50%, 70%)
+
+.chooseFlight__table__item__columnTitle
+  border-bottom: 1px solid #e6e6e6
+  border-left: 1px solid #e6e6e6
+  border-right: 1px solid #e6e6e6
+  .name
+    a
+      color: #666666
+      font-size: 1.2em
+      font-weight: bold
+      +adaptivity(phone)
+
+.chooseFlight__table__item__content.active .chooseFlight__table__item__content__link
+  background: #002C57
+  color: #fff
+
++setTabletFullWidthAndHeight
+
+.chooseDate.mobileShow .chooseDate__i .item.active
+  a, strong
+    color: #fff
+
+.compareTabsWrap .tabsControl li a
+  background: lighten(#F18500, 10%)
+
+.remark_text
+  top: 136px
+  margin-right: 10px
+
+.mainNavMobile .item
+  border-top: none
+
+.checkoutServices__i .list > .item.active .top
+  .iconBox
+    background: #002C57
+    i
+      color: #ffffff
+  .name h2,
+  .price h3
+    color: #ffffff
+
+.checkoutServices__i .drop_mobile .passengersTable .route
+  +adaptivity(phone)
+    display: flex
+    flex-direction: column
+    align-items: center
+
+.checkoutServices__i .passengersTable__link_select
+  cursor: default
+  &:hover
+    border-bottom-color: #1b75bc
+
+.seatInfo
+  ul
+    display: flex
+    flex-direction: column
+    li
+      margin: 5px 0
+
+.seatSelect .info
+  ul
+    li
+      &.rfiscs-seat-label
+        padding-left: 20px
+      span
+        position: relative
+        top: 50%
+        transform: translate(50%, 0)
+
+
+.seatMap .planeBody__i table tr.atWing td:last-child > div:before,
+.seatMap .planeBody__i table tr.atWing td:last-child > div:before,
+.seatMap .planeBody__i table tr.wingsEnd td:last-child .seat:after,
+.seatMap .planeBody__i table tr.atWing td:first-child > div:before,
+.seatMap .planeBody__i table tr.atWing td:first-child > div:before,
+.seatMap .planeBody__i table tr.wingsEnd td:first-child .seat:after,
+.seatMap .planeBody__i table tr.wingsStart td:last-child .seat:after,
+.seatMap .planeBody__i table tr.wingsStart td:first-child .seat:after
+  display: none
+
+.pay-logo
+  display: none
 
 /* ==== END #31373 ==== */
+
 
