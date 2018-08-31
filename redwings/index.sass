@@ -1,0 +1,26 @@
+@import "variables"
+@import "mixins"
+
+.btn.btn_back
+  color: #ffffff
+
+//.popup__i__footer__buttons
+  display: flex
+
+[ng-if="vm.step == 'REQUEST_FORM'"]
+  //.popup__i__inputBox__checkbox.customCheckbox label
+    width: 50%
+  .popup__i__footer__buttons
+    //display: flex
+    //height: 30px
+    width: 50%
+
+  .btn.btn_back
+    padding: 9px 15px 10px 35px
+    background: #b01c2e
+    &:hover
+      background: #9a1928
+
+  .btn.disabled
+    cursor: not-allowed
+
