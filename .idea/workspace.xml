@@ -53,8 +53,8 @@
       <file leaf-file-name="_prod-styles.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pegasfly/_prod-styles.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="821">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
+            <state relative-caret-position="155">
+              <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -347,16 +347,15 @@
       <workItem from="1535689618849" duration="6000" />
       <workItem from="1535691230530" duration="3535000" />
       <workItem from="1535701791381" duration="3204000" />
-      <workItem from="1535712784375" duration="6386000" />
+      <workItem from="1535712784375" duration="6746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269703000" />
+    <option name="totallyTimeSpent" value="270063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="960" height="1055" extended-state="4" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984127" weight="0.41666666" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -367,7 +366,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32169312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3164021" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3164021" />
       <window_info id="Favorites" order="2" sideWeight="0.50158733" side_tool="true" weight="0.41666666" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -675,8 +674,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pegasfly/_prod-styles.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="155">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
         </state>
       </provider>
     </entry>
