@@ -285,6 +285,22 @@ body {
     .seatMap .planeBody__i::after {
       display: none; }
 
+.seatSelect .info ul li.free span {
+  background-color: #01729c;
+  width: 18px;
+  height: 18px; }
+
+.seatInfo .emergency_exit::after {
+  background: #01729c;
+  width: 14px;
+  height: 14px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.seatInfo .emergency_exit::after, .seatMap .emergency_exit::after {
+  border-color: #ffffff; }
+
 .webRegistration .registration__passengers__seatMap .info-top {
   width: 100%;
   text-align: center; }
@@ -607,6 +623,10 @@ body {
       background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAASCAYAAACuLnWgAAABe0lEQVRIS7XUsUrDQBgH8P+XQwpBcVcUiiC+gjjUuR3FuPUSIgQs6As4+gIKFQKG3nUz4mad7SC+gggiKjorSqFIcpJgSq1VDptmCCH5vv/v7nIJQfMIw5B1Op0jABUALdM0Ny3LinTaSacoqWk0GmUiamX1SqmK4zjnOv3aiBDCAnDcF7ph23Y4MiKlXIzj2COidQBzQwIflVInhmH4nPOb38ChMwmCYIoxtgegBoBpjDZ5N/UoinZd130brP+BNJvNYhzHyVovaYQPllwbhlGuVqt3/Q++IUEQzDDGrgDM/wPIWh6iKFp2Xfc5u9FDvrZoG8DKCEDWemmaZinb4j1ESrmllKrnAKQRRFTjnB+m18nJ9/2JQqGQrONsXgiAp263W/Q87yNFBj+0vKDsg00RIcQ+gO28wvtyDmzb3slmckFEpbwRpVTbcZzVFJFSngJYyBsBcMs5X9P+d40yABJCnCmlJkcJ+auXiN4T5AXA9LgQAK8Jcj9u5BPEz4E4AvGguwAAAABJRU5ErkJggg==") no-repeat center bottom; }
     .foodSorting ul li:nth-child(3).active a:after {
       background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAASCAYAAAHZKUU2AAAABmJLR0QASADJAAAPvgU4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4gcaEAAXhSlddQAAAZ5JREFUOMu1k71LXEEUxX/3jbLwiIitHxGbkEZI4UdhkXrebiEssU4XML1/RRoLCyv/gCCk0LW2sJjNFgnbiI2YYGOTqGHgobM3Rd5bdten68b1wMAw98w5c8/MQBGsQ61DAcQ6fgPjWe0yZ1zkVc23RZ0a0imWzw+W/61Lb6GXAEC1GZtqMzZd+tax6b2/9d7fWscmgCR1WVfVra4DiHyUIo87R+0L61jLMlkrqnf2ega8fEDrx8Eysw9mcB+6snkyrGPHOnYGSed9Nu4PoNIwYyGEX4Dp4QRjzMTeQrhuO1QaZjKEcFVABjAhhKtKw0y2N4QQzvv1lXMkqUuiqvuPCUNEyhGwMUCAGwNHLoPcdles/dDbq4iUa0tae7JJUpdXwAdVfQfMFFB+ishnYLu2pCePNil/jeZarVYNeP0fr/c4iqJkf7F1WmhSbcbGe38IrAzhqxzFcfx2d96Htsnqt9JomqanwNTwviTnpVJp7sub9CYCSNP005ANAKYyXUaylzINfGf4mAZFrGNPRF7wTFDVPyPAvKqO83y4/Aty4JnL6JvUFQAAAABJRU5ErkJggg==") no-repeat center bottom; }
+    .foodSorting ul li:nth-child(4) a:after {
+      background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAAHXptwiAAAABmJLR0QASADJAAAPvgU4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4gcaDwwOWo1e9AAAA21JREFUSMe9ls+LHEUUxz81O5oYHWRsRxQUe8HksHvwMChBJOlD8McOJqcxgocqUHAR9ugloNPB3PwHRA9WHRY0czNMUGFhDKIe3IOHGXCXsJ0gS8i6Ad1oWIL7PHTXTM9mZrK7ZvOgeVXvW6++1a/fe12KubkDbDymbDT5vWmvHC8SBLdtNfwXgC/iTSUiOOeETArkRGutFKZxEK4AzwJXKNposgST1wFMoiYKwHXvIo3GVkFrrfL7KKK4CG0gypn7cyUijJMiMHDO4ccs3RBbrV4CPjTtlUuUbkjGHxWJoj4tbfxcIaKsc1u5Hf8CfjOJPjr2YMVRB/KBfHcE9o4P+5fA6Rzwldb6LUUcP9gzdVJla+GnJklmbRguAwsmSWbzONO9UEfF9DUrvbNZW5sBvs6mt421h/I4AHUAEQVkjyjiuNCfp6Eahd+RSjsVrbUq8D+k4HcBru7Q56rPUYUxBymVhI0N5bWNomPAOdNeOWajyeNmcbGdx70uEoZp3lwLhBAIAgE+Bxb4W20BnxEEhwfwDjAdSFYV2+TIqmJpSYiiLFOH4wrqEwBEa2mtVSpia7VbwAPZ0pPGtC7mcdbWFO2K/24NbOh+Al4ENoDSiGA9YZJkHYBGQ3wiZPmmQCRNAfw400Pwuxb62CbgnPsHeGiXfre01ocKwPIeSJd9hp3Zg/OZXnPbbWH49PSF8dQufHtre9F2zgXAH3dxfFxrvd5v2q/PHeCRa9LvL1mvufmkSu3TcHNd2dPVJWDBtFqztlZbHjYe598bZ3iRZza3WCxD1b/NKlCFMgKbqa28KsB7wDnK5dz4hACzwMepfZz/iexdU1xRPz8BzbQZNptpT1ybVlQ64s2Q2qwJnwc+Al7KrD8CZ02r9etO/Kl0xOu0Hqem0kJtNqFeh+6bYkP7CnAky8NfMv3oiO/3J3AYeAF4DlgyifmOqfOKbld6+3e7QqejqNdJieNYiGMFYMPwAjDDvZGWSZKTxA0hPqvyPAoRJTBQE0opJVnK+nHeNnilYE/+vhjngTfYf7mgtX67d4MBTgEP3wfiU9tvdPPcH5kfIG5p8z5weZ9JL2c822+TSjlnLwKv7QPpN1qbmf6vbsg11jn3NPAtMHUPCLvAq1rr3++ohnG/VefcUeAT4OVdkP0AfKC1/nncov8ALPmeEaa9pckAAAAASUVORK5CYII=") no-repeat center bottom; }
+    .foodSorting ul li:nth-child(4).active a:after {
+      background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAAHXptwiAAAABmJLR0QARwDGAACGstXUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4gcaDwkPUP2aJwAAA95JREFUSMe9ll9oW3UUxz/nJm3TtaWENNKBzj64PTSg4EgZ4mqE0fZmuD1IojCQioJl0BeZCILmju1NEEZf/PMiSEEXRKwkMYXO0omumwoKCaxlDxtSysoG2m41bZPjw703ue2yrJ2rBy6/8zvnd875/c7ve37nwuhoC8OpwNAlZhlOBcCyDHMWNWdRVEVUlfhlURwy8FC2T0Vsu+vAk8B15PAM4fYWbgLkcpZPzFnUa2Jk+1S8foSY5YdpIOYR1+aiqjQiP7Bpn/W32XFbh06Mzdy9w/szX6Rm6LitTvyYn1isFpZp3LmgKuZlqbjuFP4WuJrL6aGGG9t08K1kGAZv1lfwhqgqR6/Il6q8UnUnfJWJ6quCZTVXlxfsYfBt6+N83hqJm9Z8ucJUPm+NePVEqqmO+e1jhqt7G7iYjvuamXCm67l3Y3u8egASAKoCOJ8KlmXU5naq7qe/B0rbpWyfisF/IKMKAuHGdgxEuOFiVBgeDtDRoSwvizv2v/55f1szZ3OfpPpffO30Cz98Mzrt1bujn54eGzeLIaUHCIW0PcBn5QpT3JFKaxufEgrt9+opAJGQOlWxhQ4sCHNzSizmILW+XiDhAyC2ZNdaOKzmqfQq0ARQXuPY5OFE1qtnaUmYDrv3lmIoLj+L0oeyjNBRL1krJR67eMG6BUAqpS4QqqlE1YYALu+MdfQPLPSG1xaf5a5C646MYDXTp3sMhfmdRnRtDMPHezuGpWPzUIXhwtNwkrh32+f1rDUAMlFdDEDXgwwD0JWJ6mItceZoC+2LWntfnLdmpVtseQRWbkncGpsrV5jKf5QYiZ9Kz9fjG9lXeUfv54lShV+DcBBgL7AAHIQgCiVbFlzQ0hpvNTdzlmDQwx/RjfX0iK+JMwSD2sgejjhntfVC4rwP0vZjmE7bb+JSRAgX1BWDLRs4Yz1jNPGBCM85WPmptMbpC2OJ37djT7ig7mjXY2+vXajpNCQSUEzq4AADIhyowPzSOr90tzAPdN7nCv9aLLG/yyDq8/GUKnP5SSbpPS8Ui1r1XywqhYKQSDjdPpmsUCwqkYia+5ITpknZ8JETg3M+g2y33es7G2Cns7uFm/4mMmJwzvCRM03KQ/uS39r+E7Z/y1IiEaVYVEFVlM3tU0REnQfC5b2yLWX9UPZu5x1HeYndJuG7TFRPVP9gFI4Dbew+Hd/6RzfO/0PjmwK3RzmJcG2X03ytPcrJTXfsQuLoFbKqDD3ymML3mSjxWqur8xv78h/y+Oo/5IHeRxCz2Bpg8Oun9c97NtOorR77TQ5tbPAh8PwOgv3o9/POxLN6qdGifwE+TteLA2iknQAAAABJRU5ErkJggg==") no-repeat center bottom; }
 
 .food .item {
   padding-top: 15px; }
@@ -940,9 +960,14 @@ body {
         bottom: 120px;
         transform: translate(-52%, 0); } }
 
-@media only screen and (max-width: 515px) {
-  .webRegistration .btn_next {
-    margin-right: 0; } }
+.webRegistration__search__next {
+  display: flex; }
+
+.webRegistration .btn_next {
+  margin-left: auto; }
+  @media only screen and (max-width: 515px) {
+    .webRegistration .btn_next {
+      margin-right: 0; } }
 
 @media only screen and (max-width: 515px) {
   .webRegistration .btn_next {
@@ -1077,3 +1102,33 @@ body {
 
 .info__registration__condition {
   text-transform: uppercase; }
+
+#checkinForm .drop__i .col:last-child {
+  width: 100%; }
+
+[data-code^="specialLuggage"] .route .item .passenger .passenger_lnk {
+  position: relative; }
+
+[data-code^="specialLuggage"] .route .item .passenger.active .passenger_lnk {
+  background: transparent !important; }
+
+[data-code^="specialLuggage"] .route .item .passenger .price {
+  color: #000000; }
+
+[data-code^="specialLuggage"] .route .item .passenger .price,
+[data-code^="specialLuggage"] .route .item .passenger .choose {
+  position: absolute; }
+
+[data-code^="specialLuggage"] .route .item .passenger .choose {
+  left: 15px; }
+
+[data-code^="specialLuggage"] .route .item .passenger .price {
+  right: 15px; }
+  [data-code^="specialLuggage"] .route .item .passenger .price:before {
+    content: 'Страховой полис';
+    display: inline;
+    padding-right: 67%; }
+
+[data-code^="specialLuggage"] .route .item .passenger .name {
+  background: #e3f6fd;
+  padding: 20px 5px; }

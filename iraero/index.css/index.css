@@ -26,3 +26,19 @@
   padding-right: 10px; }
 
 /* ==== END #31373 ==== */
+/* ==== #39026 ==== */
+.item-insurance .infoBox {
+  display: none; }
+
+.text--insurance-popup {
+  white-space: pre-line; }
+
+.text--small {
+  font-size: .8em;
+  font-style: italic;
+  color: #000000; }
+
+.link {
+  color: #30abe8; }
+
+/* ==== END #39026 ==== */

@@ -46,3 +46,11 @@
   text-align: center; }
 
 /* ==== END #34598 ==== */
+/* ==== #39027 ==== */
+#preloader {
+  background: #ffffff; }
+
+.headerRight {
+  margin: 15px auto; }
+
+/* ==== END #39027 ==== */

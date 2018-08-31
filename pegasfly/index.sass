@@ -340,6 +340,30 @@ body
     &::after
       display: none
 
+.seatSelect .info ul li.free span
+  background-color: #01729c
+  width: 18px
+  height: 18px
+
+.seatInfo .emergency_exit
+  //&::before
+    background: red
+    content: ''
+    position: absolute
+    width: 20px
+    height: 15px
+    border-radius: 4px
+  &::after
+    background: #01729c
+    width: 14px
+    height: 14px
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+  //outline: solid 1px #01729c
+
+.seatInfo .emergency_exit::after, .seatMap .emergency_exit::after
+  border-color: $white
 
 // Легенда на всю ширину
 .webRegistration .registration__passengers__seatMap
@@ -708,6 +732,7 @@ body
       +setMealIcon(1, $allMealIcon, $allMealIconGreen)
       +setMealIcon(2, $chickenIcon, $chickenIconGreen)
       +setMealIcon(3, $meatIcon, $meatIconGreen)
+      +setMealIcon(4, $allMealIcon, $allMealIconGreen)
 
 .food
   .item
@@ -1165,9 +1190,13 @@ body
       transform: translate(-52%, 0)
 
 
-.webRegistration .btn_next
-  +adaptivity(phone)
-    margin-right: 0
+.webRegistration
+  &__search__next
+    display: flex
+  .btn_next
+    margin-left: auto
+    +adaptivity(phone)
+      margin-right: 0
 
 .webRegistration .btn_next
   +adaptivity(phone)
@@ -1413,3 +1442,4 @@ body
 // end of app.js
 
 
+@import "prod-styles"
