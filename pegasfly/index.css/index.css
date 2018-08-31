@@ -1121,8 +1121,11 @@ body {
 
 [data-code^="specialLuggage"] {
   /* Текст: страховой полис */ }
+  [data-code^="specialLuggage"] .route .item {
+    padding-bottom: 50px !important; }
   [data-code^="specialLuggage"] .route .item .passenger .passenger_lnk {
-    position: relative; }
+    position: relative;
+    border-bottom-color: transparent !important; }
   [data-code^="specialLuggage"] .route .item .passenger.active .passenger_lnk {
     background: transparent !important; }
   [data-code^="specialLuggage"] .route .item .passenger .price {
