@@ -1,21 +1,23 @@
 @import "variables"
 @import "mixins"
 
-.btn.btn_back
-  color: #ffffff
+[ng-if="vm.step == 'SELECT_PASSENGERS'"]
+  .btn.btn_back
+    color: #ffffff
+    padding: 12px 15px 12px 35px
 
-//.popup__i__footer__buttons
-  display: flex
+  .btn
+    &.disabled
+      cursor: not-allowed
+
+
 
 [ng-if="vm.step == 'REQUEST_FORM'"]
-  //.popup__i__inputBox__checkbox.customCheckbox label
-    width: 50%
   .popup__i__footer__buttons
-    //display: flex
-    //height: 30px
     width: 50%
 
   .btn.btn_back
+    color: #ffffff
     padding: 9px 15px 10px 35px
     background: #b01c2e
     &:hover

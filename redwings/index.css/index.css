@@ -1,10 +1,15 @@
-.btn.btn_back {
-  color: #ffffff; }
+[ng-if="vm.step == 'SELECT_PASSENGERS'"] .btn.btn_back {
+  color: #ffffff;
+  padding: 12px 15px 12px 35px; }
+
+[ng-if="vm.step == 'SELECT_PASSENGERS'"] .btn.disabled {
+  cursor: not-allowed; }
 
 [ng-if="vm.step == 'REQUEST_FORM'"] .popup__i__footer__buttons {
   width: 50%; }
 
 [ng-if="vm.step == 'REQUEST_FORM'"] .btn.btn_back {
+  color: #ffffff;
   padding: 9px 15px 10px 35px;
   background: #b01c2e; }
   [ng-if="vm.step == 'REQUEST_FORM'"] .btn.btn_back:hover {

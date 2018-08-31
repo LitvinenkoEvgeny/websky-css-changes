@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="229e10bd-30c3-4e12-8081-c3b6855d7f05" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/redwings/_mixins.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redwings/_variables.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redwings/index.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pegasfly/_prod-styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pegasfly/_prod-styles.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pegasfly/index.css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pegasfly/index.css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redwings/index.css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/redwings/index.css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redwings/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/redwings/index.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-checkin" beforeDir="false" afterPath="$PROJECT_DIR$/web-checkin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-checkin/SeatMapClassifier.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-checkin/SeatMapClassifier.js" afterDir="false" />
     </list>
@@ -74,8 +70,8 @@
       <file leaf-file-name="index.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/redwings/index.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="180">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -353,12 +349,12 @@
       <workItem from="1535689618849" duration="6000" />
       <workItem from="1535691230530" duration="3535000" />
       <workItem from="1535701791381" duration="3204000" />
-      <workItem from="1535712784375" duration="1470000" />
+      <workItem from="1535712784375" duration="1788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264787000" />
+    <option name="totallyTimeSpent" value="265105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="960" height="1055" extended-state="4" />
@@ -679,8 +675,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/redwings/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="180">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
