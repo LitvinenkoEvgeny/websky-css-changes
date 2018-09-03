@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="229e10bd-30c3-4e12-8081-c3b6855d7f05" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nordavia/index.css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/nordavia/index.css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nordavia/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/nordavia/index.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flyone/flyone.sass" beforeDir="false" afterPath="$PROJECT_DIR$/flyone/index.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-checkin" beforeDir="false" afterPath="$PROJECT_DIR$/web-checkin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-checkin/SeatMapClassifier.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-checkin/SeatMapClassifier.js" afterDir="false" />
     </list>
@@ -40,11 +38,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nordavia/index.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="857">
+            <state relative-caret-position="450">
               <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.sass" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flyone/index.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -336,28 +343,29 @@
       <workItem from="1535701791381" duration="3204000" />
       <workItem from="1535712784375" duration="6967000" />
       <workItem from="1535724856499" duration="524000" />
+      <workItem from="1535962591652" duration="1260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270808000" />
+    <option name="totallyTimeSpent" value="272068000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="25" width="960" height="1055" extended-state="4" />
+    <frame x="960" y="27" width="950" height="1053" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984127" weight="0.41145834" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984127" weight="0.4105263" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32169312" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31534392" />
-      <window_info id="Favorites" order="2" sideWeight="0.50158733" side_tool="true" weight="0.41666666" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31495228" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.50158733" side_tool="true" weight="0.41666666" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -374,9 +382,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nordavia/web-checkin/index.css/29710.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/alrosa/index.css/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -663,8 +668,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nordavia/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="857">
+        <state relative-caret-position="450">
           <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flyone/index.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
