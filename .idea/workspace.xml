@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="229e10bd-30c3-4e12-8081-c3b6855d7f05" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/flyone/flyone.sass" beforeDir="false" afterPath="$PROJECT_DIR$/flyone/index.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyone/_mixins.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flyone/_variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/flyone/_variables.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flyone/index.css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/flyone/index.css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flyone/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/flyone/index.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-checkin" beforeDir="false" afterPath="$PROJECT_DIR$/web-checkin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-checkin/SeatMapClassifier.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-checkin/SeatMapClassifier.js" afterDir="false" />
     </list>
@@ -47,11 +51,29 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="_variables.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flyone/_variables.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flyone/index.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="423">
+              <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_mixins.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flyone/_mixins.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -91,9 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pegasfly/websky/index.css/index.css" />
-        <option value="$PROJECT_DIR$/izhavia/icons/email-white.svg" />
-        <option value="$PROJECT_DIR$/pegasfly/websky/index.sass" />
         <option value="$PROJECT_DIR$/izhavia/index.css/index.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/nordavia/_variables.sass" />
@@ -142,6 +161,9 @@
         <option value="$PROJECT_DIR$/pegasfly/_pegas-variables.sass" />
         <option value="$PROJECT_DIR$/pegasfly/_prod-styles.sass" />
         <option value="$PROJECT_DIR$/nordavia/index.sass" />
+        <option value="$PROJECT_DIR$/flyone/_variables.sass" />
+        <option value="$PROJECT_DIR$/flyone/index.css/index.css" />
+        <option value="$PROJECT_DIR$/flyone/index.sass" />
       </list>
     </option>
   </component>
@@ -187,6 +209,17 @@
             <path>
               <item name="websky" type="b2602c69:ProjectViewProjectNode" />
               <item name="websky" type="462c0819:PsiDirectoryNode" />
+              <item name="flyone" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websky" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websky" type="462c0819:PsiDirectoryNode" />
+              <item name="flyone" type="462c0819:PsiDirectoryNode" />
+              <item name="index.css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websky" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websky" type="462c0819:PsiDirectoryNode" />
               <item name="nordavia" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -224,15 +257,15 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/pegasfly" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/flyone" />
       <recent name="$PROJECT_DIR$/redwings" />
       <recent name="$PROJECT_DIR$/aurora" />
       <recent name="$PROJECT_DIR$/iraero" />
       <recent name="$PROJECT_DIR$/yamal" />
-      <recent name="$PROJECT_DIR$/somonair" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pegasfly" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -343,12 +376,12 @@
       <workItem from="1535701791381" duration="3204000" />
       <workItem from="1535712784375" duration="6967000" />
       <workItem from="1535724856499" duration="524000" />
-      <workItem from="1535962591652" duration="1260000" />
+      <workItem from="1535962591652" duration="6259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272068000" />
+    <option name="totallyTimeSpent" value="277067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="27" width="950" height="1053" extended-state="4" />
@@ -360,10 +393,10 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32169312" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32131496" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31495228" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31495228" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" sideWeight="0.50158733" side_tool="true" weight="0.41666666" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -382,11 +415,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/alrosa/index.css/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html" />
-    <entry file="file://$PROJECT_DIR$/ifly/index.scss" />
     <entry file="file://$PROJECT_DIR$/gruzz/index.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -673,10 +701,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flyone/_variables.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flyone/_mixins.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flyone/index.css/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/flyone/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="423">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
         </state>
       </provider>
     </entry>
