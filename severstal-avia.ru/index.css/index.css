@@ -108,3 +108,12 @@
     align-items: center; } }
 
 /* ==== END #331373 ==== */
+/* ==== #35382 ==== */
+.pika-lendar__availability-highlight .pika-button.unavailable {
+  pointer-events: all;
+  cursor: pointer; }
+
+.pika-button.pika-day {
+  background-color: rgba(0, 93, 163, 0.5); }
+
+/* ==== END #35382 ==== */

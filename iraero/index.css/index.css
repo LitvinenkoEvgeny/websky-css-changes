@@ -3,7 +3,7 @@
 /* ==== #31373 ==== */
 .orderSearchForm .iata,
 .orderSearchForm .inpTo .iata {
-  right: 15px;
+  right: 30px;
   font-size: .9em; }
 
 @media only screen and (max-width: 768px) {
@@ -42,3 +42,9 @@
   color: #30abe8; }
 
 /* ==== END #39026 ==== */
+/* ==== #35382 ==== */
+.pika-lendar__availability-highlight .pika-button.unavailable {
+  pointer-events: all;
+  cursor: pointer; }
+
+/* ==== END #35382 ==== */

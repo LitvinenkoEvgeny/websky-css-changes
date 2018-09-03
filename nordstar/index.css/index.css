@@ -1,3 +1,5 @@
+/* ==== END changeHeightMixin in common/_mixins.sass ==== */
+/* ==== END equalize input height in passengers step ==== */
 /* ==== Booking ==== */
 .food {
   display: flex; }
@@ -27,3 +29,10 @@
 
 .passengersBlock_row-menu .item {
   flex: 50%; }
+
+/* ==== #35382 ==== */
+.pika-lendar__availability-highlight .pika-button.unavailable {
+  pointer-events: all;
+  cursor: pointer; }
+
+/* ==== END #35382 ==== */

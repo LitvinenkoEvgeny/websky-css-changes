@@ -46,3 +46,9 @@
   color: #ffffff; }
 
 /* ==== END #31373 ==== */
+/* ==== #35382 ==== */
+.pika-lendar__availability-highlight .pika-button.unavailable {
+  pointer-events: all;
+  cursor: pointer; }
+
+/* ==== END #35382 ==== */
