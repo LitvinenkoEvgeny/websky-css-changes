@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="229e10bd-30c3-4e12-8081-c3b6855d7f05" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pegasfly/_pegas-variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pegasfly/_pegas-variables.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pegasfly/_prod-styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pegasfly/_prod-styles.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pegasfly/index.css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pegasfly/index.css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nordavia/index.css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/nordavia/index.css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nordavia/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/nordavia/index.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-checkin" beforeDir="false" afterPath="$PROJECT_DIR$/web-checkin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-checkin/SeatMapClassifier.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-checkin/SeatMapClassifier.js" afterDir="false" />
     </list>
@@ -41,29 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pegasfly/index.sass">
+      <file leaf-file-name="index.sass" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nordavia/index.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="336" column="15" selection-start-line="336" selection-start-column="15" selection-end-line="336" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_prod-styles.sass" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pegasfly/_prod-styles.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_pegas-variables.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pegasfly/_pegas-variables.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="827">
-              <caret line="51" column="60017" selection-start-line="51" selection-start-column="60017" selection-end-line="51" selection-end-column="60017" />
+            <state relative-caret-position="857">
+              <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -148,12 +129,12 @@
         <option value="$PROJECT_DIR$/aurora/index.sass" />
         <option value="$PROJECT_DIR$/pegasfly/index.en.sass" />
         <option value="$PROJECT_DIR$/iraero/index.sass" />
-        <option value="$PROJECT_DIR$/nordavia/index.sass" />
         <option value="$PROJECT_DIR$/redwings/_variables.sass" />
         <option value="$PROJECT_DIR$/redwings/index.sass" />
         <option value="$PROJECT_DIR$/pegasfly/index.sass" />
         <option value="$PROJECT_DIR$/pegasfly/_pegas-variables.sass" />
         <option value="$PROJECT_DIR$/pegasfly/_prod-styles.sass" />
+        <option value="$PROJECT_DIR$/nordavia/index.sass" />
       </list>
     </option>
   </component>
@@ -178,9 +159,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="y" value="25" />
-    <option name="width" value="960" />
-    <option name="height" value="1055" />
+    <option name="x" value="960" />
+    <option name="y" value="27" />
+    <option name="width" value="950" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -194,6 +176,11 @@
             <path>
               <item name="websky" type="b2602c69:ProjectViewProjectNode" />
               <item name="websky" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websky" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websky" type="462c0819:PsiDirectoryNode" />
+              <item name="nordavia" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="websky" type="b2602c69:ProjectViewProjectNode" />
@@ -347,17 +334,19 @@
       <workItem from="1535689618849" duration="6000" />
       <workItem from="1535691230530" duration="3535000" />
       <workItem from="1535701791381" duration="3204000" />
-      <workItem from="1535712784375" duration="6746000" />
+      <workItem from="1535712784375" duration="6967000" />
+      <workItem from="1535724856499" duration="524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270063000" />
+    <option name="totallyTimeSpent" value="270808000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="960" height="1055" extended-state="4" />
+    <frame x="960" y="25" width="960" height="1055" extended-state="4" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984127" weight="0.41666666" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984127" weight="0.41145834" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -366,7 +355,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32169312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3164021" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31534392" />
       <window_info id="Favorites" order="2" sideWeight="0.50158733" side_tool="true" weight="0.41666666" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -638,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nordavia/index.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="54" column="15" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/redwings/index.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -658,6 +640,13 @@
     <entry file="file://$PROJECT_DIR$/redwings/_mixins.sass">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/pegasfly/_prod-styles.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pegasfly/index.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -667,15 +656,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pegasfly/_pegas-variables.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
+        <state relative-caret-position="825">
           <caret line="51" column="60017" selection-start-line="51" selection-start-column="60017" selection-end-line="51" selection-end-column="60017" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pegasfly/_prod-styles.sass">
+    <entry file="file://$PROJECT_DIR$/nordavia/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        <state relative-caret-position="857">
+          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
         </state>
       </provider>
     </entry>
