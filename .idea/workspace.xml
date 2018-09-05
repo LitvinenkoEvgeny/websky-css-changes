@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="229e10bd-30c3-4e12-8081-c3b6855d7f05" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/angara/index.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scat/index.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tajikarilines/index.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alrosa/index.css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/alrosa/index.css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alrosa/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/alrosa/index.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aurora/index.css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/aurora/index.css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aurora/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/aurora/index.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/_mixins.sass" beforeDir="false" afterPath="$PROJECT_DIR$/common/_mixins.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iraero/index.css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/iraero/index.css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iraero/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/iraero/index.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nordstar/index.css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/nordstar/index.css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nordstar/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/nordstar/index.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/severstal-avia.ru/index.css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/severstal-avia.ru/index.css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/severstal-avia.ru/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/severstal-avia.ru/index.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-checkin" beforeDir="false" afterPath="$PROJECT_DIR$/web-checkin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-checkin/SeatMapClassifier.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-checkin/SeatMapClassifier.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yamal/index.css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/yamal/index.css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yamal/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/yamal/index.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,92 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tajikarilines/index.sass">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nordstar/index.css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iraero/index.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="749">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yamal/index.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angara/index.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alrosa/index.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aurora/index.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="113" selection-start-line="113" selection-end-line="113" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scat/index.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_mixins.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/_mixins.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="724">
-              <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nordstar/index.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/severstal-avia.ru/index.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="677">
-              <caret line="109" column="12" lean-forward="true" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
+            <state relative-caret-position="256">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -220,7 +123,6 @@
         <option value="$PROJECT_DIR$/flyone/_variables.sass" />
         <option value="$PROJECT_DIR$/flyone/index.css/index.css" />
         <option value="$PROJECT_DIR$/flyone/index.sass" />
-        <option value="$PROJECT_DIR$/common/_mixins.sass" />
         <option value="$PROJECT_DIR$/yamal/index.sass" />
         <option value="$PROJECT_DIR$/tajikarilines/index.sass" />
         <option value="$PROJECT_DIR$/angara/index.sass" />
@@ -230,6 +132,7 @@
         <option value="$PROJECT_DIR$/severstal-avia.ru/index.sass" />
         <option value="$PROJECT_DIR$/scat/index.sass" />
         <option value="$PROJECT_DIR$/iraero/index.sass" />
+        <option value="$PROJECT_DIR$/common/_mixins.sass" />
       </list>
     </option>
   </component>
@@ -253,11 +156,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="960" />
-    <option name="y" value="27" />
-    <option name="width" value="960" />
-    <option name="height" value="1055" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="337" />
+    <option name="y" value="216" />
+    <option name="width" value="930" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -265,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,17 +178,13 @@
             <path>
               <item name="websky" type="b2602c69:ProjectViewProjectNode" />
               <item name="websky" type="462c0819:PsiDirectoryNode" />
-              <item name="scat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="websky" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websky" type="462c0819:PsiDirectoryNode" />
-              <item name="severstal-avia.ru" type="462c0819:PsiDirectoryNode" />
+              <item name="tajikarilines" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -426,18 +324,22 @@
       <workItem from="1535712784375" duration="6967000" />
       <workItem from="1535724856499" duration="524000" />
       <workItem from="1535962591652" duration="6546000" />
-      <workItem from="1535973130333" duration="5829000" />
+      <workItem from="1535973130333" duration="5905000" />
+      <workItem from="1535979395720" duration="55000" />
+      <workItem from="1536048293368" duration="207000" />
+      <workItem from="1536051676171" duration="74000" />
+      <workItem from="1536053201931" duration="432000" />
+      <workItem from="1536074696353" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="283183000" />
+    <option name="totallyTimeSpent" value="284029000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="27" width="960" height="1055" extended-state="4" />
-    <editor active="true" />
+    <frame x="960" y="27" width="940" height="1053" extended-state="4" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984127" weight="0.41041666" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984127" weight="0.4094737" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -446,7 +348,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32063493" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31428573" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31389183" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" sideWeight="0.50158733" side_tool="true" weight="0.41666666" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -465,13 +367,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rusline/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1389">
-          <caret line="5401" lean-forward="true" selection-start-line="5401" selection-end-line="5401" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ifly/_variables.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -573,13 +468,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bekair/OpenSkyIcons (with arrow seat)/Read Me.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/node-sass/src/libsass/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
@@ -709,17 +597,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nordstar/index.sass">
+    <entry file="file://$PROJECT_DIR$/node_modules/node-sass/src/libsass/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        <state relative-caret-position="702">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/_mixins.sass">
+    <entry file="file://$PROJECT_DIR$/severstal-avia.ru/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+        <state relative-caret-position="585">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
         </state>
       </provider>
     </entry>
@@ -732,7 +620,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aurora/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
+        <state relative-caret-position="855">
           <caret line="113" selection-start-line="113" selection-end-line="113" />
         </state>
       </provider>
@@ -747,7 +635,7 @@
     <entry file="file://$PROJECT_DIR$/angara/index.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -760,22 +648,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iraero/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="846">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tajikarilines/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
+        <state relative-caret-position="32">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/severstal-avia.ru/index.sass">
+    <entry file="file://$PROJECT_DIR$/nordstar/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="109" column="12" lean-forward="true" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
+        <state relative-caret-position="747">
+          <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/_mixins.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nordstar/index.css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

@@ -117,3 +117,5 @@
   background-color: rgba(0, 93, 163, 0.5); }
 
 /* ==== END #35382 ==== */
+.flightTable table > tbody > tr.headrow > td:not(:first-child) {
+  overflow: hidden; }
