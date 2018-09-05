@@ -39,8 +39,8 @@
   width: 100%;
   text-align: right; }
 
-.searchSteps ol li, .regSteps ol li,
-.searchSteps ol li.active, .regSteps ol li.active {
+.searchSteps.searchSteps_add ol li, .regSteps ol li,
+.searchSteps.searchSteps_add ol li.active, .regSteps ol li.active {
   width: 25%;
   padding: 13px 13px 15px 40px;
   white-space: nowrap; }
