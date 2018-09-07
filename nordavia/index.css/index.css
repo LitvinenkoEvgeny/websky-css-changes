@@ -1,3 +1,5 @@
+/* ==== END changeHeightMixin in common/_mixins.sass ==== */
+/* ==== END equalize input height in passengers step ==== */
 .seatSelect .seat:hover .seatName {
   z-index: 1; }
 
@@ -59,3 +61,9 @@
   margin-bottom: 20px; }
 
 /* ==== END #34307 ==== */
+/* ==== #35382 ==== */
+.pika-lendar__availability-highlight .pika-button.unavailable {
+  pointer-events: all;
+  cursor: pointer; }
+
+/* ==== END #35382 ==== */

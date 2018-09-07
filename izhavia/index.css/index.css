@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* ==== END changeHeightMixin in common/_mixins.sass ==== */
+/* ==== END equalize input height in passengers step ==== */
 /* ==== Fonts ==== */
 @font-face {
   font-family: 'museo500';
@@ -145,3 +147,10 @@
     .refundInfo {
       width: 100%;
       text-align: center; } }
+
+/* ==== #35382 ==== */
+.pika-lendar__availability-highlight .pika-button.unavailable {
+  pointer-events: all;
+  cursor: pointer; }
+
+/* ==== END #35382 ==== */

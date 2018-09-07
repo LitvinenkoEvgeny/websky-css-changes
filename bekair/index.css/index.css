@@ -1,3 +1,5 @@
+/* ==== END changeHeightMixin in common/_mixins.sass ==== */
+/* ==== END equalize input height in passengers step ==== */
 /* ==== Fonts ==== */
 /* ==== END Fonts ==== */
 /* ==== fonts ==== */
@@ -117,3 +119,10 @@
 .seatMap .planeBody__i table tr.wingsEnd td:last-child .seat:after {
   right: -98px;
   left: initial; }
+
+/* ==== #35382 ==== */
+.pika-lendar__availability-highlight .pika-button.unavailable {
+  pointer-events: all;
+  cursor: pointer; }
+
+/* ==== END #35382 ==== */

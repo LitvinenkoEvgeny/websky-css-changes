@@ -1,3 +1,5 @@
+/* ==== END changeHeightMixin in common/_mixins.sass ==== */
+/* ==== END equalize input height in passengers step ==== */
 .flightTable table > tbody > tr > td.firstCol .sortingWrap {
   padding-right: 0;
   padding-left: 0; }
@@ -55,3 +57,15 @@
 
 .insuranceSelect__i .passenger {
   background-color: #e8e8e8; }
+
+/* ==== #35382 ==== */
+.pika-lendar__availability-highlight .pika-button.unavailable {
+  pointer-events: all;
+  cursor: pointer; }
+
+/* ==== END #35382 ==== */
+/* ==== #39096 ==== */
+.flightTable .timeTable tr td.racenumber span:first-child {
+  margin-right: 10px; }
+
+/* ==== END #39096 ==== */
