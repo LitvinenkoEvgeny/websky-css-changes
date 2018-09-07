@@ -64,11 +64,3 @@
   cursor: pointer; }
 
 /* ==== END #35382 ==== */
-/* ==== #39096 ==== */
-.flightTable .timeTable tr td.racenumber span:first-child {
-  margin-right: 10px; }
-
-.chooseFlight__list__item__content__bottom__flightInfo span:first-child {
-  margin-right: 10px; }
-
-/* ==== END #39096 ==== */
