@@ -1,5 +1,70 @@
+@import "mixins"
 .process-bar
   &:after
     content: ''
     display: block
+
+/* ==== #38338 ==== */
+
+.header
+  &__inner, &__menu
+    +adaptivity(tablet)
+      padding: 0 10px
+  &__container
+    +adaptivity(tablet)
+      width: 100%
+  &-menu-content
+    flex-wrap: wrap
+  &__menu-list-wrapper
+    margin-top: 20px
+
+.header-menu
+  &__content
+    flex-wrap: wrap
+  &__list-wrapper
+    +adaptivity(tablet)
+      margin-bottom: 50px
+  &__extra
+    justify-content: space-between
+    +adaptivity(tablet)
+      height: 90px
+  &__extra-item
+    margin-right: 0
+    text-align: center
+    +adaptivity(tablet)
+      display: flex
+      flex-direction: column
+      align-items: center
+      font-size: .9em
+      svg
+        margin-right: 0
+
+footer
+  .container
+    width: 100%
+  +adaptivity(tablet)
+    padding: 0 10px
+
+.footer
+  &__under-row
+    flex-wrap: wrap
+  &__contacts
+    +adaptivity(tablet)
+      margin-top: 10px
+
+.social
+  &__list
+    flex-wrap: wrap
+    +adaptivity(tablet)
+      justify-content: space-between
+      margin-top: 20px
+  &__item
+    +adaptivity(tablet)
+      &:not(:last-of-type)
+        margin-right: 0
+
+body
+  min-width: 100%
+
+/* ==== END #38338 ==== */
 
