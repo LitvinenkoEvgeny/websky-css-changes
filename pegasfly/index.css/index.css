@@ -1179,13 +1179,23 @@ body {
   bottom: -18px; }
 
 /* ==== #39337 ==== */
+@media only screen and (max-width: 768px) {
+  .custom-footer-wrapper {
+    padding: 20px; } }
+
 .custom-footer__phones-and-faq {
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap; }
 
 .custom-footer__phone {
   display: flex;
   flex-direction: column;
   margin-right: 70px; }
+  @media only screen and (max-width: 768px) {
+    .custom-footer__phone {
+      flex: 50%;
+      margin-right: 0;
+      margin-bottom: 10px; } }
 
 .custom-footer__phone-header {
   font-size: .8em;
@@ -1199,6 +1209,12 @@ body {
 .custom-footer__faq {
   margin-left: auto;
   align-self: center; }
+  @media only screen and (max-width: 768px) {
+    .custom-footer__faq {
+      margin-left: 0;
+      margin-top: 10px;
+      align-self: center;
+      flex: 100%; } }
 
 .custom-footer__faq-link {
   color: rgba(255, 255, 255, 0.7);
@@ -1213,5 +1229,33 @@ body {
   border-radius: 50%;
   width: 20px;
   height: 20px; }
+
+.custom-header, .custom-footer {
+  width: 100%; }
+
+.custom-header {
+  margin-bottom: 100px; }
+  @media only screen and (max-width: 515px) {
+    .custom-header {
+      margin-bottom: 150px; }
+      .custom-header-menu > a {
+        text-align: center;
+        display: block; } }
+
+@media only screen and (max-width: 768px) {
+  .custom-nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px; } }
+
+@media only screen and (max-width: 515px) {
+  .custom-nav li {
+    margin: 5px 0;
+    flex: 50%; }
+    .custom-nav li:nth-child(5) {
+      flex: 0 0 50%; }
+    .custom-nav li:nth-child(6), .custom-nav li:nth-child(7) {
+      flex: 0;
+      margin-top: 10px; } }
 
 /* ==== END #39337 ==== */

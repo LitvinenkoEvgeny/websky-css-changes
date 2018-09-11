@@ -1426,12 +1426,21 @@ body
 /* ==== #39337 ==== */
 
 .custom-footer
+  &-wrapper
+    +adaptivity(tablet)
+      padding: 20px
   &__phones-and-faq
     display: flex
+    flex-wrap: wrap
+    +adaptivity(tablet)
   &__phone
     display: flex
     flex-direction: column
     margin-right: 70px
+    +adaptivity(tablet)
+      flex: 50%
+      margin-right: 0
+      margin-bottom: 10px
   &__phone-header
     font-size: .8em
     color: #d6d6d6
@@ -1442,6 +1451,11 @@ body
   &__faq
     margin-left: auto
     align-self: center
+    +adaptivity(tablet)
+      margin-left: 0
+      margin-top: 10px
+      align-self: center
+      flex: 100%
   &__faq-link
     color: rgba($white, .7)
     margin-left: 5px
@@ -1456,5 +1470,35 @@ body
     border-radius: 50%
     width: $iconSize
     height: $iconSize
+
+.custom-header, .custom-footer
+  width: 100%
+
+.custom-header
+  +adaptivity(tablet)
+  margin-bottom: 100px
+  +adaptivity(phone)
+    margin-bottom: 150px
+    &-menu
+      > a
+        text-align: center
+        display: block
+
+.custom-nav
+  +adaptivity(tablet)
+    display: flex
+    flex-wrap: wrap
+    margin-top: 30px
+  li
+    +adaptivity(phone)
+      margin: 5px 0
+      flex: 50%
+      &:nth-child(5)
+        flex: 0 0 50%
+
+      &:nth-child(6),
+      &:nth-child(7)
+        flex: 0
+        margin-top: 10px
 
 /* ==== END #39337 ==== */
