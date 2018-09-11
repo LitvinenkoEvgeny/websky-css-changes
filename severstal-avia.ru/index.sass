@@ -28,12 +28,10 @@
           &:after
             color: $redBrandColor
 
-
 .radioBtn
   input:checked
     + span:after
       background-color: $redBrandColor
-
 
 .flightTable
   .contentRow
@@ -41,13 +39,11 @@
       wrap > a
         padding: 44px 10px
 
-
 .passengerInfo tbody tr:nth-child(2) td:nth-child(3) .infoTooltip
   white-space: pre
   bottom: 100%
   display: flex
   align-items: center
-
 
 .passengersInfo
   input[name="lastName"],
@@ -75,6 +71,7 @@
 // 7
 .flightTable .contentRow td:not(.firstCol) wrap > a
   background-color: #ffffff
+
 .flightTable .contentRow td:not(.firstCol) wrap > a:hover
   background-color: #ffffff
 
@@ -119,3 +116,25 @@ $calendarWeekEndColor: rgba($blueBrandColor, .7)
 
 // ============== END #38161 comment #17 =========
 
+/* ==== #38161 ==== */
+
+.flightTable .contentRow td:not(.firstCol) wrap > a,
+.chooseFlight__table__item__content.active .chooseFlight__table__item__content__link
+  display: flex
+  justify-content: center
+  align-items: center
+
+  input
+    -webkit-appearance: radio
+    -moz-appearance: radio
+    appearance: radio
+    margin-right: 10px
+
+.flightTable .contentRow td.active a wrap:before
+  display: none
+
+.chooseFlight__table__item__content.active .chooseFlight__table__item__content__link > span:before,
+.chooseFlight__table__item__content.active .chooseFlight__table__item__content__link > wrap:before
+  display: none
+
+/* ==== END #38161 ==== */

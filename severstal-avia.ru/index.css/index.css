@@ -119,3 +119,25 @@
 /* ==== END #35382 ==== */
 .flightTable table > tbody > tr.headrow > td:not(:first-child) {
   overflow: hidden; }
+
+/* ==== #38161 ==== */
+.flightTable .contentRow td:not(.firstCol) wrap > a,
+.chooseFlight__table__item__content.active .chooseFlight__table__item__content__link {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .flightTable .contentRow td:not(.firstCol) wrap > a input,
+  .chooseFlight__table__item__content.active .chooseFlight__table__item__content__link input {
+    -webkit-appearance: radio;
+    -moz-appearance: radio;
+    appearance: radio;
+    margin-right: 10px; }
+
+.flightTable .contentRow td.active a wrap:before {
+  display: none; }
+
+.chooseFlight__table__item__content.active .chooseFlight__table__item__content__link > span:before,
+.chooseFlight__table__item__content.active .chooseFlight__table__item__content__link > wrap:before {
+  display: none; }
+
+/* ==== END #38161 ==== */
