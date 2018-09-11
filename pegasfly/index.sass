@@ -1487,9 +1487,13 @@ body
 .custom-nav
   +adaptivity(tablet)
     display: flex
+    margin-top: 20px
+    flex-wrap: nowrap
+  +adaptivity(phone)
     flex-wrap: wrap
-    margin-top: 30px
   li
+    +adaptivity(tablet)
+    margin-bottom: 15px
     +adaptivity(phone)
       margin: 5px 0
       flex: 50%

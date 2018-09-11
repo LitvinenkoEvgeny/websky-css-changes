@@ -1245,17 +1245,23 @@ body {
 @media only screen and (max-width: 768px) {
   .custom-nav {
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 30px; } }
+    margin-top: 20px;
+    flex-wrap: nowrap; } }
 
 @media only screen and (max-width: 515px) {
-  .custom-nav li {
-    margin: 5px 0;
-    flex: 50%; }
-    .custom-nav li:nth-child(5) {
-      flex: 0 0 50%; }
-    .custom-nav li:nth-child(6), .custom-nav li:nth-child(7) {
-      flex: 0;
-      margin-top: 10px; } }
+  .custom-nav {
+    flex-wrap: wrap; } }
+
+.custom-nav li {
+  margin-bottom: 15px; }
+  @media only screen and (max-width: 515px) {
+    .custom-nav li {
+      margin: 5px 0;
+      flex: 50%; }
+      .custom-nav li:nth-child(5) {
+        flex: 0 0 50%; }
+      .custom-nav li:nth-child(6), .custom-nav li:nth-child(7) {
+        flex: 0;
+        margin-top: 10px; } }
 
 /* ==== END #39337 ==== */
