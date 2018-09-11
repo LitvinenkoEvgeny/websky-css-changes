@@ -1472,12 +1472,13 @@ body
 
 .custom-header, .custom-footer
   width: 100%
+  max-width: 962px
 
 .custom-header
   +adaptivity(tablet)
-  margin-bottom: 100px
+  margin-bottom: 20px
   +adaptivity(phone)
-    margin-bottom: 150px
+    margin-bottom: 50px
     &-menu
       > a
         text-align: center
@@ -1486,8 +1487,9 @@ body
 .custom-nav
   +adaptivity(tablet)
     display: flex
-    margin-top: 20px
     flex-wrap: nowrap
+    margin: 20px auto 0
+    float: none
   +adaptivity(phone)
     flex-wrap: wrap
   li
@@ -1503,6 +1505,14 @@ body
       &:nth-child(7)
         flex: 0
         margin-top: 10px
+    a
+      padding-right: 0
+
+  &-active-language:after
+    left: 10px
+    top: -5px
+    width: 40px
+    height: 25px
 
 /* ==== END #39337 ==== */
 
