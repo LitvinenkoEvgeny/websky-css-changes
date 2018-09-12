@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .process-bar:after {
   content: '';
   display: block; }
@@ -72,3 +73,52 @@ body {
   min-width: 100%; }
 
 /* ==== END #38338 ==== */
+/* ==== Исправление блока доп. услуг ==== */
+@media only screen and (max-width: 768px) {
+  #checkinForm .list > .item .mobileShow .top table td {
+    background: #cd202c; } }
+
+@media only screen and (max-width: 768px) {
+  #checkinForm .list > .item .mobileShow .top table td:first-child {
+    background: #bd0707; } }
+
+@media only screen and (max-width: 768px) {
+  #checkinForm .list > .item .mobileShow .top table tr td:last-of-type {
+    padding-right: 20px; } }
+
+@media only screen and (max-width: 768px) {
+  #checkinForm .list > .item .top .name {
+    position: relative; } }
+
+@media only screen and (max-width: 768px) {
+  #checkinForm .list > .item .top .name i {
+    right: -10px; } }
+
+@media only screen and (max-width: 768px) {
+  #checkinForm .list .item .row {
+    background-color: #ffffff; } }
+
+#checkinForm .route .item .passenger.active .passenger_lnk {
+  background: rgba(73, 90, 102, 0.05); }
+  #checkinForm .route .item .passenger.active .passenger_lnk:before {
+    border-left-color: rgba(73, 90, 102, 0.05); }
+  @media only screen and (max-width: 515px) {
+    #checkinForm .route .item .passenger.active .passenger_lnk {
+      background: rgba(73, 90, 102, 0.05); } }
+
+#checkinForm .route .item .passenger table td .name {
+  color: #000000;
+  font-weight: 300; }
+
+#checkinForm .route .item .passenger table td .choose {
+  display: none; }
+
+.foodSlider .list__i .item.active a {
+  background: #cd202c;
+  color: #ffffff; }
+  .foodSlider .list__i .item.active a .name p,
+  .foodSlider .list__i .item.active a .description p {
+    color: #ffffff;
+    font-weight: 500; }
+
+/* ==== END Исправление блока доп. услуг ==== */

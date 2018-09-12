@@ -1,4 +1,6 @@
 @import "mixins"
+@import "variables"
+
 .process-bar
   &:after
     content: ''
@@ -69,3 +71,53 @@ body
 
 /* ==== END #38338 ==== */
 
+/* ==== Исправление блока доп. услуг ==== */
+
+#checkinForm .list > .item .mobileShow .top table td
+  +adaptivity(tablet)
+    background: $redBrandColor
+
+#checkinForm .list > .item .mobileShow .top table td:first-child
+  +adaptivity(tablet)
+    background: #bd0707
+
+#checkinForm .list > .item .mobileShow .top table tr td:last-of-type
+  +adaptivity(tablet)
+    padding-right: 20px
+
+#checkinForm .list > .item .top .name
+  +adaptivity(tablet)
+    position: relative
+
+#checkinForm .list > .item .top .name i
+  +adaptivity(tablet)
+    right: -10px
+
+#checkinForm .list .item .row
+  +adaptivity(tablet)
+    background-color: #ffffff
+
+#checkinForm .route .item .passenger.active .passenger_lnk
+  background: rgba(73, 90, 102, 0.05)
+  &:before
+    border-left-color: rgba(73, 90, 102, 0.05)
+  +adaptivity(phone)
+    background: rgba(73, 90, 102, 0.05)
+
+#checkinForm .route .item .passenger table td .name
+  color: $black
+  font-weight: 300
+
+#checkinForm .route .item .passenger table td .choose
+  display: none
+
+.foodSlider .list__i .item.active a
+  background: $redBrandColor
+  color: $white
+  .name,
+  .description
+    p
+      color: $white
+      font-weight: 500
+
+/* ==== END Исправление блока доп. услуг ==== */
