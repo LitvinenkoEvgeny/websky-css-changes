@@ -23,8 +23,8 @@
       <file leaf-file-name="index.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/severstal-avia.ru/index.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="859">
-              <caret line="133" column="21" selection-start-line="133" selection-start-column="21" selection-end-line="133" selection-end-column="21" />
+            <state relative-caret-position="672">
+              <caret line="170" column="90" selection-start-line="170" selection-start-column="90" selection-end-line="170" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -214,12 +214,13 @@
       <workItem from="1536671874972" duration="112000" />
       <workItem from="1536679344453" duration="1022000" />
       <workItem from="1536680661734" duration="186000" />
-      <workItem from="1536681849880" duration="246000" />
+      <workItem from="1536681849880" duration="730000" />
+      <workItem from="1536737406110" duration="3478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1875000" />
+    <option name="totallyTimeSpent" value="5837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="27" width="960" height="1053" extended-state="0" />
@@ -231,12 +232,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31746033" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31707317" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30646873" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3058201" />
       <window_info id="Favorites" order="2" sideWeight="0.50158733" side_tool="true" weight="0.41666666" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -570,8 +571,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/severstal-avia.ru/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="133" column="21" selection-start-line="133" selection-start-column="21" selection-end-line="133" selection-end-column="21" />
+        <state relative-caret-position="672">
+          <caret line="170" column="90" selection-start-line="170" selection-start-column="90" selection-end-line="170" selection-end-column="90" />
         </state>
       </provider>
     </entry>

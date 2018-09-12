@@ -121,23 +121,69 @@
   overflow: hidden; }
 
 /* ==== #38161 ==== */
-.flightTable .contentRow td:not(.firstCol) wrap > a,
-.chooseFlight__table__item__content.active .chooseFlight__table__item__content__link {
+.flightTable .contentRow td:not(.firstCol) wrap > a {
   display: flex;
   justify-content: center;
   align-items: center; }
-  .flightTable .contentRow td:not(.firstCol) wrap > a input,
-  .chooseFlight__table__item__content.active .chooseFlight__table__item__content__link input {
-    -webkit-appearance: radio;
-    -moz-appearance: radio;
-    appearance: radio;
-    margin-right: 10px; }
+
+.flightTable .contentRow td a wrap {
+  position: relative; }
+
+.flightTable .contentRow td a wrap:before {
+  content: '';
+  display: inline-block;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #666;
+  margin-right: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+  position: absolute;
+  left: -25px; }
 
 .flightTable .contentRow td.active a wrap:before {
-  display: none; }
+  content: ''; }
 
-.chooseFlight__table__item__content.active .chooseFlight__table__item__content__link > span:before,
-.chooseFlight__table__item__content.active .chooseFlight__table__item__content__link > wrap:before {
-  display: none; }
+.flightTable .contentRow td.active a wrap:after {
+  content: '';
+  border-radius: 50%;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #005da3;
+  left: -22px;
+  top: 6px;
+  position: absolute; }
+
+.chooseFlight__table__item__content .chooseFlight__table__item__content__link > span {
+  position: relative; }
+  .chooseFlight__table__item__content .chooseFlight__table__item__content__link > span:before {
+    content: '';
+    display: inline-block;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #666;
+    margin-right: 5px;
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
+    left: -25px; }
+
+.chooseFlight__table__item__content.active .chooseFlight__table__item__content__link > span {
+  position: relative; }
+  .chooseFlight__table__item__content.active .chooseFlight__table__item__content__link > span:before {
+    content: ''; }
+  .chooseFlight__table__item__content.active .chooseFlight__table__item__content__link > span:after {
+    content: '';
+    border-radius: 50%;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #005da3;
+    left: -22px;
+    top: 6px;
+    position: absolute; }
 
 /* ==== END #38161 ==== */
