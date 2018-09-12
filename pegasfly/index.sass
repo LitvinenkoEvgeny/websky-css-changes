@@ -1516,4 +1516,38 @@ body
 
 /* ==== END #39337 ==== */
 
+/* ==== #39342 ==== */
+
+#screenLocker
+  background: rgba(#e7f2f3, .6)
+
+.process-bar
+  width: 300px
+  background: $pegasLogoBlueText no-repeat center
+  background-size: 80%
+
+
+  &:before,
+  &:after
+    content: ''
+    position: absolute
+    bottom: -10px
+    left: 0
+    height: 3px
+    border-radius: 2px
+
+  &:before
+    background: #dddddd
+    width: 100%
+
+
+  &:after
+    background: #4aca00
+    animation: loader both infinite ease-in-out .5s
+
+  &__ball
+    display: none
+
+/* ==== END #39342 ==== */
+
 @import "prod-styles"
