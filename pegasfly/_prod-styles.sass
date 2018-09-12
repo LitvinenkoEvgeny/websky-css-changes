@@ -51,6 +51,12 @@
       left: 0
       top: 84px
       @extend %button
+      +adaptivity(phone)
+        top: 130px
+        left: 50%
+        transform: translate(-50%, 0)
+        width: 100%
+        text-align: center
 
     .price
       right: 0
@@ -79,12 +85,13 @@
       transform: translate(-50%, 0)
       +adaptivity(tablet)
         bottom: 0
+      +adaptivity(phone)
+        left: 65px
 
 /* remove shadow in luggage */
 #checkinForm .route .item .passenger.active .passenger_lnk,
 #checkinForm .route .item .passenger:first-child .passenger_lnk
   box-shadow: none
-
 
 .planeBody__i
   background-image: $seatMapSkinWitoutWings

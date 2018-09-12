@@ -1526,7 +1526,6 @@ body
   background: $pegasLogoBlueText no-repeat center
   background-size: 80%
 
-
   &:before,
   &:after
     content: ''
@@ -1540,7 +1539,6 @@ body
     background: #dddddd
     width: 100%
 
-
   &:after
     background: #4aca00
     animation: loader both infinite ease-in-out .5s
@@ -1549,5 +1547,101 @@ body
     display: none
 
 /* ==== END #39342 ==== */
+
+
+/* ==== Слетевшие стили fix ==== */
+
+.webRegistration__searchResults .info__arrDate,
+.webRegistration__searchResults .info__flight,
+.webRegistration__searchResults .info__registration
+  padding-top: 0
+
+#newSearchForm
+  .webRegistration__searchForm
+    margin-left: 0
+  .fields
+    padding-left: 160px
+    +adaptivity(phone)
+      padding-left: 0
+  .inp
+    width: 32%
+    +adaptivity(tablet)
+      width: 33%
+
+#newSearchForm .webRegistration__search__next .search-btn
+  right: 20px
+  width: 22%
+  +adaptivity(tablet)
+    width: percent(140, 708)
+  +adaptivity(phone)
+    width: percent(230, 355)
+
+.webRegistration__searchResults .info
+  display: flex
+  flex-direction: column
+
+.info
+  +adaptivity(phone)
+    &__registration
+      order: 1
+    &__flight
+      order: 3
+    &__arrDate
+      order: 2
+  +adaptivity(tablet)
+    .info__tip
+      bottom: auto
+      top: 30px !important
+
+.content .wrap.wrap_pt32
+  +adaptivity(phone)
+    padding-bottom: 200px
+
+.webRegistration__searchForm
+  +adaptivity(tablet)
+    margin-left: 0
+
+.webRegistration .inp
+  width: 40%
+  +adaptivity(phone)
+    width: 100%
+
+.webRegistration .registration__info__table .route_item .route_container .route_table .arr__date
+  padding-right: 50px
+
+.webRegistration .registration__passengers .box__i .col:last-child
+  +adaptivity(tablet)
+  margin-top: 0px
+
+.seatSelect
+  .seatInfo
+    +adaptivity(tablet)
+      position: relative
+      top: -25px
+    +adaptivity(phone)
+      top: -10px
+  .selected-seat-number
+    +adaptivity(tablet)
+      position: relative
+      top: -90px
+    +adaptivity(phone)
+      top: -130px
+
+.planeBody__i
+  +adaptivity(phone)
+    background-position: -20px top
+    background-size: 110% 100%
+    width: 100% !important
+    left: -10px
+
+#checkinForm .route
+  +adaptivity(phone)
+    padding-bottom: 80px
+
+#checkinForm .route .item .passenger.selected-passenger-item:before
+  +adaptivity(tablet)
+    display: none
+
+/* ==== END Слетевшие стили fix ==== */
 
 @import "prod-styles"

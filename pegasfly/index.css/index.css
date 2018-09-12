@@ -1235,6 +1235,108 @@ body {
     display: none; }
 
 /* ==== END #39342 ==== */
+/* ==== Слетевшие стили fix ==== */
+.webRegistration__searchResults .info__arrDate,
+.webRegistration__searchResults .info__flight,
+.webRegistration__searchResults .info__registration {
+  padding-top: 0; }
+
+#newSearchForm .webRegistration__searchForm {
+  margin-left: 0; }
+
+#newSearchForm .fields {
+  padding-left: 160px; }
+  @media only screen and (max-width: 515px) {
+    #newSearchForm .fields {
+      padding-left: 0; } }
+
+#newSearchForm .inp {
+  width: 32%; }
+  @media only screen and (max-width: 768px) {
+    #newSearchForm .inp {
+      width: 33%; } }
+
+#newSearchForm .webRegistration__search__next .search-btn {
+  right: 20px;
+  width: 22%; }
+  @media only screen and (max-width: 768px) {
+    #newSearchForm .webRegistration__search__next .search-btn {
+      width: 19.77401%; } }
+  @media only screen and (max-width: 515px) {
+    #newSearchForm .webRegistration__search__next .search-btn {
+      width: 64.78873%; } }
+
+.webRegistration__searchResults .info {
+  display: flex;
+  flex-direction: column; }
+
+@media only screen and (max-width: 515px) {
+  .info__registration {
+    order: 1; }
+  .info__flight {
+    order: 3; }
+  .info__arrDate {
+    order: 2; } }
+
+@media only screen and (max-width: 768px) {
+  .info .info__tip {
+    bottom: auto;
+    top: 30px !important; } }
+
+@media only screen and (max-width: 515px) {
+  .content .wrap.wrap_pt32 {
+    padding-bottom: 200px; } }
+
+@media only screen and (max-width: 768px) {
+  .webRegistration__searchForm {
+    margin-left: 0; } }
+
+.webRegistration .inp {
+  width: 40%; }
+  @media only screen and (max-width: 515px) {
+    .webRegistration .inp {
+      width: 100%; } }
+
+.webRegistration .registration__info__table .route_item .route_container .route_table .arr__date {
+  padding-right: 50px; }
+
+.webRegistration .registration__passengers .box__i .col:last-child {
+  margin-top: 0px; }
+
+@media only screen and (max-width: 768px) {
+  .seatSelect .seatInfo {
+    position: relative;
+    top: -25px; } }
+
+@media only screen and (max-width: 515px) {
+  .seatSelect .seatInfo {
+    top: -10px; } }
+
+@media only screen and (max-width: 768px) {
+  .seatSelect .selected-seat-number {
+    position: relative;
+    top: -90px; } }
+
+@media only screen and (max-width: 515px) {
+  .seatSelect .selected-seat-number {
+    top: -130px; } }
+
+@media only screen and (max-width: 515px) {
+  .planeBody__i {
+    background-position: -20px top;
+    background-size: 110% 100%;
+    width: 100% !important;
+    left: -10px; } }
+
+@media only screen and (max-width: 515px) {
+  #checkinForm .route {
+    padding-bottom: 80px; } }
+
+@media only screen and (max-width: 768px) {
+  #checkinForm .route .item .passenger.selected-passenger-item:before {
+    display: none; } }
+
+/* ==== END Слетевшие стили fix ==== */
 @keyframes loader {
   from {
     width: 0; }
@@ -1275,6 +1377,13 @@ body {
   [data-code^="specialLuggage"] .route .item .passenger .choose {
     left: 0;
     top: 84px; }
+    @media only screen and (max-width: 515px) {
+      [data-code^="specialLuggage"] .route .item .passenger .choose {
+        top: 130px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 100%;
+        text-align: center; } }
   [data-code^="specialLuggage"] .route .item .passenger .price {
     right: 0;
     top: 94px; }
@@ -1300,6 +1409,9 @@ body {
       @media only screen and (max-width: 768px) {
         [data-code^="specialLuggage"] .serviceSelect table tr:before {
           bottom: 0; } }
+      @media only screen and (max-width: 515px) {
+        [data-code^="specialLuggage"] .serviceSelect table tr:before {
+          left: 65px; } }
 
 /* remove shadow in luggage */
 #checkinForm .route .item .passenger.active .passenger_lnk,
