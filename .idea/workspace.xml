@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04053ab9-ca55-4eac-be3a-da8761111c39" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/rusline/index.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aeroflot/_variables.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aeroflot/index.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/_variables.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/_mixins.sass" beforeDir="false" afterPath="$PROJECT_DIR$/common/_mixins.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-checkin" beforeDir="false" afterPath="$PROJECT_DIR$/web-checkin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-checkin/SeatMapClassifier.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-checkin/SeatMapClassifier.js" afterDir="false" />
     </list>
@@ -32,45 +35,27 @@
     <favorites_list name="websky" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nordwind/checkin/index.sass">
+    <leaf>
+      <file leaf-file-name="index.sass" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aeroflot/index.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
-              <caret line="118" column="4" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rusline/custom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="3556" column="4" selection-start-line="3556" selection-start-column="4" selection-end-line="3556" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rusline/index.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rusline/index.css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="576">
+              <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="_variables.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nordwind/checkin/_variables.sass">
+        <entry file="file://$PROJECT_DIR$/aeroflot/_variables.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variables.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/_variables.sass">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -99,6 +84,10 @@
         <option value="$PROJECT_DIR$/pegasfly/ImgUrlReplace.js" />
         <option value="$PROJECT_DIR$/nordwind/checkin/index.sass" />
         <option value="$PROJECT_DIR$/rusline/index.sass" />
+        <option value="$PROJECT_DIR$/common/_mixins.sass" />
+        <option value="$PROJECT_DIR$/common/_variables.sass" />
+        <option value="$PROJECT_DIR$/aeroflot/_variables.sass" />
+        <option value="$PROJECT_DIR$/aeroflot/index.sass" />
       </list>
     </option>
   </component>
@@ -139,18 +128,7 @@
             <path>
               <item name="websky" type="b2602c69:ProjectViewProjectNode" />
               <item name="websky" type="462c0819:PsiDirectoryNode" />
-              <item name="nordwind" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="websky" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websky" type="462c0819:PsiDirectoryNode" />
-              <item name="nordwind" type="462c0819:PsiDirectoryNode" />
-              <item name="checkin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="websky" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websky" type="462c0819:PsiDirectoryNode" />
-              <item name="pegasfly" type="462c0819:PsiDirectoryNode" />
+              <item name="aeroflot" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,29 +275,30 @@
       <workItem from="1536757579416" duration="316000" />
       <workItem from="1536757905570" duration="18000" />
       <workItem from="1536763034998" duration="2578000" />
-      <workItem from="1537183530002" duration="240000" />
+      <workItem from="1537183530002" duration="1780000" />
+      <workItem from="1537197208293" duration="1414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21989000" />
+    <option name="totallyTimeSpent" value="24943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="27" width="960" height="1053" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984127" visible="true" weight="0.40729168" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984127" weight="0.40729168" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31707317" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31707317" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3043478" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3043478" />
       <window_info id="Favorites" order="2" sideWeight="0.50158733" side_tool="true" weight="0.41666666" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -336,42 +315,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="126">
-            <caret line="7" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iraero/_variables.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aurora/_mixins.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yamal/_variables.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yamal/_mixins.sass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/aurora/_variables.sass">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -468,13 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/_mixins.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -607,20 +543,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pegasfly/addImages.css" />
     <entry file="file://$PROJECT_DIR$/../websky-check-in-utils/ImgUrlReplace.js" />
-    <entry file="file://$PROJECT_DIR$/nordwind/checkin/_variables.sass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nordwind/checkin/index.sass">
+    <entry file="file://$PROJECT_DIR$/rusline/index.css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="118" column="4" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rusline/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="3556" column="4" selection-start-line="3556" selection-start-column="4" selection-end-line="3556" selection-end-column="4" />
+        <state relative-caret-position="32">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -631,10 +557,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rusline/index.css/index.css">
+    <entry file="file://$PROJECT_DIR$/rusline/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="531">
+          <caret line="3556" column="4" selection-start-line="3556" selection-start-column="4" selection-end-line="3556" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nordwind/checkin/index.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="118" column="4" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nordwind/checkin/_variables.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aeroflot/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alrosa/_mixins.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/_mixins.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/_variables.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aeroflot/_variables.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aeroflot/index.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
         </state>
       </provider>
     </entry>

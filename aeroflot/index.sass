@@ -1,0 +1,37 @@
+@import "../common/mixins"
+@import "variables"
+
+.header
+  background: $mainBrandColor
+  .logo
+    .img
+      background: $aeroflotLogoImg 0 0 no-repeat
+      background-size: contain
+
+.searchSteps ol li.active,
+.regSteps ol li.active
+  background: $mainBrandColor
+  color: white
+  &:after
+    border-color: #ffffff
+
+.searchSteps ol li a:hover,
+.regSteps ol li a:hover
+  color: #ffffff
+  background: lighten($mainBrandColor, $lightnessValue)
+  &:after
+    border-color: #ffffff
+
+.searchSteps ol li.prev:hover:after,
+.regSteps ol li.prev:hover:after
+  border-color: #ffffff
+  color: #ffffff
+
+.searchResultsPlain__i .flight__button a,
+.searchResultsControl .btn_next,
+.orderSearchForm .btn_formSearch
+  background: $mainBrandColor
+  color: #ffffff
+  &:hover
+    background: lighten($mainBrandColor, $lightnessValue)
+
