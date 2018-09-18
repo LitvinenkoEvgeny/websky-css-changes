@@ -64,3 +64,8 @@
   cursor: pointer; }
 
 /* ==== END #35382 ==== */
+/* ==== #39533 ==== */
+.popup_auth .customCheckbox span {
+  border: 1px solid #000000; }
+
+/* ==== END #39533 ==== */
