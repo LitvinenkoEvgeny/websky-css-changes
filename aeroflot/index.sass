@@ -5,8 +5,18 @@
   background: $mainBrandColor
   .logo
     .img
-      background: $aeroflotLogoImg 0 0 no-repeat
+      background: $aeroflotLogoWhiteImg 0 0 no-repeat
       background-size: contain
+      position: relative
+      &:after
+        content: 'Fly&Bus'
+        color: #ffffff
+        font-family: "Arial", sans-serif
+        font-size: 25px
+        padding-left: 50px
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
 
 .searchSteps ol li.active,
 .regSteps ol li.active
@@ -34,4 +44,43 @@
   color: #ffffff
   &:hover
     background: lighten($mainBrandColor, $lightnessValue)
+
+.chooseResult__i .route_item .route_container .route_table .info i,
+.searchResultsPlain__i .route_item .route_container .route_table .info i
+  &:nth-of-type(2)
+    content: $busIcon
+    width: 32px
+    height: 32px
+    position: relative
+    top: 2px
+
+$leftPosition: 25px
+.chooseResult__i .flight,
+.searchResultsPlain__i .flight
+  .route_item_container:nth-of-type(2)
+    .info
+      position: relative
+      &:before,
+      &:after
+        content: ''
+        position: absolute
+        top: -10px
+        left: $leftPosition
+        display: inline-block
+      &:before
+        width: 30px
+        height: 30px
+        background: $aeroflotLogoImg center no-repeat
+        background-size: cover
+      &:after
+        content: 'Fly&Bus'
+        color: #0063b1
+        font-family: "Arial", sans-serif
+        font-size: 20px
+        left: $leftPosition + 40px
+        top: 7px
+        transform: translateY(-50%)
+
+    .icon_plane
+      content: $busIcon
 
