@@ -127,6 +127,15 @@
   color: #666666;
   text-transform: capitalize; }
 
+.chooseResult__i .route_item .additional,
+.searchResultsPlain__i .route_item .additional {
+  position: relative;
+  top: -5px; }
+  @media only screen and (max-width: 515px) {
+    .chooseResult__i .route_item .additional,
+    .searchResultsPlain__i .route_item .additional {
+      top: 0; } }
+
 .additional__heading {
   position: relative;
   top: -10px; }
