@@ -6,3 +6,9 @@
   cursor: pointer; }
 
 /* ==== END #35382 ==== */
+/* ====  #39110 ==== */
+.passengerInfo .infoTooltip {
+  white-space: pre;
+  top: -200%; }
+
+/* ==== END  #39110 ==== */
