@@ -13,6 +13,9 @@
     +adaptivity(tablet)
       padding: 0 10px
   &__container
+    max-width: 1140px
+    padding: 0 20px
+    width: auto
     +adaptivity(tablet)
       width: 100%
   &-menu-content
@@ -23,17 +26,28 @@
 .header-menu
   &__content
     flex-wrap: wrap
+    padding: 40px 20px 0
   &__list-wrapper
+    margin: 0 0 40px
+    flex-basis: 22% !important
+    &:not(:last-child)
+      margin: 0 0 40px
+      padding: 0
     +adaptivity(tablet)
       margin-bottom: 50px
+    +adaptivity(phone)
+      flex: 50%
   &__extra
-    justify-content: space-between
+    padding: 0 20px
+    justify-content: flex-start
     +adaptivity(tablet)
+      justify-content: space-between
       height: 90px
   &__extra-item
-    margin-right: 0
     text-align: center
+    margin-right: 40px
     +adaptivity(tablet)
+      margin-right: 0
       display: flex
       flex-direction: column
       align-items: center
@@ -43,6 +57,9 @@
 
 footer
   .container
+    max-width: 1140px
+    width: auto
+    padding: 0 20px
     +adaptivity(tablet)
       width: 100%
   +adaptivity(tablet)
