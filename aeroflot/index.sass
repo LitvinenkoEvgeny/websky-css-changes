@@ -54,33 +54,71 @@
     position: relative
     top: 2px
 
-$leftPosition: 25px
+$leftPosition: 10px
 .chooseResult__i .flight,
 .searchResultsPlain__i .flight
   .route_item_container:nth-of-type(2)
     .info
       position: relative
+      display: flex
+      flex-direction: column
+      min-width: 150px
+      margin: 0 auto
+      +adaptivity(phone)
+        text-align: center
       &:before,
       &:after
         content: ''
-        position: absolute
         top: -10px
-        left: $leftPosition
         display: inline-block
+
       &:before
         width: 30px
         height: 30px
         background: $aeroflotLogoImg center no-repeat
         background-size: cover
+        margin-bottom: 15px
+        left: $leftPosition
+        top: 8px
+        position: relative
+        +adaptivity(tablet)
+          left: percent(10px, 225px)
+        +adaptivity(phone)
+          left: 50px
+          top: 20px
       &:after
         content: 'Fly&Bus'
         color: #0063b1
         font-family: "Arial", sans-serif
         font-size: 20px
-        left: $leftPosition + 40px
-        top: 7px
-        transform: translateY(-50%)
+        left: $leftPosition + 50px
+        top: 40px
+        position: absolute
+        +adaptivity(tablet)
+          left: percent(80px, 225px)
+          top: 40px
+        +adaptivity(phone)
+          left: 110px
 
     .icon_plane
       content: $busIcon
+
+.chooseResult__i .flight,
+.searchResultsPlain__i .flight
+  &:nth-of-type(1)
+    .route_item_container:nth-of-type(1)
+      .info
+        padding-top: 40px
+
+.dep__heading,
+.arr__heading,
+.additional__heading
+  font-weight: bold
+  font-size: 18px
+  margin-bottom: 20px
+  color: #666666
+
+.additional__heading
+  position: relative
+  top: -10px
 

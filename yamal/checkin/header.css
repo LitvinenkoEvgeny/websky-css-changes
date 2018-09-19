@@ -1,0 +1,479 @@
+/* Описания заголовка */
+#header {
+	background: url("http://c16735.shared.hc.ru/sites/default/files/Oxygen/img/header_bg11.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	height: 459px;
+	margin-top: -20px;
+}
+
+/* Подъем второго блока Div */
+.container:before, .container:after {
+	margin-top: -250px !important;
+}
+
+/* Окончание правки второго блока Div */
+#header div#block-block-h {
+	clear: both;
+	margin: 0 auto;
+	position: relative;
+	top: 0;
+	width: 960px;
+}
+
+#logo {
+	float: left;
+	margin: 36px 0 0;
+}
+
+#first_line {
+	float: left;
+	margin: 30px 0 0 40px;
+	width: 600px;
+}
+
+#first_line .tel {
+	color: white;
+	font: 1em Tahoma, Verdana;
+	margin: 1px 0 0 20px;
+	width: 400px;
+}
+
+.h50 {
+	height: 50px;
+}
+
+.fl {
+	float: left;
+}
+
+/* Описание меню */
+div#second_line {
+	float: left;
+	margin: 1px 0 0 36px;
+	padding: 2em;
+	width: 600px;
+	padding-left: 50px;
+	margin-left: 80px;
+}
+
+div#second_line ul:after {
+	content: "1";
+	display: inline-block;
+	height: 1px;
+	margin-left: 100%;
+	overflow: hidden;
+}
+
+div#second_line ul {
+	cursor: default;
+	float: right;
+	list-style: outside none none;
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	width: 650px;
+}
+
+div#second_line ul li {
+	color: white;
+	display: inline-block;
+	float: right;
+	font: 15px Tahoma, Verdana;
+	margin: 0;
+	padding: 0 12px 0 0;
+	z-index: 300;
+}
+
+#second_line ul li.active, #second_line ul li.curr {
+	background: url("http://iraero.ru//sites/default/files/Oxygen/img/bg_menu3.png") no-repeat scroll 100% 100% rgba(0, 0, 0, 0);
+	border-radius: 8px;
+	height: 33px;
+}
+
+#second_line ul li span, #second_line ul li a {
+	color: white;
+	display: inline-block;
+	font: 15px Tahoma, Verdana;
+	height: 15px;
+	padding: 7px 0 11px 12px;
+	text-decoration: underline;
+}
+
+div#second_line ul li:hover {
+	background: url("http://iraero.ru/sites/default/files/Oxygen/img/bg_menu3.png") no-repeat scroll 100% 100% rgba(0, 0, 0, 0);
+	border-radius: 8px;
+	height: 33px;
+}
+
+.sf-menu.sf-style-blue a {
+	border: 0 outset #003973;
+}
+
+/* Окончанеие описания меню */
+div#first_line .tel span {
+	color: white;
+	font: 18px Tahoma, Verdana;
+}
+
+/* Окончание описания заголовка */
+body {
+	background: none repeat scroll 0 0 #e2faff;
+	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+	height: 100%;
+	width: 100%;
+}
+
+/* Описание Footer */
+#footer {
+	background: url("http://iraero.ru//sites/default/files/Oxygen/img/footer_bg.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	height: 387px;
+	margin: 180px auto 0;
+	width: 100%;
+}
+
+#footer div#block-block-14 {
+	clear: both;
+	color: black;
+	font: 12px Tahoma, Verdana;
+	height: 160px;
+	margin: 0 auto;
+	padding: 300px 0 0;
+	width: 960px;
+}
+
+#footer .content {
+	border-top: 1px solid #6dc0ea;
+	padding: 10px 0 0;
+	width: 960px;
+}
+
+#footer .footer_left {
+	float: left;
+	text-align: left;
+	width: 310px;
+}
+
+#footer .footer_center-1 {
+	float: left;
+	margin-left: 80px;
+}
+
+.footer_center-2 {
+	float: left;
+	margin-left: 50px;
+}
+
+.footer_rigth {
+	float: right;
+}
+
+#footer div#block-block-14 {
+	clear: both;
+	color: black;
+	font: 12px Tahoma, Verdana;
+	height: 80px;
+	margin: 0 auto;
+	padding: 300px 0 0;
+	width: 960px;
+}
+
+/* Окончание описания Footer *//* Изминение окраски формы бронирования */
+.well-info {
+	background-color: #1e6ff1 !important;
+	border-color: #1e6af5 !important;
+}
+
+.well-info .pass-counter .form-control {
+	background-color: #1e1ff1 !important;
+}
+
+.btn-primary {
+	background-color: #1e1ff1 !important;
+	border-color: #1e1ff1 !important;
+	color: #ffffff;
+}
+
+.btn-success {
+	background-color: #1e1ff1 !important;
+	border-color: #1e1ff1 !important;
+	color: #ffffff;
+}
+
+/* Окончание изменения формы окраски  */
+
+
+/* variable */
+/*
+
+color-red - #d51f26
+color-red:hover - #af1e26
+color-blue - #192f6b
+
+*/
+/* END variable */
+
+body {
+	background: none repeat scroll 0 0 #fff;
+}
+
+/* regSteps или навигация*/
+
+.searchSteps, .regSteps {
+	background: #182f6b;
+	border-bottom: 5px solid #d51f26;
+}
+
+.searchSteps ol li.active,
+.regSteps ol li.active {
+	background: #d51f26;
+}
+
+.searchSteps ol li.active:after,
+.regSteps ol li.active:after {
+	border-color: #fff;
+	color: #fff;
+}
+
+.searchSteps ol li a,
+.regSteps ol li a {
+	color: #ccc;
+}
+
+.searchSteps ol li.active a,
+.regSteps ol li.active a,
+.searchSteps ol li.active span,
+.regSteps ol li.active span {
+	color: #fff;
+}
+
+.searchSteps ol li.prev a,
+.searchSteps ol li.prev span,
+.regSteps ol li.prev a,
+.regSteps ol li.prev span {
+	background: #182f6b;
+	color: #fff;
+}
+
+.searchSteps ol li.prev:after,
+.regSteps ol li.prev:after {
+	border-color: #fff;
+	color: #fff;
+}
+
+.searchSteps ol li a:hover,
+.regSteps ol li a:hover {
+	background: #af1e26;
+}
+
+/* END regSteps */
+
+/* form elements */
+
+.webRegistration input[type="text"]:focus,
+.webRegistration input[type="password"]:focus,
+.webRegistration input[type="tel"]:focus,
+.webRegistration input[type="email"]:focus {
+	border-color: #d51f26;
+}
+
+.customCheckbox input:checked + span:after {
+	color: #d51f26;
+}
+
+.webRegistration__searchResults .passengers__tableTickets__check .customCheckbox input:checked + span:after {
+	background: #d51f26;
+}
+
+/* END form elements  */
+
+/* popup */
+
+.modal .modal-header {
+	background: #192f6b;
+}
+
+/* END popup */
+
+.popover .popover-inner {
+	background: #d51f26;
+}
+
+.popover svg.svg-symbol-popover-arrow * {
+	fill: #d51f26;
+}
+
+.webRegistration__searchResults .info__tip i {
+	color: #d51f26;
+}
+
+.webRegistration .registration__info__table .info__tip i {
+	color: #d51f26;
+}
+
+.tooltip-cont .tooltip .tooltip-inner {
+	background: #d51f26;
+}
+
+.tooltip-cont .tooltip svg.svg-symbol-tooltip-arrow * {
+	fill: #d51f26;
+}
+
+/* pika */
+
+.pika-prev:hover,
+.pika-next:hover {
+	border-color: #d51f26;
+	background: #d51f26;
+}
+
+.pika-button.pika-day:hover {
+	background: #d51f26;
+}
+
+.is-today .pika-button {
+	color: #d51f26;
+}
+
+.is-selected .pika-button.pika-day {
+	background: #d51f26;
+}
+
+/* END pika */
+
+/* .btn */
+
+.btn {
+	color: #fff;
+}
+
+.btn.btn_search {
+	background: #d51f26;
+}
+
+.btn.btn_search:hover {
+	background: #af1e26;
+}
+
+.webRegistration .btn_back {
+	background: #d51f26;
+	color: #fff;
+}
+
+.webRegistration .btn_back:hover {
+	background: #af1e26;
+}
+
+.webRegistration .btn_next {
+	background: #d51f26;
+	color: #fff;
+}
+
+.webRegistration .btn_next:hover {
+	background: #af1e26;
+}
+
+.popup__i__footer__buttons__button {
+	background: #d51f26;
+}
+
+.popup__i__footer__buttons__button:hover {
+	background: #af1e26;
+}
+
+/* END .btn */
+
+/* checkinForm */
+
+#checkinForm .list > .item .top {
+	background: #192f6b;
+}
+
+#checkinForm .list > .item .top .iconBox {
+	background: #d51f28;
+}
+
+#checkinForm .list > .item .top .name h2,
+#checkinForm .list > .item .top .name p {
+	color: #b1b1b1;
+}
+
+#checkinForm .list > .item .top .btn {
+	border: 1px solid #d51f27;
+	background: #d51f27;
+	color: #fff;
+}
+
+#checkinForm .list > .item.active .top .iconBox {
+	background: #af1f26;
+}
+
+#checkinForm .list > .item.active .top .iconBox i {
+	color: #fff;
+}
+
+#checkinForm .list > .item.active .top .name h2,
+#checkinForm .list > .item.active .top .name p {
+	color: #fff;
+}
+
+/* END checkinForm */
+
+.webRegistration .registration__passengers .route .item .passenger .data_link {
+	color: #fff;
+}
+
+.webRegistration .registration__passengers_ready .route .item .passenger .passenger_lnk {
+	background: #192f6b;
+}
+
+.webRegistration .registration__passengers_ready .route .item .passenger .passenger_lnk__inner {
+	color: #fff;
+}
+
+.webRegistration .registration__passengers_ready .route .item .passenger .mail__link,
+.webRegistration .registration__passengers_ready .route .item .passenger .print__link,
+.webRegistration .registration__passengers_ready .route .item .passenger .qr__link {
+	border: 1px solid #fff;
+}
+
+.webRegistration .registration__passengers_ready .route .item .passenger .mail__link {
+	background: url('data:image/svg+xml;utf8,<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><path fill="%23fff" d="M448,64H64C28.656,64,0,92.656,0,128v256c0,35.344,28.656,64,64,64h384c35.344,0,64-28.656,64-64V128 C512,92.656,483.344,64,448,64z M342.656,234.781l135.469-116.094c0.938,3,1.875,6,1.875,9.313v256 c0,2.219-0.844,4.188-1.281,6.281L342.656,234.781z M448,96c2.125,0,4,0.813,6,1.219L256,266.938L58,97.219 C60,96.813,61.875,96,64,96H448z M33.266,390.25C32.828,388.156,32,386.219,32,384V128c0-3.313,0.953-6.313,1.891-9.313 L169.313,234.75L33.266,390.25z M64,416c-3.234,0-6.172-0.938-9.125-1.844l138.75-158.563l51.969,44.531 C248.578,302.719,252.297,304,256,304s7.422-1.281,10.406-3.875l51.969-44.531l138.75,158.563C454.188,415.062,451.25,416,448,416 H64z"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>') center center no-repeat;
+	background-size: 58%;
+}
+
+.webRegistration .registration__passengers_ready .route .item .passenger .print__link {
+	background: url('data:image/svg+xml;utf8,<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 485.212 485.212" style="enable-background:new 0 0 485.212 485.212;" xml:space="preserve"><g><g fill="%23fff"><rect x="151.636" y="363.906" width="151.618" height="30.331"/><path d="M121.312,30.327h242.595v60.651h30.321V30.327C394.229,13.595,380.666,0,363.907,0H121.312 c-16.748,0-30.327,13.595-30.327,30.327v60.651h30.327V30.327z"/><rect x="151.636" y="303.257" width="181.939" height="30.327"/><path d="M454.882,121.304H30.334c-16.748,0-30.327,13.591-30.327,30.324v181.956c0,16.759,13.579,30.321,30.327,30.321h60.651 v90.98c0,16.764,13.579,30.326,30.327,30.326h242.595c16.759,0,30.321-13.562,30.321-30.326v-90.98h60.653 c16.76,0,30.322-13.562,30.322-30.321V151.628C485.204,134.895,471.642,121.304,454.882,121.304z M363.907,454.886H121.312V272.93 h242.595V454.886z M424.551,212.282c-16.76,0-30.322-13.564-30.322-30.327c0-16.731,13.562-30.327,30.322-30.327 c16.765,0,30.331,13.595,30.331,30.327C454.882,198.717,441.315,212.282,424.551,212.282z"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>') center center no-repeat;
+	background-size: 58%;
+}
+
+.webRegistration .registration__passengers_ready .route .item .passenger .qr__link {
+	background: url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16"><path fill="%23fff" d="M6 0h-6v6h6v-6zM5 5h-4v-4h4v4z"></path><path fill="%23fff" d="M2 2h2v2h-2v-2z"></path><path fill="%23fff" d="M0 16h6v-6h-6v6zM1 11h4v4h-4v-4z"></path><path fill="%23fff" d="M2 12h2v2h-2v-2z"></path><path fill="%23fff" d="M10 0v6h6v-6h-6zM15 5h-4v-4h4v4z"></path><path fill="%23fff" d="M12 2h2v2h-2v-2z"></path><path fill="%23fff" d="M2 7h-2v2h3v-1h-1z"></path><path fill="%23fff" d="M7 9h2v2h-2v-2z"></path><path fill="%23fff" d="M3 7h2v1h-2v-1z"></path><path fill="%23fff" d="M9 12h-2v1h1v1h1v-1z"></path><path fill="%23fff" d="M6 7v1h-1v1h2v-2z"></path><path fill="%23fff" d="M8 4h1v2h-1v-2z"></path><path fill="%23fff" d="M9 8v1h2v-2h-3v1z"></path><path fill="%23fff" d="M7 6h1v1h-1v-1z"></path><path fill="%23fff" d="M9 14h2v2h-2v-2z"></path><path fill="%23fff" d="M7 14h1v2h-1v-2z"></path><path fill="%23fff" d="M9 11h1v1h-1v-1z"></path><path fill="%23fff" d="M9 3v-2h-1v-1h-1v4h1v-1z"></path><path fill="%23fff" d="M12 14h1v2h-1v-2z"></path><path fill="%23fff" d="M12 12h2v1h-2v-1z"></path><path fill="%23fff" d="M11 13h1v1h-1v-1z"></path><path fill="%23fff" d="M10 12h1v1h-1v-1z"></path><path fill="%23fff" d="M14 10v1h1v1h1v-2h-1z"></path><path fill="%23fff" d="M15 13h-1v3h2v-2h-1z"></path><path fill="%23fff" d="M10 10v1h3v-2h-2v1z"></path><path fill="%23fff" d="M12 7v1h2v1h2v-2h-2z"></path></svg>') center center no-repeat;
+	background-size: 58%;
+}
+
+.passengerDataSeat__tabs__item.passenger-item-active {
+	background: #d51f27;
+}
+
+#editPaxCont .passenger-item-active {
+	color: #fff;
+}
+
+ .searchSteps ol li:after,
+ .regSteps ol li:after {
+	 line-height: 22px;
+ }
+
+.seatSelect .info ul li.selected span {
+	background: #d51f26;
+}
+
+.seatSelect .seat.active,
+.seatSelect .seat.seat-selected,
+.seatSelect .seat.seat-order {
+	background: #d51f26;
+}
+
+.webRegistration .registration__passengers_ready .route .item .passenger .cancel__link {
+	color: #ffffff;
+	font-weight: 600;
+}
