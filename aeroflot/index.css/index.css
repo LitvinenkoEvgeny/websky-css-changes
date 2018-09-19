@@ -130,7 +130,7 @@
 .chooseResult__i .route_item .additional,
 .searchResultsPlain__i .route_item .additional {
   position: relative;
-  top: -5px; }
+  top: -3px; }
   @media only screen and (max-width: 515px) {
     .chooseResult__i .route_item .additional,
     .searchResultsPlain__i .route_item .additional {
