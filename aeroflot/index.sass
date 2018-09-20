@@ -1,5 +1,6 @@
 @import "../common/mixins"
 @import "variables"
+@import "blocks.sass"
 
 .header
   background: $mainBrandColor
@@ -48,21 +49,14 @@
 .chooseResult__i .route_item .route_container .route_table .info i,
 .searchResultsPlain__i .route_item .route_container .route_table .info i
   &:nth-of-type(2)
-    content: ""
-    width: 32px
-    height: 32px
-    display: inline-block
-    background: $busIcon no-repeat center
-    position: relative
     top: 3px
-    background-size: 110%
-    &:before
-      display: none
+    @extend %icon--bus
 
 $leftPosition: 10px
 .chooseResult__i .flight,
 .searchResultsPlain__i .flight
-  .route_item_container:nth-of-type(2)
+  .route_item_container:nth-of-type(2),
+  .route_item_singleFlightFlyAndBus
     .info
       position: relative
       display: flex
@@ -76,7 +70,6 @@ $leftPosition: 10px
         content: ''
         top: -10px
         display: inline-block
-
       &:before
         width: 30px
         height: 30px
@@ -104,9 +97,55 @@ $leftPosition: 10px
           top: 40px
         +adaptivity(phone)
           left: 110px
+    .info_single-fly-and-bus
+      &:before,
+      &:after
+        position: absolute
+        left: 50%
+        top: 0
+        transform: translateX(-50%)
+      &:before
+        left: percent(40px, 164px)
+        +adaptivity(tablet)
+          left: 20px
+      &:after
+        left: percent(97px, 164px)
+        +adaptivity(tablet)
+          left: 20px
+
 
     .icon_plane
       content: $busIcon
+
+.icon
+  &_bus
+    @extend %icon--bus
+  &_flyandbus-logo
+    position: relative
+    display: inline
+    &:before
+      content: ''
+      display: inline-block
+      width: 30px
+      height: 30px
+      background: $aeroflotLogoImg center no-repeat
+      background-size: cover
+      margin-bottom: 15px
+      left: 10px
+      top: -20px
+      position: relative
+      +adaptivity(tablet)
+        left: percent(10px, 225px)
+      +adaptivity(phone)
+        left: 50px
+        top: 20px
+    &:after
+      content: 'Fly&Bus'
+      color: #0063b1
+      font-family: "Arial", sans-serif
+      font-size: 20px
+      left: 40px
+      position: absolute
 
 .chooseResult__i .flight,
 .searchResultsPlain__i .flight
