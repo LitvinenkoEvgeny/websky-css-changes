@@ -187,3 +187,27 @@
     position: absolute; }
 
 /* ==== END #38161 ==== */
+/* ==== best deal ==== */
+.flightTable table > tbody > tr.headrow > td:not(:first-child) {
+  overflow: visible; }
+
+.flightTable .columnTitle .best:before, .flightTable .columnTitle .best:after {
+  content: '';
+  position: absolute;
+  transform: rotate(-45deg); }
+
+.flightTable .columnTitle .best:before {
+  top: -24px;
+  width: 100px;
+  height: 20px;
+  right: 0;
+  background: #ffffff; }
+
+.flightTable .columnTitle .best:after {
+  right: -13px;
+  top: -20px;
+  height: 50px;
+  width: 20px;
+  background: #c2d69b; }
+
+/* ==== END best deal ==== */
