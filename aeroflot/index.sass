@@ -48,11 +48,16 @@
 .chooseResult__i .route_item .route_container .route_table .info i,
 .searchResultsPlain__i .route_item .route_container .route_table .info i
   &:nth-of-type(2)
-    content: $busIcon
+    content: ""
     width: 32px
     height: 32px
+    display: inline-block
+    background: $busIcon no-repeat center
     position: relative
-    top: 2px
+    top: 3px
+    background-size: 110%
+    &:before
+      display: none
 
 $leftPosition: 10px
 .chooseResult__i .flight,

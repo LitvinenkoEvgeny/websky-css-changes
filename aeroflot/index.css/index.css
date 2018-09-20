@@ -49,11 +49,17 @@
 
 .chooseResult__i .route_item .route_container .route_table .info i:nth-of-type(2),
 .searchResultsPlain__i .route_item .route_container .route_table .info i:nth-of-type(2) {
-  content: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIGZpbGw9ImdyYXkiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgd2lkdGg9IjQ4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoKICAgIDxwYXRoIGQ9Ik0wIDBoNDh2NDhoLTQ4eiIgZmlsbD0ibm9uZSIvPgogICAgPHBhdGggZD0iTTggMzJjMCAxLjc3Ljc4IDMuMzQgMiA0LjQ0djMuNTZjMCAxLjEuOSAyIDIgMmgyYzEuMTEgMCAyLS45IDItMnYtMmgxNnYyYzAgMS4xLjg5IDIgMiAyaDJjMS4xIDAgMi0uOSAyLTJ2LTMuNTZjMS4yMi0xLjEgMi0yLjY3IDItNC40NHYtMjBjMC03LTcuMTYtOC0xNi04cy0xNiAxLTE2IDh2MjB6bTcgMmMtMS42NiAwLTMtMS4zNC0zLTNzMS4zNC0zIDMtMyAzIDEuMzQgMyAzLTEuMzQgMy0zIDN6bTE4IDBjLTEuNjYgMC0zLTEuMzQtMy0zczEuMzQtMyAzLTMgMyAxLjM0IDMgMy0xLjM0IDMtMyAzem0zLTEyaC0yNHYtMTBoMjR2MTB6Ii8+Cjwvc3ZnPg==");
+  content: "";
   width: 32px;
   height: 32px;
+  display: inline-block;
+  background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIGZpbGw9ImdyYXkiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgd2lkdGg9IjQ4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoKICAgIDxwYXRoIGQ9Ik0wIDBoNDh2NDhoLTQ4eiIgZmlsbD0ibm9uZSIvPgogICAgPHBhdGggZD0iTTggMzJjMCAxLjc3Ljc4IDMuMzQgMiA0LjQ0djMuNTZjMCAxLjEuOSAyIDIgMmgyYzEuMTEgMCAyLS45IDItMnYtMmgxNnYyYzAgMS4xLjg5IDIgMiAyaDJjMS4xIDAgMi0uOSAyLTJ2LTMuNTZjMS4yMi0xLjEgMi0yLjY3IDItNC40NHYtMjBjMC03LTcuMTYtOC0xNi04cy0xNiAxLTE2IDh2MjB6bTcgMmMtMS42NiAwLTMtMS4zNC0zLTNzMS4zNC0zIDMtMyAzIDEuMzQgMyAzLTEuMzQgMy0zIDN6bTE4IDBjLTEuNjYgMC0zLTEuMzQtMy0zczEuMzQtMyAzLTMgMyAxLjM0IDMgMy0xLjM0IDMtMyAzem0zLTEyaC0yNHYtMTBoMjR2MTB6Ii8+Cjwvc3ZnPg==") no-repeat center;
   position: relative;
-  top: 2px; }
+  top: 3px;
+  background-size: 110%; }
+  .chooseResult__i .route_item .route_container .route_table .info i:nth-of-type(2):before,
+  .searchResultsPlain__i .route_item .route_container .route_table .info i:nth-of-type(2):before {
+    display: none; }
 
 .chooseResult__i .flight .route_item_container:nth-of-type(2) .info,
 .searchResultsPlain__i .flight .route_item_container:nth-of-type(2) .info {
