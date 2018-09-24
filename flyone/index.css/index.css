@@ -37,7 +37,7 @@
 
 .searchSteps ol li.prev a, .regSteps ol li.prev a {
   width: 100%;
-  text-align: right; }
+  text-align: center; }
 
 .searchSteps.searchSteps_add ol li, .regSteps ol li,
 .searchSteps.searchSteps_add ol li.active, .regSteps ol li.active {
