@@ -5424,3 +5424,4 @@ header.header .ui-select-header-private-nav .selectize-input.focus {
 }
 
 .passengerInvoiceInfo .documentDate { display: none; }
+.name--bold { font-weight: bold;}
