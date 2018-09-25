@@ -1,5 +1,12 @@
 @import "../../common/mixins"
 
+// ============== colors =============
+
+$blueBrandColor: #192f6b
+$redBrandColor: #d51f28
+
+// ============== END colors =========
+
 .searchSteps ol li.active a,
 .regSteps ol li.active a
   +adaptivity(tablet)
@@ -20,3 +27,40 @@
   .info-bottom
     +adaptivity(tablet)
       width: 100%
+  .info-bottom
+    @media screen and (max-width: 375px)
+      display: none
+
+/* ==== #36076#note-40 3) ==== */
+
+
+#checkinForm .list .item .row:first-child
+  background: $blueBrandColor
+
+#checkinForm .list .item .row
+  background: lighten($blueBrandColor, 3%)
+
+#checkinForm .list > .item .mobileShow .top table td:first-child
+  background: $redBrandColor
+
+/* info icon */
+#checkinForm .list > .item .mobileShow .top .name
+  +adaptivity(tablet)
+    position: relative
+    display: inline-block
+
+
+#checkinForm .list > .item .top .name i
+  +adaptivity(tablet)
+    position: absolute
+    top: -10px
+
+/* popup a tag highlight */
+.webRegistration__serviceСondition_popup
+  a[target="_blank"]
+    color: $redBrandColor !important
+    text-decoration: underline
+    &:hover
+      text-decoration: none
+
+/* ==== END #36076#note-40 3) ==== */

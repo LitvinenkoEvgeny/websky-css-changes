@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ==== END changeHeightMixin in common/_mixins.sass ==== */
 /* ==== END equalize input height in passengers step ==== */
 @media only screen and (max-width: 768px) {
@@ -19,3 +20,37 @@
   .webRegistration .registration__passengers__seatMap .info-top,
   .webRegistration .registration__passengers__seatMap .info-bottom {
     width: 100%; } }
+
+@media screen and (max-width: 375px) {
+  .webRegistration .registration__passengers__seatMap .info-bottom {
+    display: none; } }
+
+/* ==== #36076#note-40 3) ==== */
+#checkinForm .list .item .row:first-child {
+  background: #192f6b; }
+
+#checkinForm .list .item .row {
+  background: #1c3477; }
+
+#checkinForm .list > .item .mobileShow .top table td:first-child {
+  background: #d51f28; }
+
+/* info icon */
+@media only screen and (max-width: 768px) {
+  #checkinForm .list > .item .mobileShow .top .name {
+    position: relative;
+    display: inline-block; } }
+
+@media only screen and (max-width: 768px) {
+  #checkinForm .list > .item .top .name i {
+    position: absolute;
+    top: -10px; } }
+
+/* popup a tag highlight */
+.webRegistration__serviceСondition_popup a[target="_blank"] {
+  color: #d51f28 !important;
+  text-decoration: underline; }
+  .webRegistration__serviceСondition_popup a[target="_blank"]:hover {
+    text-decoration: none; }
+
+/* ==== END #36076#note-40 3) ==== */
