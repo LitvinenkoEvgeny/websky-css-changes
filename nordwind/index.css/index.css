@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ==== END changeHeightMixin in common/_mixins.sass ==== */
 /* ==== END equalize input height in passengers step ==== */
 .flightTable table > tbody > tr > td.firstCol .sortingWrap {
@@ -69,3 +70,15 @@
   border: 1px solid #000000; }
 
 /* ==== END #39533 ==== */
+/* ==== Опустить заголовок доп. услуг ==== */
+.add-services__title {
+  display: flex;
+  padding-top: 20px; }
+  @media only screen and (max-width: 768px) {
+    .add-services__title {
+      display: block; } }
+
+.add-services .checkoutServices__i .title .orderInfo {
+  top: 10px; }
+
+/* ==== END Опустить заголовок доп. услуг ==== */
