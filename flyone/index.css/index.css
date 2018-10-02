@@ -1,3 +1,5 @@
+/* ==== END changeHeightMixin in common/_mixins.sass ==== */
+/* ==== END equalize input height in passengers step ==== */
 .webRegistration .registration__passengers__seatMap {
   margin-top: 110px;
   margin-bottom: 20px; }
@@ -56,5 +58,19 @@
 
 .flightTable > table > tbody > tr > td {
   border: 1px solid #e6e6e6; }
+
+.pika-lendar__availability-highlight .pika-button.unavailable {
+  pointer-events: all;
+  cursor: pointer; }
+
+.pika-lendar__availability-highlight .pika-button.unavailable {
+  pointer-events: all;
+  cursor: pointer; }
+
+.pika-button.pika-day:hover {
+  color: #ffffff; }
+
+.is-startrange .pika-button.pika-day {
+  color: #ffffff; }
 
 /* ==== END #31373 #note-34 ==== */

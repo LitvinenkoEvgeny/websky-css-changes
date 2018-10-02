@@ -1,5 +1,6 @@
 @import "variables"
 @import "mixins"
+@import "../common/mixins"
 
 // ============== #31524 =============
 
@@ -70,5 +71,19 @@
 
 .flightTable > table > tbody > tr > td
   border: 1px solid #e6e6e6
+
++unavalibleStyles
+  pointer-events: all
+  cursor: pointer
+
+.pika-lendar__availability-highlight .pika-button.unavailable
+  pointer-events: all
+  cursor: pointer
+
++calendarHoverStyles
+  color: #ffffff
+
+.is-startrange .pika-button.pika-day
+  color: #ffffff
 
 /* ==== END #31373 #note-34 ==== */
