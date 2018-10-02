@@ -48,9 +48,6 @@
   background: #ff855f;
   color: #ffffff; }
 
-.flightTable .econom_type1 {
-  overflow: hidden; }
-
 .flightTable .contentRow > td:not(:first-child):hover {
   cursor: pointer; }
 
@@ -164,5 +161,8 @@
 
 .seatMap .planeBody__i table tr.wingsEnd td:last-child .seat:after {
   right: -105px; }
+
+.flightTable > table > tbody > tr.headrow > td.econom_type1 {
+  overflow: visible; }
 
 /* ==== END Booking ==== */

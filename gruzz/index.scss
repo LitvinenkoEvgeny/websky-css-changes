@@ -2,7 +2,6 @@
 @import "mixins";
 
 /* ==== Search ==== */
-
 .pika {
 	&-prev,
 	&-next {
@@ -319,6 +318,10 @@
 		tr.atWing td:last-child > div:before {
 		}
 	}
+}
+
+.flightTable>table>tbody>tr.headrow>td.econom_type1 {
+	overflow: visible;
 }
 
 /* ==== END Booking ==== */
