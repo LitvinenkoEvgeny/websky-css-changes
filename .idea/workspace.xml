@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04053ab9-ca55-4eac-be3a-da8761111c39" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aeroflot/_blocks.sass" beforeDir="false" afterPath="$PROJECT_DIR$/aeroflot/_blocks.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aeroflot/index.css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/aeroflot/index.css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aeroflot/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/aeroflot/index.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scat/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/scat/index.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-checkin" beforeDir="false" afterPath="$PROJECT_DIR$/web-checkin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-checkin/SeatMapClassifier.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-checkin/SeatMapClassifier.js" afterDir="false" />
     </list>
@@ -35,71 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aeroflot/index.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/severstal-avia.ru/index.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="210" selection-start-line="210" selection-end-line="210" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/severstal-avia.ru/index.css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="176" column="17" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web_head.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nordavia/web_head.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="865" selection-start-line="865" selection-end-line="865" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nordavia/index.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_blocks.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aeroflot/_blocks.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aeroflot/index.css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
-              <folding>
-                <element signature="e#391#1080#1" expanded="true" />
-                <element signature="e#1453#93626#1" expanded="true" />
-                <element signature="e#400942#401631#2" expanded="true" />
-                <element signature="e#401829#703110#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="720">
+              <caret line="98" column="19" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -140,20 +81,25 @@
         <option value="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.gitignore" />
         <option value="$PROJECT_DIR$/pegasfly/ImgUrlReplace.js" />
         <option value="$PROJECT_DIR$/rusline/index.sass" />
-        <option value="$PROJECT_DIR$/common/_mixins.sass" />
         <option value="$PROJECT_DIR$/common/_variables.sass" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/aeroflot/icon-bus.svg" />
         <option value="$PROJECT_DIR$/aeroflot/_variables.sass" />
-        <option value="$PROJECT_DIR$/nordwind/index.sass" />
         <option value="$PROJECT_DIR$/yamal/checkin/header.css" />
         <option value="$PROJECT_DIR$/nordwind/checkin/index.sass" />
-        <option value="$PROJECT_DIR$/yamal/checkin/index.sass" />
-        <option value="$PROJECT_DIR$/scat/index.sass" />
         <option value="$PROJECT_DIR$/aeroflot/_blocks.sass" />
         <option value="$PROJECT_DIR$/nordavia/web.head.css" />
-        <option value="$PROJECT_DIR$/aeroflot/index.sass" />
         <option value="$PROJECT_DIR$/severstal-avia.ru/index.sass" />
+        <option value="$PROJECT_DIR$/scat/index.sass" />
+        <option value="$PROJECT_DIR$/rusline/custom.css" />
+        <option value="$PROJECT_DIR$/nordwind/index.sass" />
+        <option value="$PROJECT_DIR$/yamal/checkin/index.sass" />
+        <option value="$PROJECT_DIR$/gruzz/index.scss" />
+        <option value="$PROJECT_DIR$/gruzz/index.css/index.css" />
+        <option value="$PROJECT_DIR$/common/_mixins.sass" />
+        <option value="$PROJECT_DIR$/flyone/index.sass" />
+        <option value="$PROJECT_DIR$/rusline/checkin/index.sass" />
+        <option value="$PROJECT_DIR$/aeroflot/index.sass" />
       </list>
     </option>
   </component>
@@ -173,9 +119,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="960" />
-    <option name="y" value="25" />
-    <option name="width" value="960" />
-    <option name="height" value="1055" />
+    <option name="y" value="27" />
+    <option name="width" value="940" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -183,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,23 +139,24 @@
             <path>
               <item name="websky" type="b2602c69:ProjectViewProjectNode" />
               <item name="websky" type="462c0819:PsiDirectoryNode" />
-              <item name="aeroflot" type="462c0819:PsiDirectoryNode" />
+              <item name="flyone" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="websky" type="b2602c69:ProjectViewProjectNode" />
               <item name="websky" type="462c0819:PsiDirectoryNode" />
-              <item name="aeroflot" type="462c0819:PsiDirectoryNode" />
-              <item name="index.css" type="462c0819:PsiDirectoryNode" />
+              <item name="rusline" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="websky" type="b2602c69:ProjectViewProjectNode" />
               <item name="websky" type="462c0819:PsiDirectoryNode" />
-              <item name="nordavia" type="462c0819:PsiDirectoryNode" />
+              <item name="rusline" type="462c0819:PsiDirectoryNode" />
+              <item name="checkin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,13 +168,13 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../websky-flyandbus" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/node-sass/bin/node-sass" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="diff.external" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -369,27 +315,42 @@
       <workItem from="1537435360277" duration="876000" />
       <workItem from="1537438685510" duration="2279000" />
       <workItem from="1537445756651" duration="6043000" />
+      <workItem from="1537462470270" duration="113000" />
+      <workItem from="1537519866339" duration="215000" />
+      <workItem from="1537525589375" duration="1542000" />
+      <workItem from="1537530258262" duration="1687000" />
+      <workItem from="1537782692306" duration="3138000" />
+      <workItem from="1537789683874" duration="55000" />
+      <workItem from="1537866790326" duration="715000" />
+      <workItem from="1537885411166" duration="2622000" />
+      <workItem from="1537965170634" duration="3875000" />
+      <workItem from="1538045849300" duration="107000" />
+      <workItem from="1538471374154" duration="872000" />
+      <workItem from="1538494842791" duration="2744000" />
+      <workItem from="1538571474550" duration="2095000" />
+      <workItem from="1538640176700" duration="1168000" />
+      <workItem from="1538641962208" duration="1117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63250000" />
+    <option name="totallyTimeSpent" value="85315000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="25" width="960" height="1055" extended-state="4" />
+    <frame x="960" y="27" width="940" height="1053" extended-state="5" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49695122" weight="0.4180851" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49695122" weight="0.40421054" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31534392" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3128314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3005291" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4135737" />
       <window_info id="Favorites" order="2" sideWeight="0.5030488" side_tool="true" weight="0.40729168" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -406,41 +367,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/flyone/_variables.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flyone/_mixins.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aurora/index.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alrosa/index.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angara/index.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iraero/index.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="846">
@@ -457,13 +383,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flyone/flyone.css/flyone.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flyone/index.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/izhavia/index.sass">
       <provider selected="true" editor-type-id="text-editor">
@@ -577,13 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rusline/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="3556" column="4" selection-start-line="3556" selection-start-column="4" selection-end-line="3556" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nordwind/checkin/_variables.sass">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -591,26 +503,12 @@
     <entry file="file://$PROJECT_DIR$/alrosa/_mixins.sass">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/_mixins.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/aeroflot/icon-bus.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/common/_variables.sass">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nordwind/index.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yamal/checkin/header.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -640,37 +538,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yamal/checkin/index.sass">
+    <entry file="file://$PROJECT_DIR$/severstal-avia.ru/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="578">
+          <caret line="210" selection-start-line="210" selection-end-line="210" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scat/index.sass">
+    <entry file="file://$PROJECT_DIR$/severstal-avia.ru/index.css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="368">
+          <caret line="181" column="14" selection-start-line="181" selection-start-column="14" selection-end-line="181" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aeroflot/index.css/index.css">
+    <entry file="file://$PROJECT_DIR$/nordavia/web_head.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
-          <folding>
-            <element signature="e#391#1080#1" expanded="true" />
-            <element signature="e#1453#93626#1" expanded="true" />
-            <element signature="e#400942#401631#2" expanded="true" />
-            <element signature="e#401829#703110#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aeroflot/_blocks.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="548">
+          <caret line="865" selection-start-line="865" selection-end-line="865" />
         </state>
       </provider>
     </entry>
@@ -681,31 +566,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nordavia/web_head.css">
+    <entry file="file://$PROJECT_DIR$/aeroflot/_blocks.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="865" selection-start-line="865" selection-end-line="865" />
+        <state relative-caret-position="128">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scat/index.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rusline/rootScope.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rusline/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="5410" lean-forward="true" selection-start-line="5410" selection-end-line="5410" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nordwind/index.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gruzz/index.css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="781">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamal/checkin/index.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gruzz/index.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rusline/checkin/index.css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rusline/checkin/index.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flyone/index.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/_mixins.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="859">
+          <caret line="144" column="4" selection-start-line="144" selection-start-column="4" selection-end-line="144" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aeroflot/index.css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aeroflot/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/severstal-avia.ru/index.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="210" selection-start-line="210" selection-end-line="210" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/severstal-avia.ru/index.css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="176" column="17" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
+        <state relative-caret-position="720">
+          <caret line="98" column="19" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
         </state>
       </provider>
     </entry>
