@@ -52,3 +52,92 @@
   cursor: pointer; }
 
 /* ==== END #35382 ==== */
+/* ==== #39735 ==== */
+.searchSteps ol li {
+  color: #1D2758; }
+  .searchSteps ol li:after {
+    color: #1D2758;
+    border-color: #1D2758; }
+  .searchSteps ol li.active, .searchSteps ol li.prev {
+    color: #1D2758; }
+    .searchSteps ol li.active:after, .searchSteps ol li.prev:after {
+      color: #1D2758;
+      border-color: #1D2758; }
+  .searchSteps ol li.active:before {
+    background: #1D2758; }
+  .searchSteps ol li.prev a {
+    color: #1D2758; }
+    .searchSteps ol li.prev a:hover:after {
+      background: #1D2758; }
+
+/* header */
+.userNav__i a:hover, .userNav__i span:hover {
+  color: #1D2758; }
+
+.popup .title {
+  background: #1D2758; }
+
+.popup__i__footer__links__link {
+  color: #1D2758; }
+
+.pika-button.pika-day {
+  background: #1D2758; }
+
+.pika-single table tbody tr td:not(.is-disabled):not(.is-startrange):not(.is-today):not(.is-endrange):not(.is-selected):nth-child(6) button,
+.pika-single table tbody tr td:not(.is-disabled):not(.is-startrange):not(.is-today):not(.is-endrange):not(.is-selected):nth-child(7) button {
+  background: #6b92e5;
+  color: #ffffff; }
+
+/* search form */
+.orderSearchForm .calendarBtn, .orderSearchForm .arrowDown, .timeTableSearchForm .calendarBtn, .timeTableSearchForm .arrowDown {
+  color: #1D2758; }
+
+.orderSearchForm .btnTransfer, .timeTableSearchForm .btnTransfer {
+  color: #1D2758; }
+
+.orderSearchForm .btnPlus i, .timeTableSearchForm .btnPlus i {
+  color: #1D2758; }
+
+.orderSearchForm .bonusItem label, .timeTableSearchForm .bonusItem label {
+  color: #1D2758; }
+
+.orderSearchForm .bonusItem .textInp:focus, .timeTableSearchForm .bonusItem .textInp:focus {
+  border-color: #1D2758; }
+
+.pikaday-top__label {
+  color: #1D2758; }
+
+.btn.btn_noBack,
+.btn_noBack.popup__i__footer__buttons__button,
+.searchResultsControl .btn_noBack.btn_next,
+.invoice .btn-row .btn_noBack.btn,
+.ticketChange .btnRow .btn_noBack.btn {
+  color: #1D2758;
+  border-color: #1D2758; }
+
+.btn.btn_search,
+.popup__i__footer__buttons__button,
+.searchResultsControl .btn_next,
+.invoice .btn-row .popup__i__footer__buttons__button,
+.invoice .btn-row .searchResultsControl .btn_next,
+.searchResultsControl .invoice .btn-row .btn_next,
+.invoice .btn-row .btn,
+.ticketChange .btnRow .popup__i__footer__buttons__button,
+.ticketChange .btnRow .searchResultsControl .btn_next,
+.searchResultsControl .ticketChange .btnRow .btn_next,
+.ticketChange .btnRow .btn {
+  background: #1D2758; }
+  .btn.btn_search:hover,
+  .popup__i__footer__buttons__button:hover,
+  .searchResultsControl .btn_next:hover,
+  .invoice .btn-row .popup__i__footer__buttons__button:hover,
+  .invoice .btn-row .searchResultsControl .btn_next:hover,
+  .searchResultsControl .invoice .btn-row .btn_next:hover,
+  .invoice .btn-row .btn:hover,
+  .ticketChange .btnRow .popup__i__footer__buttons__button:hover,
+  .ticketChange .btnRow .searchResultsControl .btn_next:hover,
+  .searchResultsControl .ticketChange .btnRow .btn_next:hover,
+  .ticketChange .btnRow .btn:hover {
+    background: #1B449C; }
+
+/* ==== END #39735 ==== */

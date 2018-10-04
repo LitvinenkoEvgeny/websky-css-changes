@@ -2,12 +2,10 @@
 @import "mixins"
 @import "../common/mixins"
 
-
 /* ==== #31373 ==== */
 // 10
 +changeHeight
 +setTabletFullWidthAndHeight
-
 
 .chooseFlight__table__item__content.active .chooseFlight__table__item__content__link,
 .flightTable .contentRow td.active a
@@ -32,3 +30,76 @@
 +removePointerDisabledFromCalendar
 
 /* ==== END #35382 ==== */
+
+
+/* ==== #39735 ==== */
+
++setSearchStepsColor($brandMainColor)
+
+/* header */
+.userNav__i
+  a, span
+    &:hover
+      color: $brandMainColor
+
+.popup
+  .title
+    background: $brandMainColor
+  &__i
+    &__footer
+      &__links
+        &__link
+          color: $brandMainColor
+
++enabledCalendarStyles
+  background: $brandMainColor
+
++weekendCalendarStyles
+  background: lighten($brandThirdColor, 30%)
+  color: #ffffff
+
+/* search form */
+=setSearchFormColor($color, $hoverColor)
+  .orderSearchForm, .timeTableSearchForm
+    .calendarBtn, .arrowDown
+      color: $color
+    .btnTransfer
+      color: $color
+    .btnPlus i
+      color: $color
+    .bonusItem
+      label
+        color: $color
+      .textInp
+        &:focus
+          border-color: $color
+
+  .pikaday-top__label
+    color: $color
+
+  .btn.btn_noBack,
+  .btn_noBack.popup__i__footer__buttons__button,
+  .searchResultsControl .btn_noBack.btn_next,
+  .invoice .btn-row .btn_noBack.btn,
+  .ticketChange .btnRow .btn_noBack.btn
+    color: $color
+    border-color: $color
+
+  .btn.btn_search,
+  .popup__i__footer__buttons__button,
+  .searchResultsControl .btn_next,
+  .invoice .btn-row .popup__i__footer__buttons__button,
+  .invoice .btn-row .searchResultsControl .btn_next,
+  .searchResultsControl .invoice .btn-row .btn_next,
+  .invoice .btn-row .btn,
+  .ticketChange .btnRow .popup__i__footer__buttons__button,
+  .ticketChange .btnRow .searchResultsControl .btn_next,
+  .searchResultsControl .ticketChange .btnRow .btn_next,
+  .ticketChange .btnRow .btn
+    background: $color
+    &:hover
+      background: $hoverColor
+
++setSearchFormColor($brandMainColor, $brandThirdColor)
+
+/* ==== END #39735 ==== */
