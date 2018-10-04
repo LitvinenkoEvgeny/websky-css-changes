@@ -52,7 +52,7 @@
     top: 3px
     @extend %icon--bus
 
-$leftPosition: 10px
+$leftPosition: 20px
 .chooseResult__i .flight,
 .searchResultsPlain__i .flight
   .route_item_container:nth-of-type(2),
@@ -64,12 +64,18 @@ $leftPosition: 10px
       min-width: 150px
       margin: 0 auto
       +adaptivity(phone)
-        text-align: center
+        display: inline-block
+        text-align: left
+        padding: 50px 0 10px
+      .icon_bus
+        +adaptivity(phone)
+          margin: 0
       &:before,
       &:after
         content: ''
         top: -10px
         display: inline-block
+        position: absolute
       &:before
         width: 30px
         height: 30px
@@ -77,26 +83,21 @@ $leftPosition: 10px
         background-size: cover
         margin-bottom: 15px
         left: $leftPosition
-        top: 8px
-        position: relative
-        +adaptivity(tablet)
-          left: percent(10px, 225px)
+        top: -8px
         +adaptivity(phone)
-          left: 50px
-          top: 20px
+          top: 5px
+          left: 0
       &:after
         content: 'Fly&Bus'
         color: #0063b1
         font-family: "Arial", sans-serif
         font-size: 20px
-        left: $leftPosition + 50px
-        top: 40px
-        position: absolute
-        +adaptivity(tablet)
-          left: percent(80px, 225px)
-          top: 40px
+        left: $leftPosition + 40px
+        top: 0
         +adaptivity(phone)
-          left: 110px
+          top: 12px
+          left: 40px
+
     .info_single-fly-and-bus
       &:before,
       &:after
@@ -120,6 +121,7 @@ $leftPosition: 10px
 .icon
   &_bus
     @extend %icon--bus
+    margin: 0 auto
   &_flyandbus-logo
     position: relative
     display: inline
@@ -174,3 +176,12 @@ $leftPosition: 10px
   position: relative
   top: -10px
 
+/* ==== redefine ==== */
+
+.chooseResult__i .route_item .route_container .route_table .dep,
+.chooseResult__i .route_item .route_container .route_table .arr,
+.searchResultsPlain__i .route_item .route_container .route_table .dep,
+.searchResultsPlain__i .route_item .route_container .route_table .arr
+  vertical-align: middle
+
+/* ==== END redefine ==== */
