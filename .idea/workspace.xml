@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04053ab9-ca55-4eac-be3a-da8761111c39" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aeroflot/index.css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/aeroflot/index.css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aeroflot/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/aeroflot/index.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scat/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/scat/index.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-checkin" beforeDir="false" afterPath="$PROJECT_DIR$/web-checkin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-checkin/SeatMapClassifier.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-checkin/SeatMapClassifier.js" afterDir="false" />
     </list>
@@ -39,8 +35,8 @@
       <file leaf-file-name="index.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aeroflot/index.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="98" column="19" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
+            <state relative-caret-position="231">
+              <caret line="102" column="12" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -128,36 +124,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="websky" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websky" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="websky" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websky" type="462c0819:PsiDirectoryNode" />
-              <item name="flyone" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="websky" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websky" type="462c0819:PsiDirectoryNode" />
-              <item name="rusline" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="websky" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websky" type="462c0819:PsiDirectoryNode" />
-              <item name="rusline" type="462c0819:PsiDirectoryNode" />
-              <item name="checkin" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -329,15 +296,15 @@
       <workItem from="1538494842791" duration="2744000" />
       <workItem from="1538571474550" duration="2095000" />
       <workItem from="1538640176700" duration="1168000" />
-      <workItem from="1538641962208" duration="1117000" />
+      <workItem from="1538641962208" duration="1610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85315000" />
+    <option name="totallyTimeSpent" value="85808000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="27" width="940" height="1053" extended-state="5" />
+    <frame x="960" y="27" width="940" height="1053" extended-state="4" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49695122" weight="0.40421054" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -348,7 +315,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3128314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4135737" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4135737" />
       <window_info id="Favorites" order="2" sideWeight="0.5030488" side_tool="true" weight="0.40729168" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -647,8 +614,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aeroflot/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="98" column="19" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
+        <state relative-caret-position="231">
+          <caret line="102" column="12" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="12" />
         </state>
       </provider>
     </entry>
