@@ -34,7 +34,28 @@
 
 /* ==== #39735 ==== */
 
-+setSearchStepsColor($brandMainColor)
+=setSearchStepsColor($color)
+  .searchSteps ol li
+    color: $color
+    &:after
+      color: $color
+      border-color: $color
+    &.active, &.prev
+      background: transparent
+      color: $color
+      &:after
+        color: $color
+        border-color: $color
+    &.active
+      &:before
+        background: $color
+    &.prev
+      a
+        color: $color
+        background-color: transparent
+        &:hover
+          &:after
+            background: $color
 
 /* header */
 .userNav__i
@@ -50,9 +71,18 @@
       &__links
         &__link
           color: $brandMainColor
+/* links */
+a.link
+  color: $brandMainColor
+  border-color: inherit
 
 +enabledCalendarStyles
-  background: $brandMainColor
+  background: $brandThirdColor
+  color: #ffffff
+
++unavalibleStyles
+  background: $brandThirdColor
+  color: #ffffff
 
 +weekendCalendarStyles
   background: lighten($brandThirdColor, 30%)
@@ -77,6 +107,11 @@
   .pikaday-top__label
     color: $color
 
+  .searchParams__i .changeParams
+    color: $color
+    &:after
+      color: inherit
+
   .btn.btn_noBack,
   .btn_noBack.popup__i__footer__buttons__button,
   .searchResultsControl .btn_noBack.btn_next,
@@ -100,6 +135,121 @@
     &:hover
       background: $hoverColor
 
+  .orderSearchForm .item.item_transfer .textInp:focus,
+  .timeTableSearchForm .item.item_transfer .textInp:focus,
+  .orderSearchForm .calendarInp:focus,
+  .timeTableSearchForm .calendarInp:focus
+    border-color: $color
+
+  .orderSearchForm .btnTransfer:hover,
+  .timeTableSearchForm .btnTransfer:hover
+    background: $color
+
+=setHeaderStyles($primary, $secondary)
+  .header
+    background: $primary
+  .searchSteps
+    background: $secondary
+
+=calendarPrevNextButtons()
+  .pika-prev, .pika-next
+    @content
+
+=setSearchVariantsColor($primary, $secondary, $textColor: white, $colorSet: (initial, initial, initial, initial))
+  .chooseFlight .flightWay a
+    color: $primary
+    span
+      &:first-child
+        &:after
+          color: inherit
+
+  .chooseDate
+    .control.control_next,
+    .control.control_prev
+      &:after
+        color: $primary
+
+    .tableWrap
+      table
+        td
+          &.active
+            background: $primary
+            a
+              color: $textColor
+              strong
+                color: $textColor
+
+  .flightTable
+    table > tbody > tr.headrow
+      @for $index from 1 through length($colorSet)
+        $color: nth($colorSet, $index)
+        $index: $index + 1
+        > td:nth-child(#{$index})
+          background: $color
+
+    .timeTable
+      a
+        color: $primary
+        border-color: inherit
+
+    .contentRow
+      td
+        &.active
+          a
+            background: $primary
+
+  .compareTableWrap
+    /* Таблица сравнения тарифов */
+    table tr:first-child
+      @for $index from 1 through length($colorSet)
+        $color: nth($colorSet, $index)
+        $index: $index + 1
+        td:nth-child(#{$index})
+          background: $color
+
+  .popup_detail
+    .route_item
+      .route_container
+        .route_table
+          .dep, .arr
+            &__point_city,
+            &__time
+              color: $primary
+
+  .chooseResult__i,
+  .searchResultsPlain__i
+    .route_item
+      .route_container
+        .route_table
+          .dep, .arr
+            &__time
+              color: $primary
+            &__point_city
+              color: $primary
+    .flight
+      border-color: $primary
+
+    .passengers
+      a
+        &:after
+          color: $primary
+
+    .total
+      p
+        a
+          color: $primary
+          border-color: inherit
+
++calendarPrevNextButtons
+  &:hover
+    background: $brandMainColor
+    border-color: $brandMainColor
+    &:after
+      color: #ffffff
+
++setSearchStepsColor($brandMainColor)
 +setSearchFormColor($brandMainColor, $brandThirdColor)
++setHeaderStyles($brandSecondaryColor, $brandFourthColor)
++setSearchVariantsColor($brandMainColor, $brandSecondaryColor, $colorSet: ($brandSecondaryColor, darken($brandSecondaryColor, 5%), darken($brandSecondaryColor, 10%), darken($brandSecondaryColor, 20%)))
 
 /* ==== END #39735 ==== */

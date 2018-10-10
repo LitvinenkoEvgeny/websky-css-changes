@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ==== END changeHeightMixin in common/_mixins.sass ==== */
 /* ==== END equalize input height in passengers step ==== */
 /* ==== #31373 ==== */
@@ -53,23 +54,6 @@
 
 /* ==== END #35382 ==== */
 /* ==== #39735 ==== */
-.searchSteps ol li {
-  color: #1D2758; }
-  .searchSteps ol li:after {
-    color: #1D2758;
-    border-color: #1D2758; }
-  .searchSteps ol li.active, .searchSteps ol li.prev {
-    color: #1D2758; }
-    .searchSteps ol li.active:after, .searchSteps ol li.prev:after {
-      color: #1D2758;
-      border-color: #1D2758; }
-  .searchSteps ol li.active:before {
-    background: #1D2758; }
-  .searchSteps ol li.prev a {
-    color: #1D2758; }
-    .searchSteps ol li.prev a:hover:after {
-      background: #1D2758; }
-
 /* header */
 .userNav__i a:hover, .userNav__i span:hover {
   color: #1D2758; }
@@ -80,8 +64,18 @@
 .popup__i__footer__links__link {
   color: #1D2758; }
 
+/* links */
+a.link {
+  color: #1D2758;
+  border-color: inherit; }
+
 .pika-button.pika-day {
-  background: #1D2758; }
+  background: #1B449C;
+  color: #ffffff; }
+
+.pika-lendar__availability-highlight .pika-button.unavailable {
+  background: #1B449C;
+  color: #ffffff; }
 
 .pika-single table tbody tr td:not(.is-disabled):not(.is-startrange):not(.is-today):not(.is-endrange):not(.is-selected):nth-child(6) button,
 .pika-single table tbody tr td:not(.is-disabled):not(.is-startrange):not(.is-today):not(.is-endrange):not(.is-selected):nth-child(7) button {
@@ -89,6 +83,31 @@
   color: #ffffff; }
 
 /* search form */
+.pika-prev:hover, .pika-next:hover {
+  background: #1D2758;
+  border-color: #1D2758; }
+  .pika-prev:hover:after, .pika-next:hover:after {
+    color: #ffffff; }
+
+.searchSteps ol li {
+  color: #1D2758; }
+  .searchSteps ol li:after {
+    color: #1D2758;
+    border-color: #1D2758; }
+  .searchSteps ol li.active, .searchSteps ol li.prev {
+    background: transparent;
+    color: #1D2758; }
+    .searchSteps ol li.active:after, .searchSteps ol li.prev:after {
+      color: #1D2758;
+      border-color: #1D2758; }
+  .searchSteps ol li.active:before {
+    background: #1D2758; }
+  .searchSteps ol li.prev a {
+    color: #1D2758;
+    background-color: transparent; }
+    .searchSteps ol li.prev a:hover:after {
+      background: #1D2758; }
+
 .orderSearchForm .calendarBtn, .orderSearchForm .arrowDown, .timeTableSearchForm .calendarBtn, .timeTableSearchForm .arrowDown {
   color: #1D2758; }
 
@@ -106,6 +125,11 @@
 
 .pikaday-top__label {
   color: #1D2758; }
+
+.searchParams__i .changeParams {
+  color: #1D2758; }
+  .searchParams__i .changeParams:after {
+    color: inherit; }
 
 .btn.btn_noBack,
 .btn_noBack.popup__i__footer__buttons__button,
@@ -139,5 +163,93 @@
   .searchResultsControl .ticketChange .btnRow .btn_next:hover,
   .ticketChange .btnRow .btn:hover {
     background: #1B449C; }
+
+.orderSearchForm .item.item_transfer .textInp:focus,
+.timeTableSearchForm .item.item_transfer .textInp:focus,
+.orderSearchForm .calendarInp:focus,
+.timeTableSearchForm .calendarInp:focus {
+  border-color: #1D2758; }
+
+.orderSearchForm .btnTransfer:hover,
+.timeTableSearchForm .btnTransfer:hover {
+  background: #1D2758; }
+
+.header {
+  background: #BAD9EB; }
+
+.searchSteps {
+  background: #D1E4F2; }
+
+.chooseFlight .flightWay a {
+  color: #1D2758; }
+  .chooseFlight .flightWay a span:first-child:after {
+    color: inherit; }
+
+.chooseDate .control.control_next:after,
+.chooseDate .control.control_prev:after {
+  color: #1D2758; }
+
+.chooseDate .tableWrap table td.active {
+  background: #1D2758; }
+  .chooseDate .tableWrap table td.active a {
+    color: white; }
+    .chooseDate .tableWrap table td.active a strong {
+      color: white; }
+
+.flightTable table > tbody > tr.headrow > td:nth-child(2) {
+  background: #BAD9EB; }
+
+.flightTable table > tbody > tr.headrow > td:nth-child(3) {
+  background: #a6cee5; }
+
+.flightTable table > tbody > tr.headrow > td:nth-child(4) {
+  background: #92c3e0; }
+
+.flightTable table > tbody > tr.headrow > td:nth-child(5) {
+  background: #6badd4; }
+
+.flightTable .timeTable a {
+  color: #1D2758;
+  border-color: inherit; }
+
+.flightTable .contentRow td.active a {
+  background: #1D2758; }
+
+.compareTableWrap {
+  /* Таблица сравнения тарифов */ }
+  .compareTableWrap table tr:first-child td:nth-child(2) {
+    background: #BAD9EB; }
+  .compareTableWrap table tr:first-child td:nth-child(3) {
+    background: #a6cee5; }
+  .compareTableWrap table tr:first-child td:nth-child(4) {
+    background: #92c3e0; }
+  .compareTableWrap table tr:first-child td:nth-child(5) {
+    background: #6badd4; }
+
+.popup_detail .route_item .route_container .route_table .dep__point_city, .popup_detail .route_item .route_container .route_table .dep__time, .popup_detail .route_item .route_container .route_table .arr__point_city, .popup_detail .route_item .route_container .route_table .arr__time {
+  color: #1D2758; }
+
+.chooseResult__i .route_item .route_container .route_table .dep__time, .chooseResult__i .route_item .route_container .route_table .arr__time,
+.searchResultsPlain__i .route_item .route_container .route_table .dep__time,
+.searchResultsPlain__i .route_item .route_container .route_table .arr__time {
+  color: #1D2758; }
+
+.chooseResult__i .route_item .route_container .route_table .dep__point_city, .chooseResult__i .route_item .route_container .route_table .arr__point_city,
+.searchResultsPlain__i .route_item .route_container .route_table .dep__point_city,
+.searchResultsPlain__i .route_item .route_container .route_table .arr__point_city {
+  color: #1D2758; }
+
+.chooseResult__i .flight,
+.searchResultsPlain__i .flight {
+  border-color: #1D2758; }
+
+.chooseResult__i .passengers a:after,
+.searchResultsPlain__i .passengers a:after {
+  color: #1D2758; }
+
+.chooseResult__i .total p a,
+.searchResultsPlain__i .total p a {
+  color: #1D2758;
+  border-color: inherit; }
 
 /* ==== END #39735 ==== */
