@@ -145,6 +145,10 @@ a.link
   .timeTableSearchForm .btnTransfer:hover
     background: $color
 
+  /* mobile styles */
+  .orderSearchForm .pikaday__header_mobile.active
+    background: $color
+
 =setHeaderStyles($primary, $secondary)
   .header
     background: $primary
@@ -239,6 +243,37 @@ a.link
         a
           color: $primary
           border-color: inherit
+
+  /* mobile styles */
+  .selectDate
+    .item
+      &.active
+        background: $primary
+        a
+          color: #ffffff
+          .price,
+          .date,
+          .date_text
+            color: inherit
+  .chooseFlight
+    &__list
+      &__item
+        &__label
+          > span
+            border-color: $primary
+        &__content
+          &__bottom
+            &__link
+              a
+                color: $primary
+                border-color: inherit
+  .flightTableWrap
+    .title
+      &__i
+        a
+          color: $primary
+  .selectDate .control [class*="icon_"]
+    color: $primary
 
 +calendarPrevNextButtons
   &:hover
