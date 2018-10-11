@@ -15,8 +15,6 @@
 +colorizeFlightType(business_type1, $businessLight)
 +colorizeFlightType(business_type2, $businessStandart)
 
-
-
 //.passengerInfo
   .phone-mask-desc
     top: 34px
@@ -31,9 +29,9 @@
     &__i
       //height: 100%
       .customCheckbox span
-        top: -2px
-        //top: 50%
-        //transform: translate(0, -50%)
+      top: -2px
+//top: 50%
+//transform: translate(0, -50%)
 
 .btn_receipt_cont
   a.show_receipt,
@@ -54,7 +52,6 @@
     transform: none
     top: 3px
 
-
 // динамические подсказки сейчас работают, но есть дублирование в самом поле.
 .passengersInfo input[type="text"],
 .passengersInfo input[type="password"],
@@ -62,7 +59,6 @@
 .passengersInfo input[type="email"]
   +placeholder
     color: $white
-
 
 /* ====  деф цвет вылез https://yadi.sk/i/cOQAziay3ZsYx5 ==== */
 
@@ -89,7 +85,6 @@
   span
     padding-left: 0
 
-
 /* ==== END 1) в моб версии сравнение тарифов кривое https://yadi.sk/i/PvUs37Sb3ZsYoh ==== */
 
 /* ==== 4) разные отступы между строками. и дублирование поля "Пол" https://yadi.sk/i/HhPKacE73ZsZAx ==== */
@@ -97,7 +92,6 @@
 .ui-select-passengers .selectize-input
   padding: 9px 10px
   height: 42px
-
 
 /* ==== END 4) разные отступы между строками. и дублирование поля "Пол" https://yadi.sk/i/HhPKacE73ZsZAx ==== */
 
@@ -107,11 +101,10 @@
   color: $white
   border-color: $redBrandColor
 
-
 /* 8) В IE такой ховер https://yadi.sk/i/nXLrbWR23Zsanf */
 .chooseDate .tableWrap table td a
   height: auto
-  
+
 /* #38781 */
 .refundInfo
   width: 50%
@@ -128,3 +121,31 @@
 +removePointerDisabledFromCalendar
 
 /* ==== END #35382 ==== */
+
+/* ==== #40069 ==== */
+
+.icon
+  &_plane-up
+    width: 100%
+    height: 100%
+    background: $planeIcon center no-repeat
+    display: inline-block
+    -webkit-background-size: 110%
+    background-size: 60%
+    &_gray
+      background: $planeIconGray center no-repeat
+      background-size: 60%
+
+.timeTable .wrap-table table
+  th
+    .cell
+      height: 70px
+      vertical-align: middle
+      display: table-cell
+
+  .cell-date
+    &.active
+      background: #e21c2a
+
+
+/* ==== END #40069 ==== */
