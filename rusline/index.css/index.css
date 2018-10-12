@@ -1,2 +1,14 @@
 #preloader {
   display: none; }
+
+/* ==== #40126 ==== */
+.infoTooltip {
+  background: #ff1723;
+  white-space: pre;
+  bottom: 115%;
+  padding: 10px 20px;
+  top: initial; }
+  .infoTooltip:after {
+    border-top-color: #ff1723; }
+
+/* ==== END #40126 ==== */
