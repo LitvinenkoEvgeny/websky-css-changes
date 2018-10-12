@@ -11,8 +11,6 @@
     &.disabled
       cursor: not-allowed
 
-
-
 [ng-if="vm.step == 'REQUEST_FORM'"]
   .popup__i__footer__buttons
     width: 50%
@@ -32,3 +30,22 @@
 +removePointerDisabledFromCalendar
 
 /* ==== END #35382 ==== */
+
+/* ==== #39107 ==== */
+
+.seatName
+  &__price
+    font-size: 1.5em
+
+.seatSelect .seatName
+  white-space: unset
+  width: 150px
+  padding: 5px
+  z-index: 1
+  border-radius: 3px
+  font-size: .7em
+  bottom: 125%
+  top: initial
+
+
+/* ==== END #39107 ==== */
