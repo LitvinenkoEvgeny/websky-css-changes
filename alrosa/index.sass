@@ -282,9 +282,111 @@ a.link
     &:after
       color: #ffffff
 
+=passengersInfo($primaryColor, $secondaryColor, $textColor)
+  .passengersInfo
+    h2
+      color: $primaryColor
+    .login
+      a
+        color: $primaryColor
+        border-color: inherit
+        &:after
+          border-color: inherit
+    .itemName
+      color: $primaryColor
+      &__number
+        color: $primaryColor
+
+    input[type="text"]:focus,
+    input[type="password"]:focus,
+    input[type="tel"]:focus,
+    input[type="email"]:focus,
+    .selectize-input.focus
+      border-color: $primaryColor !important
+
+    .ui-select-choices-row:hover,
+    .selectize-dropdown .active
+      background: rgba($textColor, .7) !important
+
+  .iconfirm
+    .customCheckbox
+      span
+        border-color: $secondaryColor
+      input
+        &:checked
+          + span:after
+            color: $primaryColor
+
+  .btn.btn_back
+    color: $primaryColor
+    border-color: $primaryColor
+
+  .ui-select-passengers-header
+    .selectize-input,
+    .selectize-input.focus
+      color: $primaryColor !important
+    .ui-select-placeholder.text-muted
+      color: $primaryColor
+
+=addServices($primaryColor, $secondaryColor, $thirdColor, $shadowColor, $textColor)
+  .checkoutServices__i
+    .title
+      color: $primaryColor
+    .list
+      > .item
+        &.active
+          .top
+            .iconBox
+              background: $primaryColor
+        .top
+          background: $thirdColor
+          .iconBox
+            background: $primaryColor
+          .btn
+            color: $thirdColor
+            border-color: $thirdColor
+
+    /* mobile styles */
+    .row
+      &:first-child
+        background: $thirdColor
+      background: $primaryColor
+
+  .radioBtn
+    input:checked + span
+      border-color: $thirdColor
+      &:after
+        background: $thirdColor
+  .payMethods a
+    color: $thirdColor
+    border-color: inherit
+
+=orderInfo($primaryColor, $secondaryColor, $thirdColor, $fourthColor)
+  .invoiceInfo
+    .orderNum
+      color: $primaryColor
+
+  .invoiceServicesSelected
+    .item
+      .item__i
+        > p strong
+          color: $primaryColor
+  .invoiceDrops
+    .title
+      background: $secondaryColor
+      a
+        color: $primaryColor
+
+    .circle
+      i
+        color: $primaryColor
+
 +setSearchStepsColor($brandMainColor)
 +setSearchFormColor($brandMainColor, $brandThirdColor)
 +setHeaderStyles($brandSecondaryColor, $brandFourthColor)
 +setSearchVariantsColor($brandMainColor, $brandSecondaryColor, $colorSet: ($brandSecondaryColor, darken($brandSecondaryColor, 5%), darken($brandSecondaryColor, 10%), darken($brandSecondaryColor, 20%)))
++passengersInfo($brandMainColor, $brandThirdColor, $brandFourthColor)
++addServices($brandMainColor, $brandSecondaryColor, $brandThirdColor, $brandFourthColor, $brandFourthColor)
++orderInfo($brandMainColor, $brandSecondaryColor, $brandThirdColor, $brandFourthColor)
 
 /* ==== END #39735 ==== */
