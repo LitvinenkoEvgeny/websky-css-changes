@@ -279,4 +279,87 @@ a.link {
 .selectDate .control [class*="icon_"] {
   color: #1D2758; }
 
+.passengersInfo h2 {
+  color: #1D2758; }
+
+.passengersInfo .login a {
+  color: #1D2758;
+  border-color: inherit; }
+  .passengersInfo .login a:after {
+    border-color: inherit; }
+
+.passengersInfo .itemName {
+  color: #1D2758; }
+  .passengersInfo .itemName__number {
+    color: #1D2758; }
+
+.passengersInfo input[type="text"]:focus,
+.passengersInfo input[type="password"]:focus,
+.passengersInfo input[type="tel"]:focus,
+.passengersInfo input[type="email"]:focus,
+.passengersInfo .selectize-input.focus {
+  border-color: #1D2758 !important; }
+
+.passengersInfo .ui-select-choices-row:hover,
+.passengersInfo .selectize-dropdown .active {
+  background: rgba(209, 228, 242, 0.7) !important; }
+
+.iconfirm .customCheckbox span {
+  border-color: #1B449C; }
+
+.iconfirm .customCheckbox input:checked + span:after {
+  color: #1D2758; }
+
+.btn.btn_back {
+  color: #1D2758;
+  border-color: #1D2758; }
+
+.ui-select-passengers-header .selectize-input,
+.ui-select-passengers-header .selectize-input.focus {
+  color: #1D2758 !important; }
+
+.ui-select-passengers-header .ui-select-placeholder.text-muted {
+  color: #1D2758; }
+
+.checkoutServices__i {
+  /* mobile styles */ }
+  .checkoutServices__i .title {
+    color: #1D2758; }
+  .checkoutServices__i .list > .item.active .top .iconBox {
+    background: #1D2758; }
+  .checkoutServices__i .list > .item .top {
+    background: #1B449C; }
+    .checkoutServices__i .list > .item .top .iconBox {
+      background: #1D2758; }
+    .checkoutServices__i .list > .item .top .btn {
+      color: #1B449C;
+      border-color: #1B449C; }
+  .checkoutServices__i .row {
+    background: #1D2758; }
+    .checkoutServices__i .row:first-child {
+      background: #1B449C; }
+
+.radioBtn input:checked + span {
+  border-color: #1B449C; }
+  .radioBtn input:checked + span:after {
+    background: #1B449C; }
+
+.payMethods a {
+  color: #1B449C;
+  border-color: inherit; }
+
+.invoiceInfo .orderNum {
+  color: #1D2758; }
+
+.invoiceServicesSelected .item .item__i > p strong {
+  color: #1D2758; }
+
+.invoiceDrops .title {
+  background: #BAD9EB; }
+  .invoiceDrops .title a {
+    color: #1D2758; }
+
+.invoiceDrops .circle i {
+  color: #1D2758; }
+
 /* ==== END #39735 ==== */
