@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04053ab9-ca55-4eac-be3a-da8761111c39" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/polarair/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/polarair/index.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-checkin" beforeDir="false" afterPath="$PROJECT_DIR$/web-checkin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-checkin/SeatMapClassifier.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-checkin/SeatMapClassifier.js" afterDir="false" />
     </list>
@@ -32,29 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/redwings/index.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rusline/index.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/node_modules/node-sass/src/libsass/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="747">
+              <caret line="56" column="15" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -117,8 +98,8 @@
         <option value="$PROJECT_DIR$/alrosa/index.sass" />
         <option value="$PROJECT_DIR$/izhavia/_variables.sass" />
         <option value="$PROJECT_DIR$/izhavia/index.sass" />
-        <option value="$PROJECT_DIR$/redwings/index.sass" />
         <option value="$PROJECT_DIR$/rusline/index.sass" />
+        <option value="$PROJECT_DIR$/redwings/index.sass" />
         <option value="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.gitignore" />
       </list>
     </option>
@@ -332,11 +313,12 @@
       <workItem from="1539185514428" duration="1378000" />
       <workItem from="1539249688008" duration="1460000" />
       <workItem from="1539333239331" duration="4571000" />
+      <workItem from="1539602429456" duration="302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109345000" />
+    <option name="totallyTimeSpent" value="109647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="27" width="940" height="1053" extended-state="4" />
@@ -348,12 +330,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31111112" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.40933192" />
-      <window_info id="Favorites" order="2" sideWeight="0.5030488" side_tool="true" weight="0.40729168" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.5030488" side_tool="true" weight="0.40729168" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -634,13 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redwings/index.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rusline/index.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -652,6 +627,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redwings/index.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="56" column="15" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
         </state>
       </provider>
     </entry>
