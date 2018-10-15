@@ -1,0 +1,25 @@
+/* ==== END changeHeightMixin in common/_mixins.sass ==== */
+/* ==== END equalize input height in passengers step ==== */
+.orderSearchForm .item.item_peoples pass-picker:nth-child(odd) .col, .orderSearchForm .item.item_peoples pass-picker:nth-child(even) .col {
+  padding: 19px 0 0 0; }
+
+.orderSearchForm .item.item_peoples .col {
+  width: 255px;
+  flex: 1; }
+
+.orderSearchForm .item.item_peoples .inp__i {
+  display: flex; }
+
+.orderSearchForm .inpCol:nth-of-type(1) {
+  width: auto;
+  flex: 1; }
+
+.orderSearchForm .inpCol:first-child {
+  width: auto; }
+
+.compactDrop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .compactDrop:before, .compactDrop:after {
+    display: none !important; }
