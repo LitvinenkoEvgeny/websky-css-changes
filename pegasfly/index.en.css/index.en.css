@@ -1,8 +1,0 @@
-#newSearchForm .fields:after {
-  content: "Add passenger"; }
-
-.webRegistration .registration__passengers .route .item .passenger .passenger_lnk .seatNum:before {
-  content: "Seat: "; }
-
-.icon_seat-reservation:before {
-  content: "not chosen"; }
