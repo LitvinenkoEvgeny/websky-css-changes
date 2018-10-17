@@ -1,8 +1,18 @@
 {
+  "scripts": {
+    "start": "gulp"
+  },
   "dependencies": {
     "autoprefixer": "^8.6.4",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.9.4",
     "postcss": "^6.0.23",
     "postcss-cli": "^5.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-css": "^0.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4"
   }
 }
