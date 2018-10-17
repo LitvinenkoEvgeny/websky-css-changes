@@ -3,7 +3,7 @@
 Удобный воркфлоу(на примере nordwind):
 добавить директорию нужного проекта
 
-nordwind/index.css/
+dist/nordwind/
 
 в workspace (devtools -> Sources -> Filesystem) в инструментах разработчика
 
@@ -13,11 +13,10 @@ nordwind/index.css/
 live-server dist/nordwind
 ```
 
-после в консоли
-на площадке букинга/чекина nordwind
+после на площадке букинга/чекина nordwind
 в консоли выполнить
 ```
-document.head.insertAdjacentHTML('beforeEnd', '<link rel="stylesheet" href="http://127.0.0.1:8080/index.css/index.css">')
+document.head.insertAdjacentHTML('beforeEnd', '<link rel="stylesheet" href="http://127.0.0.1:8080/index.css">')
 ```
 
 В итоге получим подобие live-reload'а
