@@ -32,8 +32,12 @@ gulp.task('watch', () => {
     )
 });
 
+gulp.task('build', () => {
+    gulp.run(['css', 'sass']);
+});
+
 gulp.task('default', () => {
-    gulp.run('watch')
+    gulp.run(['build', 'watch'])
 });
 
 
