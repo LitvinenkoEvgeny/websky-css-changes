@@ -10,7 +10,7 @@ nordwind/index.css/
 выполнить
 
 ```
-live-server nordwind
+live-server dist/nordwind
 ```
 
 после в консоли
