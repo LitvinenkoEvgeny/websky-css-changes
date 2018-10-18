@@ -543,7 +543,7 @@ a.link {
 
 @media (max-width: 768px) {
 	.header {
-		padding-bottom: 0px;
+		padding-bottom: 0;
 	}
 }
 
@@ -568,7 +568,7 @@ a.link {
 
 @media (max-width: 768px) {
 	.header_small .wrap {
-		padding-bottom: 0px;
+		padding-bottom: 0;
 	}
 }
 
@@ -578,8 +578,8 @@ a.link {
 
 @media (max-width: 768px) {
 	.header .headerRight .selectedInfo {
-		margin-top: 0px;
-		margin-bottom: 0px;
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 
 	.header .headerRight .selectedInfo__i > a {
@@ -2075,7 +2075,7 @@ a.link {
 	background: #03a9f4;
 }
 
-/*# sourceMappingURL=custom.css.map */
+/*# sourceMappingURL=head_and_footer.css.map */
 
 .bonus:nth-of-type(3) {
 	display: none;
@@ -2193,10 +2193,8 @@ a.link {
 	border-color: #03a9f4;
 }
 
-<!--
-END #37623
+/*END #37623*/
 
--->
 
 /*<!-- Дополнительный багаж .icon_info не была в одном ряду с текстом (исправление) -->*/
 .checkoutServices__i .list > .item .top .name {
