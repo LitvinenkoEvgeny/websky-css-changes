@@ -111,19 +111,23 @@
       padding-right: $padding
 
 =disabledCalendarStyles
+  /* Стили для дат на которые нет перелетов */
   .is-disabled .pika-button.pika-day
     @content
 
 =enabledCalendarStyles
+  /* Стили для доступных дат */
   .pika-button.pika-day
     @content
 
 =weekendCalendarStyles
+  /* Стили для выходных дней */
   .pika-single table tbody tr td:not(.is-disabled):not(.is-startrange):not(.is-today):not(.is-endrange):not(.is-selected):nth-child(6) button,
   .pika-single table tbody tr td:not(.is-disabled):not(.is-startrange):not(.is-today):not(.is-endrange):not(.is-selected):nth-child(7) button
     @content
 
 =rangeCalendarStyles
+  /* Стили для дат между двумя выбранными */
   .is-inrange .pika-button
     @content
 
@@ -132,15 +136,24 @@
     @content
 
 =unavalibleStyles
+  /* styles for unavailable dates */
   .pika-lendar__availability-highlight .pika-button.unavailable
     @content
 
 =removePointerDisabledFromCalendar
+  /* Удаляем запрет на клик по дате, на которую нет перелета см #35382#note-24 */
   .pika-lendar__availability-highlight .pika-button.unavailable
     pointer-events: all
     cursor: pointer
 
 =calendarHoverStyles
+  /* Стили для ховера на дате в календаре */
   .pika-button.pika-day:hover
+    @content
+
+=calendarSelectedStyles
+  /* Стили для выбранной даты */
+  .is-selected .pika-button.pika-day,
+  .is-endrange .pika-button.pika-day
     @content
 
