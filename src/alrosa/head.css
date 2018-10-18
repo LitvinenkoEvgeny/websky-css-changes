@@ -23,10 +23,6 @@ input, select, button, textarea {
 	color: #03a9f4;
 }
 
-.pika-single table tbody tr td:not(.is-disabled):not(.is-startrange):not(.is-today):not(.is-endrange):not(.is-selected):nth-child(6) button:hover, .pika-single table tbody tr td:not(.is-disabled):not(.is-startrange):not(.is-today):not(.is-endrange):not(.is-selected):nth-child(7) button:hover {
-	color: #4d4d4d;
-}
-
 .pika-label {
 	color: #808080;
 }
