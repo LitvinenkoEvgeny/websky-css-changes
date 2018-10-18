@@ -130,17 +130,28 @@
   .orderSearchForm .pikaday__header_mobile.active
     background: $color
 
-=setHeaderStyles($primary, $secondary)
+=setHeaderStyles($primary, $secondary, $third)
   .header
     background: $primary
   .searchSteps
     background: $secondary
   .headerRight
+    .userNav__i a
+      margin-top: 5px
+
     .selectedInfo
       background: transparent
+
+      &.active
+        .selectedInfo__i
+          box-shadow: none
+          > a
+            color: $third
       &__i
         > a
           color: #4d4d4d
+  .userNav__i .ui-select-header .selectize-input
+    margin-top: -6px
 
 =calendarPrevNextButtons()
   .pika-prev, .pika-next
@@ -375,11 +386,14 @@
 =searchOrderPage($primaryColor, $secondaryColor, $thirdColor, $fourthColor)
 
   .otherServices
-    background: #ffffff
+    background: #f2f2f2
+    margin-top: 5px
 
     .btn
       background: $primaryColor
       color: #ffffff
+      &:hover
+        background: $thirdColor
 
   .invoice
     .btn-row
@@ -430,6 +444,8 @@ a.link
 +weekendCalendarStyles
   background: lighten($brandThirdColor, 10%)
   color: #ffffff
+  &:hover
+    background: #03a9f4
 
 +calendarPrevNextButtons
   &:hover
@@ -444,10 +460,10 @@ a.link
 .pika-lendar__availability-highlight .pika-button.unavailable
   opacity: .4
 
++setHeaderStyles($brandSecondaryColor, $brandFourthColor, $brandMainColor)
 +setSearchStepsColor($brandMainColor)
 +setSearchFormColor($brandMainColor, $brandThirdColor)
-+setHeaderStyles($brandSecondaryColor, $brandFourthColor)
-+setSearchVariantsColor($brandMainColor, $brandSecondaryColor, $colorSet: (darken(#7bc7f3, 5%), darken(#7bc7f3, 10%), darken(#7bc7f3, 20%), darken(#7bc7f3, 25%)))
++setSearchVariantsColor($brandMainColor, $brandSecondaryColor, $colorSet: (darken(#7bc7f3, 5%), darken(#7bc7f3, 10%), darken(#7bc7f3, 20%), darken(#7bc7f3, 25%), darken(#7bc7f3, 30%)))
 +passengersInfo($brandMainColor, $brandThirdColor, $brandFourthColor)
 +addServices($brandMainColor, $brandSecondaryColor, $brandThirdColor, $brandFourthColor, $brandFourthColor)
 +orderInfo($brandMainColor, $brandSecondaryColor, $brandThirdColor, $brandFourthColor)
