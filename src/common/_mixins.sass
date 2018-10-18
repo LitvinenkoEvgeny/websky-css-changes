@@ -157,3 +157,382 @@
   .is-endrange .pika-button.pika-day
     @content
 
+=setSearchStepsColor($color)
+  .searchSteps ol li
+    color: $color
+    &:after
+      color: $color
+      border-color: $color
+    &.active, &.prev
+      background: transparent
+      color: $color
+      &:after
+        color: $color
+        border-color: $color
+    &.active
+      &:before
+        background: $color
+    &.prev
+      a
+        color: $color
+        background-color: transparent
+        &:hover
+          &:after
+            background: $color
+
+=setSearchFormColor($color, $hoverColor)
+  .orderSearchForm, .timeTableSearchForm
+    .calendarBtn, .arrowDown
+      color: $color
+    .btnTransfer
+      color: $color
+    .btnPlus i
+      color: $color
+    .bonusItem
+      label
+        color: $color
+      .textInp
+        &:focus
+          border-color: $color
+
+    .valueControl
+      &.active
+        .btnMinus
+          i
+            color: $color
+
+  .pikaday-top__label
+    color: $color
+
+  .valueControl
+    &.active
+      a.btnMinus:hover
+        i
+          color: #fff
+
+  .searchParams__i .changeParams
+    color: $color
+    &:after
+      color: inherit
+
+  .btn.btn_noBack,
+  .btn_noBack.popup__i__footer__buttons__button,
+  .searchResultsControl .btn_noBack.btn_next,
+  .invoice .btn-row .btn_noBack.btn,
+  .ticketChange .btnRow .btn_noBack.btn
+    color: $color
+    border-color: $color
+
+  .btn.btn_search,
+  .popup__i__footer__buttons__button,
+  .searchResultsControl .btn_next,
+  .invoice .btn-row .popup__i__footer__buttons__button,
+  .invoice .btn-row .searchResultsControl .btn_next,
+  .searchResultsControl .invoice .btn-row .btn_next,
+  .invoice .btn-row .btn,
+  .ticketChange .btnRow .popup__i__footer__buttons__button,
+  .ticketChange .btnRow .searchResultsControl .btn_next,
+  .searchResultsControl .ticketChange .btnRow .btn_next,
+  .ticketChange .btnRow .btn
+    background: $color
+    &:hover
+      background: $hoverColor
+
+  .orderSearchForm .item.item_transfer .textInp:focus,
+  .timeTableSearchForm .item.item_transfer .textInp:focus,
+  .orderSearchForm .calendarInp:focus,
+  .timeTableSearchForm .calendarInp:focus
+    border-color: $color
+
+  .orderSearchForm .btnTransfer:hover,
+  .timeTableSearchForm .btnTransfer:hover
+    background: $color
+
+  /* mobile styles */
+  .orderSearchForm .pikaday__header_mobile.active
+    background: $color
+
+=setHeaderStyles($primary, $secondary, $third)
+  .header
+    background: $primary
+  .searchSteps
+    background: $secondary
+  .headerRight
+    .userNav__i a
+      margin-top: 5px
+
+    .selectedInfo
+      background: transparent
+
+      &.active
+        .selectedInfo__i
+          box-shadow: none
+          > a
+            color: $third
+      &__i
+        > a
+          color: #4d4d4d
+  .userNav__i .ui-select-header .selectize-input
+    margin-top: -6px
+
+=calendarPrevNextButtons()
+  .pika-prev, .pika-next
+    @content
+
+=setSearchVariantsColor($primary, $secondary, $textColor: white, $colorSet: (initial, initial, initial, initial))
+  .chooseFlight .flightWay a
+    color: $primary
+    span
+      &:first-child
+        &:after
+          color: inherit
+
+  .chooseDate
+    .control.control_next,
+    .control.control_prev
+      &:after
+        color: $primary
+
+    .tableWrap
+      table
+        td
+          &.active
+            background: $primary
+            a
+              color: $textColor
+              strong
+                color: $textColor
+
+  .flightTable
+    table > tbody > tr.headrow
+      @for $index from 1 through length($colorSet)
+        $color: nth($colorSet, $index)
+        $index: $index + 1
+        > td:nth-child(#{$index})
+          background: $color
+
+    .timeTable
+      a
+        color: $primary
+        border-color: inherit
+
+    .contentRow
+      td
+        &.active
+          a
+            background: $primary
+    .columnTitle
+      .name
+        a
+          color: #ffffff
+          border-color: inherit
+
+  .compareTableWrap
+    /* Таблица сравнения тарифов */
+    table tr:first-child
+      @for $index from 1 through length($colorSet)
+        $color: nth($colorSet, $index)
+        $index: $index + 1
+        td:nth-child(#{$index})
+          background: $color
+
+  .popup_detail
+    .route_item
+      .route_container
+        .route_table
+          .dep, .arr
+            &__point_city,
+            &__time
+              color: $primary
+
+  .chooseResult__i,
+  .searchResultsPlain__i
+    .route_item
+      .route_container
+        .route_table
+          .dep, .arr
+            &__time
+              color: $primary
+            &__point_city
+              color: $primary
+    .flight
+      border-color: $primary
+
+    .passengers
+      a
+        &:after
+          color: $primary
+
+    .total
+      p
+        a
+          color: $primary
+          border-color: inherit
+
+  /* mobile styles */
+  .selectDate
+    .item
+      &.active
+        background: $primary
+        a
+          color: #ffffff
+          .price,
+          .date,
+          .date_text
+            color: inherit
+  .chooseFlight
+    &__list
+      &__item
+        &__label
+          > span
+            border-color: $primary
+        &__content
+          &__bottom
+            &__link
+              a
+                color: $primary
+                border-color: inherit
+  .flightTableWrap
+    .title
+      &__i
+        a
+          color: $primary
+  .selectDate .control [class*="icon_"]
+    color: $primary
+
+=passengersInfo($primaryColor, $secondaryColor, $textColor)
+  .passengersInfo
+    h2
+      color: $primaryColor
+    .login
+      a
+        color: $primaryColor
+        border-color: inherit
+        &:after
+          border-color: inherit
+    .itemName
+      color: $primaryColor
+      &__number
+        color: $primaryColor
+
+    input[type="text"]:focus,
+    input[type="password"]:focus,
+    input[type="tel"]:focus,
+    input[type="email"]:focus,
+    .selectize-input.focus
+      border-color: $primaryColor !important
+
+    .ui-select-choices-row:hover,
+    .selectize-dropdown .active
+      background: rgba($textColor, .7) !important
+
+  .iconfirm
+    .customCheckbox
+      span
+        border-color: $secondaryColor
+      input
+        &:checked
+          + span:after
+            color: $primaryColor
+
+  .btn.btn_back
+    color: $primaryColor
+    border-color: $primaryColor
+    &:hover
+      color: #ffffff
+      background: $primaryColor
+
+  .ui-select-passengers-header
+    .selectize-input,
+    .selectize-input.focus
+      color: $primaryColor !important
+    .ui-select-placeholder.text-muted
+      color: $primaryColor
+
+=addServices($primaryColor, $secondaryColor, $thirdColor, $shadowColor, $textColor)
+  .checkoutServices__i
+    .title
+      color: $primaryColor
+    .list
+      > .item
+        &.active
+          .top
+            .iconBox
+              background: $primaryColor
+        .top
+          background: $thirdColor
+          .iconBox
+            background: $primaryColor
+          .btn
+            color: $thirdColor
+            border-color: $thirdColor
+
+    /* mobile styles */
+    .row
+      &:first-child
+        background: $thirdColor
+      background: $primaryColor
+
+  .radioBtn
+    input:checked + span
+      border-color: $thirdColor
+      &:after
+        background: $thirdColor
+  .payMethods a
+    color: $thirdColor
+    border-color: inherit
+
+=orderInfo($primaryColor, $secondaryColor, $thirdColor, $fourthColor)
+  .invoiceInfo
+    .orderNum
+      color: $primaryColor
+
+  .invoiceBack a
+    color: $primaryColor
+
+  .invoiceServicesSelected
+    .item
+      .item__i
+        > p strong
+          color: $primaryColor
+  .invoiceDrops
+    .title
+      background: $secondaryColor
+      a
+        color: $primaryColor
+
+    .circle
+      i
+        color: $primaryColor
+
+=searchOrderPage($primaryColor, $secondaryColor, $thirdColor, $fourthColor)
+  .otherServices
+    background: #f2f2f2
+    margin-top: 5px
+
+    .btn
+      background: $primaryColor
+      color: #ffffff
+      &:hover
+        background: $thirdColor
+
+  .invoice
+    .btn-row
+      .btn
+        border: none
+
+  .btn_receipt_cont
+    a.show_receipt,
+    a.send_receipt
+      background-color: $primaryColor
+      color: #ffffff
+      &:hover
+        background-color: $thirdColor
+    a.send_receipt
+      background-image: $mailIcon
+
+  .passengerInvoiceInfo
+    strong
+      color: $primaryColor
+
+
