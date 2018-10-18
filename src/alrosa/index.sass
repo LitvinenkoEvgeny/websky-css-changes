@@ -381,6 +381,34 @@ a.link
       i
         color: $primaryColor
 
+=searchOrderPage($primaryColor, $secondaryColor, $thirdColor, $fourthColor)
+
+  .otherServices
+    background: #ffffff
+
+    .btn
+      background: $primaryColor
+      color: #ffffff
+
+  .invoice
+    .btn-row
+      .btn
+        border: none
+
+  .btn_receipt_cont
+    a.show_receipt,
+    a.send_receipt
+      background-color: $primaryColor
+      color: #ffffff
+      &:hover
+        background-color: $thirdColor
+    a.send_receipt
+      background-image: $mailIcon
+
+  .passengerInvoiceInfo
+    strong
+      color: $primaryColor
+
 +setSearchStepsColor($brandMainColor)
 +setSearchFormColor($brandMainColor, $brandThirdColor)
 +setHeaderStyles($brandSecondaryColor, $brandFourthColor)
@@ -388,5 +416,6 @@ a.link
 +passengersInfo($brandMainColor, $brandThirdColor, $brandFourthColor)
 +addServices($brandMainColor, $brandSecondaryColor, $brandThirdColor, $brandFourthColor, $brandFourthColor)
 +orderInfo($brandMainColor, $brandSecondaryColor, $brandThirdColor, $brandFourthColor)
++searchOrderPage($brandMainColor, $brandSecondaryColor, $brandThirdColor, $brandFourthColor)
 
 /* ==== END #39735 ==== */
