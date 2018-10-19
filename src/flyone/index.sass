@@ -87,3 +87,21 @@
   color: #ffffff
 
 /* ==== END #31373 #note-34 ==== */
+
+/* ==== #40225 ==== */
+
+.headerRight
+  right: 11px
+  +adaptivity(tablet)
+    right: 0
+
+  &__col:nth-of-type(2)
+    width: 166px
+    +adaptivity(tablet)
+      width: initial
+
+.selectedInfo__i>a table td
+  +adaptivity(tablet)
+    line-height: 43px
+
+/* ==== END #40225 ==== */
