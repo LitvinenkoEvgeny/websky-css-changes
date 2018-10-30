@@ -500,9 +500,6 @@ body
     .route
       .item
         .passenger
-          .data_link
-            display: none
-            color: inherit
 
           &__icon_ready
             display: none
@@ -935,7 +932,7 @@ body
     left: initial
     top: 10px
 
-  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .data_link
+  //#oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .data_link
     right: 190px
 
   #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .baggage_icon
@@ -1051,7 +1048,7 @@ body
   .webRegistration .registration__passengers .route .item .passenger .price,
   #checkinForm .accordion-head .passenger__icon_ready
     left: initial
-    top: 50px
+    top: 20px
 
   .webRegistration .registration__info__table .route_item .route_container .route_table .dep__time,
   .webRegistration .registration__info__table .route_item .route_container .route_table .arr__time
@@ -1643,5 +1640,25 @@ body
     display: none
 
 /* ==== END Слетевшие стили fix ==== */
+
+
+/* ==== Данные о визе, блок редактирования был скрыт, сделал видимым ==== */
+
+.webRegistration .registration__passengers .route .item .passenger .data_link
+  color: #666666
+  border-color: #666666
+  +adaptivity(tablet)
+    left: 0
+    right: auto
+
+#checkinForm .route .item .passenger table td:nth-of-type(2)
+  padding-top: 10px
+  .tooltip
+    font-size: .5em
+    top: -36px
+
+/* ==== END Данные о визе, блок редактирования был скрыт, сделал видимым ==== */
+
+
 
 @import "prod-styles"
