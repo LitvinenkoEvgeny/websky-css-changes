@@ -1,6 +1,7 @@
 @import "../common/mixins"
 @import "variables"
 @import "mixins"
+@import "i18n"
 
 // ============== blocks =============
 
@@ -55,7 +56,6 @@
 .passengersBlock_row-menu .item
   flex: 50%
 
-
 // ============== END #38074 =========
 
 
@@ -74,5 +74,26 @@
 .seat.seat-map-color-group-2
   background: #C5638F
 
-
 /* ==== END ##00227229 ==== */
+
+
+/* ==== OS-1291 ==== */
+
+.deck-label
+  padding-top: 40px
+
+.seat.seat-prop-not_for_infant.seat-prop-not_for_child
+  .seatName
+    display: block
+    white-space: pre-line
+    width: 150px
+    top: -115px
+    z-index: 10
+    wrap wrap
+      &:after
+        display: inline-block
+        font-size: .6em
+    .price
+      text-align: center
+
+/* ==== END OS-1291 ==== */
