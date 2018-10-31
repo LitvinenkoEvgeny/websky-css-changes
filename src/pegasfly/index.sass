@@ -514,7 +514,9 @@ body
             table
               tr
                 display: flex
-                flex-direction: column
+                flex-direction: row
+                justify-content: space-between
+                flex-wrap: wrap
 
             .baggage_icon
               display: none
@@ -526,7 +528,7 @@ body
                 content: 'Место: '
 
             .price
-              margin-top: 5px
+              margin-top: 10px
               color: $black
               .rub
                 font-weight: 400
@@ -924,27 +926,6 @@ body
               left: initial
               top: 10px
 
-  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .data_link,
-  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .baggage_icon,
-  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .seatNum,
-  .webRegistration .registration__passengers .route .item .passenger .price,
-  #checkinForm .accordion-head .passenger__icon_ready
-    left: initial
-    top: 10px
-
-  //#oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .data_link
-    right: 190px
-
-  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .baggage_icon
-    right: 155px
-
-  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .seatNum
-    right: 120px
-
-  .webRegistration .registration__passengers .route .item .passenger .price
-    position: absolute
-    right: 40px
-
   /* Выбор питания */
 
   .foodSlider
@@ -1020,9 +1001,6 @@ body
 
 @media only screen and (min-width: 768px)
 
-  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .data_link, #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .baggage_icon, #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .seatNum, .webRegistration .registration__passengers .route .item .passenger .price, #checkinForm .accordion-head .passenger__icon_ready
-    top: 0px
-
   #checkinForm .accordion-head .passenger__icon_ready
     top: 10px
 
@@ -1041,14 +1019,6 @@ body
   .webRegistration .registration__info__table .route_item .route_container .route_table .dep__date,
   .webRegistration .registration__info__table .route_item .route_container .route_table .arr__date
     padding: 30px 0
-
-  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .data_link,
-  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .baggage_icon,
-  #oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .seatNum,
-  .webRegistration .registration__passengers .route .item .passenger .price,
-  #checkinForm .accordion-head .passenger__icon_ready
-    left: initial
-    top: 20px
 
   .webRegistration .registration__info__table .route_item .route_container .route_table .dep__time,
   .webRegistration .registration__info__table .route_item .route_container .route_table .arr__time
@@ -1644,6 +1614,14 @@ body
 
 /* ==== Данные о визе, блок редактирования был скрыт, сделал видимым ==== */
 
+#editPaxCont .pax-cont .form-group .customCheckbox label, #savePaxCont .pax-cont .form-group .customCheckbox
+  span
+    top: 60%
+    +adaptivity(tablet)
+      top: 45%
+  label
+    color: #666666
+
 .webRegistration .registration__passengers .route .item .passenger .data_link
   color: #666666
   border-color: #666666
@@ -1651,11 +1629,28 @@ body
     left: 0
     right: auto
 
-#checkinForm .route .item .passenger table td:nth-of-type(2)
-  padding-top: 10px
-  .tooltip
-    font-size: .5em
-    top: -36px
+#checkinForm .route .item .passenger table td
+  &:nth-of-type(1)
+    padding-bottom: 30px
+
+  &:nth-of-type(3)
+    display: none
+
+  &:nth-of-type(2)
+    .tooltip
+      font-size: .5em
+      top: -36px
+    margin-top: 9px
+//+adaptivity(tablet)
+
+#oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .data_link
+  position: initial
+
+#oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .name
+  padding-top: 0
+
+#oxyCheckinApp .webRegistration .registration__passengers .route .item .passenger .seatNum
+  position: initial
 
 /* ==== END Данные о визе, блок редактирования был скрыт, сделал видимым ==== */
 
