@@ -36,3 +36,45 @@
       font-weight: bold
 
 /* ==== END Сделать ссылки на страховки синим ==== */
+
+/* ==== #40805 ==== */
+
+.popup_auth
+  .tooltip
+    position: relative
+    &__inner
+      font-size: .9em
+      +adaptivity(tablet)
+        font-size: .8em
+    .tooltiptext
+      display: none
+      position: absolute
+      bottom: -185px
+      width: 390px
+      left: -40px
+      height: 450px
+      background-color: #006cc7
+      border-radius: 6px
+      border: none
+      padding: 10px
+      color: #ffffff
+      top: initial
+      +adaptivity(tablet)
+        width: 350px
+        height: 420px
+        bottom: -170px
+      &:after
+        content: ''
+        width: 0
+        bottom: -6px
+        left: 30px
+        height: 0
+        border-style: solid
+        border-width: 6px 5px 0 5px
+        border-color: #006cc7 transparent transparent transparent
+        position: absolute
+    &:hover
+      .tooltiptext
+        display: block
+
+/* ==== END #40805 ==== */
