@@ -40,6 +40,7 @@
 /* ==== #40805 ==== */
 
 .popup_auth
+  overflow: hidden
   .tooltip
     position: relative
     &__inner
@@ -48,10 +49,7 @@
         font-size: .8em
     .tooltiptext
       display: none
-      position: absolute
-      bottom: -185px
       width: 390px
-      left: -40px
       height: 450px
       background-color: #006cc7
       border-radius: 6px
@@ -59,6 +57,7 @@
       padding: 10px
       color: #ffffff
       top: auto
+      transform: translate(-40px, -104%)
       +adaptivity(tablet)
         width: 350px
         height: 420px
