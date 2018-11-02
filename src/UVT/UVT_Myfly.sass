@@ -1,5 +1,6 @@
 @import "variables"
 @import "mixins"
+@import "../common/mixins"
 
 /* ==== Search passenger ==== */
 
@@ -287,3 +288,39 @@
                 fill: $blueBrandColor
 
 /* ==== END extraServices ==== */
+
+
+/* ==== #38002 ==== */
+
+/* calendar styles */
+
++calendarHoverStyles()
+  background: $lightBlueBrandColor !important
+
++calendarSelectedStyles()
+  background: $blueBrandColor
+
++rangeCalendarStyles()
+  background: lighten($lightBlueBrandColor, 10%) !important
+  color: #ffffff
+
++enabledCalendarStyles()
+  background: #f0f0f0
+
+/* end calendar styles */
+
+/* flight detail */
+.popup_detail .route_item .route_container .route_table .dep,
+.popup_detail .route_item .route_container .route_table .arr
+  vertical-align: middle
+
+/* button in login popup */
+/* and save button in user account */
+.popup__i__footer__buttons__button,
+.btn.btn_save
+  background: $blueBrandColor
+  color: #ffffff
+  &:hover
+    background: $lightBlueBrandColor
+
+/* ==== END #38002 ==== */
