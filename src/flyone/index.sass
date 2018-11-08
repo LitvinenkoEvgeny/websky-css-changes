@@ -130,8 +130,86 @@
       a:after
         top: 13px
 
+.chooseFlight__table__item__content.active .chooseFlight__table__item__content__link
+  background-color: #06abf2
+  color: #ffffff
+
+.chooseFlight__table__item__content__link
+  width: 100%
+  height: 100%
+  display: flex
+  justify-content: center
+  align-items: center
+
+
 .popup a
   color: #06abf2
   border-bottom: 1px dashed #06abf2
 
 /* ==== END #40225 ==== */
+
+/* ==== version 0.40 ==== */
+
+.checkoutServices__i .list > .item .top .price
+  p, h3
+    +adaptivity(tablet)
+      color: #ffffff
+
+.checkoutServices__i .list > .item .top__i
+  padding: 0 15px
+  background: #ffffff
+
+.checkoutServices__i .list > .item .top .btn.active
+  background-color: #06abf2
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, .1)
+  font-weight: bold
+  color: #ffffff
+
+.checkoutServices__i .list > .item .top .btn.active:hover,
+.checkoutServices__i .list > .item .top .btn.active:active
+  border-color: transparent
+  color: #ffffff
+  padding: 0 10px
+
+.checkoutServices__i .list > .item .top .btn.active
+  border-color: transparent
+
+.ui-select-header .selectize-input .ui-select-match
+  +adaptivity(tablet)
+    background-color: transparent
+    span
+      color: #ffffff
+
+.selectize-control.single .selectize-input:after
+  +adaptivity(phone)
+    border-color: #fff transparent transparent transparent !important
+
+.ui-select-container.open .selectize-input::after
+  top: 30px
+  +adaptivity(tablet)
+
+.ui-select-header .selectize-input .ui-select-match
+  +adaptivity(tablet)
+    padding-left: 0
+
+.orderSearchForm .compactDrop.active
+  +adaptivity(tablet)
+    display: flex
+    flex-wrap: wrap
+    pass-picker
+      width: 100%
+
+.orderSearchForm .item.item_peoples .col
+  +adaptivity(tablet)
+    width: 100%
+    padding: 0
+
+.orderSearchForm .item.item_peoples .inp__i
+  +adaptivity(tablet)
+    display: flex
+    justify-content: space-between
+    &:before,
+    &:after
+      display: none
+
+/* ==== END version 0.40 ==== */
