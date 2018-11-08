@@ -17,7 +17,7 @@
 
 /* ==== #31373 #note-34 ==== */
 
-.popup__i__footer__buttons
+//.popup__i__footer__buttons
   display: flex
   justify-content: space-between
 
@@ -100,8 +100,34 @@
     +adaptivity(tablet)
       width: initial
 
-.selectedInfo__i>a table td
+.selectedInfo__i > a table td
   +adaptivity(tablet)
     line-height: 43px
+
+.flightTable > table > tbody > tr.headrow > td.firstCol
+  border: none
+  background: #f4f4f4
+
+.flightTable > table > tbody > tr:not(.headrow) > td.firstCol
+  padding: 15px
+
+.flightTable > table > tbody > tr > td.firstCol a
+  margin: 10px 0
+
+.flightTable > table > tbody > tr > td.firstCol .sortingWrap
+  padding-top: 36px
+
+.flightTable > table > tbody > tr > td.firstCol .sortingWrap.active .sortingDrop
+  transform: translate(0, 9px)
+
+.flightTable > table > tbody > tr > td.firstCol .sortingWrap
+  .sortingSelected p
+    a:after
+      content: "\e90a"
+      margin: 0
+  &.active
+    .sortingSelected p
+      a:after
+        top: 13px
 
 /* ==== END #40225 ==== */
