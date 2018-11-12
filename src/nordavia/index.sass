@@ -2,7 +2,6 @@
 @import "variables"
 @import "mixins"
 
-
 // seatMap tooltip z-index error
 .seatSelect .seat:hover .seatName
   z-index: 1
@@ -23,7 +22,6 @@
 .checkoutServices__i .drop_mobile .passengersTable .route
   flex-wrap: wrap
 
-
 // 31
 .baggage_table
   td
@@ -34,23 +32,21 @@
 .pay-logo
   display: none
 
-
 /* ==== END #31373 ==== */
 
 .searchSteps.searchSteps_add span a
   padding: 6px 10px
 
-  
 /* #34118 */
 .headerRight
   height: auto
 
-.selectedInfo__i>a.milesPay .val,
-.selectedInfo__i>a.milesPay .miles
+.selectedInfo__i > a.milesPay .val,
+.selectedInfo__i > a.milesPay .miles
   +adaptivity(tablet)
     padding-right: 30px
 
-.selectedInfo__i>a:after
+.selectedInfo__i > a:after
   +adaptivity(tablet)
     right: 5px
 /* END #34118 */
@@ -89,3 +85,12 @@
 +removePointerDisabledFromCalendar
 
 /* ==== END #35382 ==== */
+
+/* ==== oxygen 0.40 update ==== */
+
+.flightTable .contentRow td.active a
+  border: 3px solid #f86509
+  box-sizing: border-box
+  background: #ffffff
+
+/* ==== END oxygen 0.40 update ==== */
