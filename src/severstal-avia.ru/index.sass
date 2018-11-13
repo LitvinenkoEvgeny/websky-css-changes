@@ -210,8 +210,57 @@ $calendarWeekEndColor: rgba($blueBrandColor, .7)
       width: 20px
       background: #c2d69b
 
-
-
-
-
 /* ==== END best deal ==== */
+
+/* ==== oxygen 0.40 update ==== */
+
+.flightTable .columnTitle .best:after
+  background: #FABF8F
+
+.flightTable .contentRow a
+  display: flex
+  justify-content: center
+  align-items: center
+  background: #ffffff
+
+.flightTable .contentRow > td:not(.firstCol):nth-child(2),
+.flightTable .contentRow > td:not(.firstCol):nth-child(3),
+.flightTable .contentRow > td:not(.firstCol):nth-child(4),
+.flightTable .contentRow > td:not(.firstCol):nth-child(5)
+  background: #ffffff
+
+.flightTable .contentRow td.active a
+  background: #ffffff
+  border: 3px solid $blueBrandColor
+  box-sizing: border-box
+
+.flightTable .contentRow
+  .price-cell__text
+    width: auto
+    position: relative
+    &:after,
+    &:before
+      position: absolute
+      content: ''
+      width: 16px
+      height: 16px
+      border-radius: 50%
+      border: 1px solid #eeeeee
+      display: inline-block
+      left: -25px
+      top: 50%
+      transform: translate(0, -50%)
+    &:after
+      display: none
+      background: transparent
+      width: 8px
+      height: 8px
+      left: -21px
+  td.active
+    .price-cell__text
+      &:after
+        display: block
+        border-color: $blueBrandColor
+        background: $blueBrandColor
+
+/* ==== END oxygen 0.40 update ==== */

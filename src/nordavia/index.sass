@@ -93,4 +93,33 @@
   box-sizing: border-box
   background: #ffffff
 
+.flightTable .contentRow a
+  display: flex
+  justify-content: center
+  align-items: center
+  background: #ffffff
+
+.flightTable .contentRow
+  .price-cell__text
+    width: auto
+    position: relative
+    &:before
+      font-family: 'OpenSkyIcons' !important
+      position: absolute
+      content: $checkIcon
+      width: 16px
+      height: 16px
+      left: -25px
+      top: 50%
+      transform: translate(0, -50%)
+      display: none
+      font-size: .7em
+      color: $orangeBrandColor
+  td.active
+    .price-cell__text
+      &:before
+        display: inline-block
+
 /* ==== END oxygen 0.40 update ==== */
+
+
