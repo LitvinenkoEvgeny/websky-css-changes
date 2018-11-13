@@ -1,18 +1,16 @@
-html[lang="en"]
-  /* ==== OS-1291 ==== */
-  .seat.seat-prop-not_for_infant.seat-prop-not_for_child
-    .seatName
-      wrap wrap
-        &:after
-          content: 'The possibility of providing the service is limited for certain categories of passengers, read the rules'
-  /* ==== END OS-1291 ==== */
+@mixin setTooltipContentForProps($lang, $propsList)
+  html[lang="#{$lang}"]
+    @each $prop in $propsList
+      /* ==== OS-1291 ==== */
+      .seat.seat-prop-#{$prop}
+        .seatName
+          wrap wrap
+            &:after
+              @content
 
-html[lang="ru"]
-  /* ==== OS-1291 ==== */
-  .seat.seat-prop-not_for_infant.seat-prop-not_for_child
-    .seatName
-      wrap wrap
-        &:after
-          content: 'Возможность предоставления услуги ограничена для некоторых категорий пассажиров, ознакомьтесь с правилами'
-  /* ==== END OS-1291 ==== */
++setTooltipContentForProps('en', ('IE', '1A', '1C', '1B'))
+  content: 'The possibility of providing the service is limited for certain categories of passengers, read the rules'
+
++setTooltipContentForProps('ru', ('IE', '1A', '1C', '1B'))
+  content: 'Возможность предоставления услуги ограничена для некоторых категорий пассажиров, ознакомьтесь с правилами'
 
