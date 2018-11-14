@@ -18,7 +18,7 @@
   .btn.btn_back
     color: #ffffff
     padding: 9px 15px 10px 35px
-    background: #b01c2e
+    background: $redBrandColor
     &:hover
       background: #9a1928
 
@@ -75,7 +75,7 @@
 /* ==== #40233 ==== */
 
 .tableInfo td .top
-  color: #b01c2e
+  color: $redBrandColor
 
 /* ==== END #40233 ==== */
 
@@ -89,3 +89,14 @@
   padding: 20px 0
 
 /* ==== END oxygen 0.40 update ==== */
+
+/* ==== #31373#note-38 ==== */
+
+/* 10 */
++colorizeSegmentPricesCalendar($redBrandColor, #ffffff)
+
+.orderSearchForm .pikaday__header_mobile.active
+  +adaptivity(tablet)
+    background: $redBrandColor
+
+/* ==== END #31373#note-38 ==== */
