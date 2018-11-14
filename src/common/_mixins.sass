@@ -545,7 +545,6 @@
     align-items: center
     box-sizing: border-box
 
-
 =colorizeSegmentPricesCalendar($backgroundColor, $fontColor)
   /* colorize segment prices calendar */
   .selectDate .item.active a
@@ -553,3 +552,11 @@
     color: $fontColor
     .date_text
       color: $fontColor
+
+=languageMobileColor($color)
+  /* https://yadi.sk/i/all5Y-nKxu4qKA */
+  .ui-select-header.ui-select-header-mobile .selectize-input
+    .ui-select-match
+      color: $color
+    &:after
+      border-color: $color transparent transparent transparent !important
