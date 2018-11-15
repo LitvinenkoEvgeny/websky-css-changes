@@ -52,3 +52,9 @@
         display: flex
         flex-wrap: wrap
         justify-content: center
+
+=fixGoToDataButton
+  /* в дефолтном вебскае кнопка редактировать данные на моб. версии выходит за границу */
+  #checkinForm .twisted-order-cont .btn-goto-segment
+    +adaptivity(tablet)
+      box-sizing: border-box
