@@ -1,14 +1,42 @@
 =checkinSearchSteps($primaryColor, $secondaryColor, $textColor)
+  .searchSteps, .regSteps
+    background: $primaryColor
+
   .searchSteps ol li.active a,
   .searchSteps ol li.active span,
   .regSteps ol li.active a,
   .regSteps ol li.active span
     background: $primaryColor
     color: $textColor
+    border-bottom: 3px solid $textColor
+
+  .searchSteps ol li.prev a,
+  .searchSteps ol li.prev span,
+  .regSteps ol li.prev a,
+  .regSteps ol li.prev span
+    background: transparent
+    color: $textColor
+
   .searchSteps ol li.active:after,
   .regSteps ol li.active:after
     color: $textColor
     border-color: inherit
+
+  .searchSteps ol li,
+  .regSteps ol li
+    color: $textColor
+    &:after
+      border-color: inherit
+
+  .searchSteps ol li a:hover,
+  .regSteps ol li a:hover
+    background: $secondaryColor
+    color: $textColor
+
+  .searchSteps ol li.prev:after,
+  .regSteps ol li.prev:after
+    color: $textColor
+    border-color: $textColor
 
 =colorizeButtons($primaryColor, $hoverColor: $primaryColor, $textColor: #ffffff, $hoverTextColor: $textColor)
   .webRegistration .btn_next,
@@ -58,3 +86,12 @@
   #checkinForm .twisted-order-cont .btn-goto-segment
     +adaptivity(tablet)
       box-sizing: border-box
+
+=tooltipStyles($primaryColor, $textColor: #ffffff)
+  .tooltip-err-cont .tooltip
+    svg.svg-symbol-tooltip-arrow *
+      fill: $primaryColor
+    .tooltip-inner
+      background: $primaryColor
+      color: $textColor
+
