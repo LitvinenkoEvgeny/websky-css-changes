@@ -1,0 +1,54 @@
+=checkinSearchSteps($primaryColor, $secondaryColor, $textColor)
+  .searchSteps ol li.active a,
+  .searchSteps ol li.active span,
+  .regSteps ol li.active a,
+  .regSteps ol li.active span
+    background: $primaryColor
+    color: $textColor
+  .searchSteps ol li.active:after,
+  .regSteps ol li.active:after
+    color: $textColor
+    border-color: inherit
+
+=colorizeButtons($primaryColor, $hoverColor: $primaryColor, $textColor: #ffffff, $hoverTextColor: $textColor)
+  .webRegistration .btn_next,
+  .btn.btn_search
+    background-color: $primaryColor
+    color: $textColor
+    &:hover
+      background: $hoverColor
+      color: $hoverTextColor
+
+=colorizeSeatMap($free: rgba(27, 117, 188, 0.4), $paid: rgba(0, 76, 186, 0.7), $selected: #FFDA00)
+  .seatSelect
+    /* legend */
+    .info ul li
+      &.free span
+        background: $free
+      &.paid span
+        background: $paid
+      &.selected span
+        background: $selected
+    /* seatMap */
+    .seatSelect
+      .seat
+        &.selected
+          background: $selected
+    .seat.active,
+    .seat.seat-selected,
+    .seatSelect .seat.seat-order
+      background: $selected
+
+=fixSeatMapAdaptivity
+  .webRegistration .registration__passengers__seatMap .info
+    +adaptivity(tablet)
+      position: initial
+      left: 0
+      transform: none
+      width: 100%
+      margin-top: 30px
+
+      ul
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
