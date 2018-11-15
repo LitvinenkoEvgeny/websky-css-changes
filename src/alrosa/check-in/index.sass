@@ -1,0 +1,26 @@
+@import "../../common/mixins"
+@import "../../common/checkin-mixins"
+@import "../variables"
+
+
++checkinSearchSteps($brandMainColor, $brandSecondaryColor, #ffffff)
++colorizeButtons($brandMainColor, $brandThirdColor)
+
+.btn.btn_back
+  color: #ffffff
+  background: #1D2758
+  border-color: #1D2758
+  &:hover
+    background: #ffffff
+    color: $brandMainColor
+
+.webRegistration__searchResults
+  .passengers__tableTickets__check
+    .customCheckbox input:checked + span:after
+      background: $brandMainColor
+
+
++colorizeSeatMap($selected: $brandMainColor)
+
+
++fixSeatMapAdaptivity
