@@ -179,6 +179,9 @@ body
   color: #ffffff
   &:hover
     background: $lightBlueBrandColor
+  +adaptivity(tablet)
+    &:hover
+      background: $blueBrandColor
 
 .header.header_small .logo
   max-width: 127px
@@ -230,3 +233,21 @@ body
   padding: 29px 10px
 
 /* ==== END #38002#note-41 ==== */
+
+/* ==== #38002#note-48 ==== */
+
+.flightTable .contentRow td.active
+  .price-cell__text
+    display: inline-block
+    position: relative
+    &:before
+      font-family: 'OpenSkyIcons' !important
+      content: $checkIcon
+      display: block
+      position: absolute
+      top: 50%
+      transform: translateY(-50%)
+      font-size: 14px
+      left: 5px
+
+/* ==== END #38002#note-48 ==== */
