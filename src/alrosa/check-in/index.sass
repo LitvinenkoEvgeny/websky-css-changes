@@ -16,8 +16,43 @@
       background: $brandMainColor
 
 +checkinSearchSteps($brandFourthColor, $brandFourthColor, $brandMainColor)
-+colorizeButtons($brandMainColor, $brandThirdColor)
+//+colorizeButtons($brandMainColor, $brandThirdColor)
 +colorizeSeatMap($selected: $brandMainColor)
 +tooltipStyles($brandMainColor)
 +fixSeatMapAdaptivity
 +fixGoToDataButton
+
+.searchSteps ol li.prev:after, .regSteps ol li.prev:after
+  border: 1px solid $brandMainColor
+
++buttonStyles($brandMainColor, $brandThirdColor)
+  border-radius: $radius
+
++colorizePopups($brandMainColor, $brandFourthColor)
+
+.webRegistration__searchResults
+  .passengers
+    background: $brandFourthColor
+    color: $brandMainColor
+
+.webRegistration
+  .registration__passengers_ready
+    .route
+      .item
+        .passenger
+          .cancel__link
+            color: $brandMainColor
+          .data_link
+            color: $brandMainColor
+          .passenger_lnk
+            background: $brandFourthColor
+            color: $brandMainColor
+
+.planeBody
+  +adaptivity(phone)
+    transform: scale(1.4)
+    padding-top: 60px
+
+.webRegistration .registration__passengers .customScroll_height
+  +adaptivity(phone)
+    overflow-x: hidden

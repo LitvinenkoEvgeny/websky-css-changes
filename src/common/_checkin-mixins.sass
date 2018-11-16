@@ -1,51 +1,32 @@
 =checkinSearchSteps($primaryColor, $secondaryColor, $textColor)
-  .searchSteps, .regSteps
+  .searchSteps,
+  .regSteps
     background: $primaryColor
-
-  .searchSteps ol li.active a,
-  .searchSteps ol li.active span,
-  .regSteps ol li.active a,
-  .regSteps ol li.active span
-    background: $primaryColor
-    color: $textColor
-    border-bottom: 3px solid $textColor
-
-  .searchSteps ol li.prev a,
-  .searchSteps ol li.prev span,
-  .regSteps ol li.prev a,
-  .regSteps ol li.prev span
-    background: transparent
-    color: $textColor
-
-  .searchSteps ol li.active:after,
-  .regSteps ol li.active:after
-    color: $textColor
-    border-color: inherit
-
-  .searchSteps ol li,
-  .regSteps ol li
-    color: $textColor
-    &:after
-      border-color: inherit
-
-  .searchSteps ol li a:hover,
-  .regSteps ol li a:hover
-    background: $secondaryColor
-    color: $textColor
-
-  .searchSteps ol li.prev:after,
-  .regSteps ol li.prev:after
-    color: $textColor
-    border-color: $textColor
-
-=colorizeButtons($primaryColor, $hoverColor: $primaryColor, $textColor: #ffffff, $hoverTextColor: $textColor)
-  .webRegistration .btn_next,
-  .btn.btn_search
-    background-color: $primaryColor
-    color: $textColor
-    &:hover
-      background: $hoverColor
-      color: $hoverTextColor
+    ol li
+      border-bottom: 3px solid transparent
+      color: $textColor
+      &.active
+        border-bottom: 3px solid transparent
+        background: $primaryColor
+        color: $textColor
+        border-bottom: 3px solid $textColor
+        &:after
+          color: $textColor
+          border-color: $textColor
+      a
+        color: $textColor
+        &:hover
+          background: $secondaryColor
+          color: $textColor
+      &.prev
+        a
+          background: transparent
+          color: $textColor
+        &:after
+          color: $textColor
+          border-color: $textColor
+      &:after
+        border-color: $textColor
 
 =colorizeSeatMap($free: rgba(27, 117, 188, 0.4), $paid: rgba(0, 76, 186, 0.7), $selected: #FFDA00)
   .seatSelect
@@ -94,4 +75,24 @@
     .tooltip-inner
       background: $primaryColor
       color: $textColor
+
+=colorizePopups($primaryColor, $secondaryColor, $textColor: #ffffff)
+  .modal
+    .modal-header-inner
+      background: $primaryColor
+  .passengerDataSeat__tabs__item.passenger-item-active
+    background: $primaryColor
+    color: $textColor !important
+
+=buttonStyles($primaryColor, $hoverColor: $primaryColor, $textColor: #ffffff, $hoverTextColor: $textColor)
+  .webRegistration .btn_next,
+  .btn.btn_search,
+  .popup__i__footer__buttons__button,
+  .webRegistration .registration__footer .btn
+    background-color: $primaryColor
+    color: $textColor
+    &:hover
+      background: $hoverColor
+      color: $hoverTextColor
+    @content
 
