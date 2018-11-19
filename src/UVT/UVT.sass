@@ -4,6 +4,7 @@
 
 \:root
   font-size: 16px
+  font-family: 'Open Sans', sans-serif
 
 body
   font-size: 16px
@@ -184,11 +185,13 @@ body
       background: $blueBrandColor
 
 .header.header_small .logo
-  max-width: 127px
+  //width: auto
+  width: 100%
+  max-width: 100%
   .img
     background-repeat: no-repeat
   +adaptivity(tablet)
-    width: 210px
+//width: 210px
 
 .mainNavBtn span
   background: $blueBrandColor
@@ -230,7 +233,15 @@ body
 
 .flightTable .contentRow .price-cell__link
   box-sizing: border-box
-  padding: 29px 10px
+  padding: 39px 10px
+
+.flightTable .contentRow .price-cell
+  &__link
+    display: flex
+    justify-content: center
+    align-items: center
+  &__text
+    width: auto
 
 /* ==== END #38002#note-41 ==== */
 
@@ -248,6 +259,28 @@ body
       top: 50%
       transform: translateY(-50%)
       font-size: 14px
-      left: 5px
+      left: -23px
+
+.btn_receipt_cont a.show_receipt,
+.btn_receipt_cont a.send_receipt
+  background-color: $blueBrandColor
+  color: #ffffff
+  &:hover
+    background-color: $redBrandColor
+
+.btn_receipt_cont a.send_receipt
+  background-image: $receiptIcon
+
+.invoiceDrops .title
+  background: $blueBrandColor
+
+.invoiceDrops .item .circle i
+  color: $blueBrandColor
+
+.popup .title__i
+  background: $blueBrandColor
+
+.invoice .btn-row .btn
+  +blueButton
 
 /* ==== END #38002#note-48 ==== */
