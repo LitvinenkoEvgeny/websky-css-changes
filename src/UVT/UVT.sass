@@ -45,7 +45,7 @@ body
           border-color: $white
       a
         &:hover
-          background: $lightBlueBrandColor
+          background: $redBrandColor
           color: $white
       &.prev
         &:hover
@@ -107,10 +107,7 @@ body
   color: #ffffff
 
 .searchResultsControl .btn_next
-  background: $blueBrandColor
-  color: #ffffff
-  &:hover
-    background: #588bc8
+  +blueButton
 
 /* ==== #38002 ==== */
 
@@ -143,7 +140,7 @@ body
   background: $blueBrandColor
   color: #ffffff
   &:hover
-    background: $lightBlueBrandColor
+    background: $redBrandColor
 
 /* add fare families */
 .flightTable > table > tbody > tr > td
@@ -284,3 +281,11 @@ body
   +blueButton
 
 /* ==== END #38002#note-48 ==== */
+
+/* ==== remove border at items in flightTable ==== */
+
+.flightTable .contentRow td:not(.firstCol)
+  //border: none
+  border-top: none
+
+/* ==== END remove border at items in flightTable ==== */
