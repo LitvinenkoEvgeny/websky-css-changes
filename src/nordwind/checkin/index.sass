@@ -23,7 +23,6 @@
   &__menu-list-wrapper
     margin-top: 20px
 
-
 .header-menu
   &__content
     flex-wrap: wrap
@@ -143,3 +142,20 @@ body
 /* Иконка была видна при открытом header */
 .status-cont
   z-index: 99
+
+#checkinForm .list > .item .top .iconBox
+  i
+    width: 30px
+    height: 30px
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: center center
+    &.icon
+      &_meal
+        background-image: $mealIcon
+      &_luggage
+        background-image: $baggageIcon
+      &_seat
+        background-image: $seatIcon
+      &_insurance
+        background-image: $insuranceIcon
