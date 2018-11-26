@@ -12,14 +12,17 @@
   &__inner, &__menu
     +adaptivity(tablet)
       padding: 0 10px
+
   &__container
     max-width: 1140px
     padding: 0 20px
     width: auto
     +adaptivity(tablet)
       width: 100%
+
   &-menu-content
     flex-wrap: wrap
+
   &__menu-list-wrapper
     margin-top: 20px
 
@@ -27,22 +30,27 @@
   &__content
     flex-wrap: wrap
     padding: 40px 20px 0
+
   &__list-wrapper
     margin: 0 0 40px
     flex-basis: 22% !important
+
     &:not(:last-child)
       margin: 0 0 40px
       padding: 0
+
     +adaptivity(tablet)
       margin-bottom: 50px
     +adaptivity(phone)
       flex: 50%
+
   &__extra
     padding: 0 20px
     justify-content: flex-start
     +adaptivity(tablet)
       justify-content: space-between
       height: 90px
+
   &__extra-item
     text-align: center
     margin-right: 40px
@@ -62,12 +70,14 @@ footer
     padding: 0 20px
     +adaptivity(tablet)
       width: 100%
+
   +adaptivity(tablet)
     padding: 0 10px
 
 .footer
   &__under-row
     flex-wrap: wrap
+
   &__contacts
     +adaptivity(tablet)
       margin-top: 10px
@@ -78,6 +88,7 @@ footer
     +adaptivity(tablet)
       justify-content: space-between
       margin-top: 20px
+
   &__item
     +adaptivity(tablet)
       &:not(:last-of-type)
@@ -116,8 +127,10 @@ body
 
 #checkinForm .route .item .passenger.active .passenger_lnk
   background: rgba(73, 90, 102, 0.05)
+
   &:before
     border-left-color: rgba(73, 90, 102, 0.05)
+
   +adaptivity(phone)
     background: rgba(73, 90, 102, 0.05)
 
@@ -131,6 +144,7 @@ body
 .foodSlider .list__i .item.active a
   background: $redBrandColor
   color: $white
+
   .name,
   .description
     p
@@ -150,14 +164,19 @@ body
     background-size: contain
     background-repeat: no-repeat
     background-position: center center
+
     &.icon_
-      background-image: $insuranceIcon
+      background-image: $insuranceIcon !important
+
     &.icon
       &_meal
-        background-image: $mealIcon
+        background-image: $mealIcon !important
+
       &_luggage
-        background-image: $baggageIcon
+        background-image: $baggageIcon !important
+
       &_seat
-        background-image: $seatIcon
+        background-image: $seatIcon !important
+
       &_insurance
-        background-image: $insuranceIcon
+        background-image: $insuranceIcon !important
