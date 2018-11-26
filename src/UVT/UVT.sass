@@ -15,10 +15,12 @@ body
 .header
   background: $white
   border-bottom: 1px solid #ddd
+
   .logo
     .img
       background: $logo
       +fastTransition(opacity, .15s)
+
       &:hover
         opacity: .6
 
@@ -27,6 +29,7 @@ body
     a
       color: $black
       +fastTransition(color, .1s)
+
       &:hover
         color: $redBrandColor
 
@@ -41,12 +44,15 @@ body
       &.active
         color: $white
         background: $blueBrandColor
+
         &:after
           border-color: $white
+
       a
         &:hover
           background: $redBrandColor
           color: $white
+
       &.prev
         &:hover
           &:after
@@ -64,15 +70,18 @@ body
       a
         &:hover
           background: $redBrandColor
+
         &.btnMinus
           &:hover
             background: $redBrandColor
+
             i
               color: $white
 
     a
       i
         color: $blueBrandColor
+
       &:hover
         background: $redBrandColor
 
@@ -80,6 +89,7 @@ body
   &.btn_search
     background: $blueBrandColor
     color: $white
+
     &:hover
       background: $redBrandColor
 
@@ -96,6 +106,7 @@ body
 
           a
             color: $white
+
             &:hover
               background: $lightBlueBrandColor
 
@@ -139,6 +150,7 @@ body
 .btn.btn_save
   background: $blueBrandColor
   color: #ffffff
+
   &:hover
     background: $redBrandColor
 
@@ -159,8 +171,10 @@ body
 .selectDate .item.active
   background: $blueBrandColor
   color: #ffffff
+
   a
     color: inherit
+
     > span:last-child
       color: #ffffff
 
@@ -175,8 +189,10 @@ body
 .chooseFlight__table__item__content.active .chooseFlight__table__item__content__link
   background: $blueBrandColor
   color: #ffffff
+
   &:hover
     background: $lightBlueBrandColor
+
   +adaptivity(tablet)
     &:hover
       background: $blueBrandColor
@@ -185,6 +201,7 @@ body
   //width: auto
   width: 100%
   max-width: 100%
+
   .img
     background-repeat: no-repeat
   +adaptivity(tablet)
@@ -204,6 +221,7 @@ body
 .flightTable .chooseFlight__table__item__columnTitle
   background: #6183c7
   text-align: center
+
   .name a
     display: inline-block
     font-size: 13px
@@ -237,6 +255,7 @@ body
     display: flex
     justify-content: center
     align-items: center
+
   &__text
     width: auto
 
@@ -248,6 +267,7 @@ body
   .price-cell__text
     display: inline-block
     position: relative
+
     &:before
       font-family: 'OpenSkyIcons' !important
       content: $checkIcon
@@ -262,6 +282,7 @@ body
 .btn_receipt_cont a.send_receipt
   background-color: $blueBrandColor
   color: #ffffff
+
   &:hover
     background-color: $redBrandColor
 
@@ -287,5 +308,103 @@ body
 .flightTable .contentRow td:not(.firstCol)
   //border: none
   border-top: none
+
+.flightTable
+  .options
+    i
+      width: 20px
+      height: 20px
+
+    .icon
+      &_carryon_yes,
+      &_carryon
+        background-image: $carryonYesIcon
+
+        &:before
+          display: none
+
+      &_ticket-refund_no
+        background-image: $ticketRefundNoIcon
+
+      &_luggage
+        background: $luggageYesIcon
+
+        &:before
+          display: none
+
+      &_ticket-change
+        background: $ticketChangeYesIcon
+
+        &:before
+          display: none
+
+      &_ticket-refund
+        background-image: $ticketChangeYesIcon
+        margin-top: 0
+
+        &:before
+          display: none
+
+      &_child-discount
+        background-size: contain !important
+        background: $childDiscountYesIcon
+
+        &:before
+          display: none
+
+.flightTable .options i.icon_ticket-refund
+  margin-top: 0
+
+.flightTable
+  .headrow
+    td:not(:first-child)
+      border-bottom: 1px solid #fff
+
+      .name
+        color: #FFFFFF
+        font-weight: bold
+
+        a
+          text-decoration: dotted
+          color: inherit
+          border-bottom: 1px dashed #fff
+
+          &:hover
+            border-bottom: none
+
+  .promo
+    background: $promoBrandColor
+
+  .light
+    background: $lightBrandColor
+
+  .flexible
+    background: $flexibleBrandColor
+
+  .standart
+    background: $premiumBrandColor
+
+  .premium
+    background: $premiumBrandColor
+
+.compareTableWrap
+  .promo, .light, .flexible, .standart, .premium
+    color: #ffffff
+
+  .promo
+    background: $promoBrandColor
+
+  .light
+    background: $lightBrandColor
+
+  .flexible
+    background: $flexibleBrandColor
+
+  .standart
+    background: $premiumBrandColor
+
+  .premium
+    background: $premiumBrandColor
+
 
 /* ==== END remove border at items in flightTable ==== */
