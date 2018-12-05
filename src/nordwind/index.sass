@@ -166,6 +166,50 @@
 /* ==== END #31373#note-38 ==== */
 
 /* ==== #41743 ==== */
+// remove it when time is come
+
+.header.header_small .logo
+  width: 401px
+
+.header.header_small .logo
+
+  +adaptivity(desktop)
+    width: 401px
+
+  @media screen and (max-width: 917px)
+    width: 320px
+
+  @media screen and (min-width: 1024px)
+    width: 576px
+    .img
+      max-width: 401px
+    position: relative
+
+    &:before
+      position: absolute
+      content: ''
+      display: inline-block
+      height: 30px
+      left: 75%
+      top: 50%
+      transform: translate(0, -25%)
+      border-right: 1px solid $redBrandColor
+
+    &:after
+      position: absolute
+      left: 80%
+      top: 50%
+      font-weight: 300
+      letter-spacing: 1px
+      font-family: Nordwind, Helvetica Neue, Helvetica, Arial, sans-serif
+      font-size: 16px
+      content: 'Fly the future'
+      display: inline-block
+
+  +adaptivity(tablet)
+    margin: 0 auto
+    left: 50%
+    transform: translateX(-50%)
 
 .header .logo
   a:focus
@@ -173,10 +217,15 @@
 
   .img
     background-image: $logo10YearsDesktop !important
-    +adaptivity(phone)
+    +adaptivity(tablet)
       background-image: $logo10YearsMobile !important
       background-size: contain
       margin-left: -30px
 
+.header .logo .img
+  max-width: unset
+
+.userNav__i ul
+  display: flex
 
 /* ==== END #41743 ==== */

@@ -183,7 +183,7 @@ body
 
 /* ==== #41743 ==== */
 
-body.adaptive .header__logo
+//body.adaptive .header__logo
   background-position: center center
   background-size: contain
   background-image: $logo10YearsMobile
@@ -195,5 +195,35 @@ body.adaptive .header__logo
     background-image: $logo10YearsDesktop
     width: 360px
 
+body.adaptive .footer
+  margin: 77px 0 0
+
+.header
+  &__logo-link
+    position: relative
+    @media screen and (min-width: 1160px)
+
+      &:before
+        position: absolute
+        content: ''
+        display: inline-block
+        height: 30px
+        left: 108%
+        top: 50%
+        transform: translate(0, -50%)
+        border-right: 1px solid $redBrandColor
+
+      &:after
+        position: absolute
+        left: 115%
+        transform: translate(0, -50%)
+        width: 130px
+        top: 50%
+        font-weight: 300
+        letter-spacing: 1px
+        font-family: Nordwind, Helvetica Neue, Helvetica, Arial, sans-serif
+        font-size: 16px
+        content: 'Fly the future'
+        display: inline-block
 
 /* ==== END #41743 ==== */
