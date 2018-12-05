@@ -23,13 +23,16 @@
 .geo-warning
   &__inner
     border-color: $grayBrandColor
+
   &__footer .btn
     &.is-blue
       background: transparent
       color: $grayBrandColor
       font-family: inherit
+
     &.is-yellow
       background: $redBrandColor
+
       &:hover
         background: $secondRedBrandColor
 
@@ -37,6 +40,7 @@
 .popup.popup_geo .popup__i__footer__buttons
   display: flex
   flex-direction: column
+
   .btn
     margin: 5px 0
 
@@ -99,6 +103,7 @@
     padding-top: 20px
     +adaptivity(tablet)
       display: block
+
   &__title-text
 
   .checkoutServices__i .title .orderInfo
@@ -159,3 +164,19 @@
     right: 15px
 
 /* ==== END #31373#note-38 ==== */
+
+/* ==== #41743 ==== */
+
+.header .logo
+  a:focus
+    outline: none
+
+  .img
+    background-image: $logo10YearsDesktop !important
+    +adaptivity(phone)
+      background-image: $logo10YearsMobile !important
+      background-size: contain
+      margin-left: -30px
+
+
+/* ==== END #41743 ==== */

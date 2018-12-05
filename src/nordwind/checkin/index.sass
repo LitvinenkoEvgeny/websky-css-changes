@@ -180,3 +180,20 @@ body
 
       &_insurance
         background-image: $insuranceIcon !important
+
+/* ==== #41743 ==== */
+
+body.adaptive .header__logo
+  background-position: center center
+  background-size: contain
+  background-image: $logo10YearsMobile
+  width: 200px
+  @media (max-width: 1159px) and (min-width: 768px)
+    width: 200px
+    background-image: $logo10YearsMobile
+  @media (min-width: 1160px)
+    background-image: $logo10YearsDesktop
+    width: 360px
+
+
+/* ==== END #41743 ==== */
