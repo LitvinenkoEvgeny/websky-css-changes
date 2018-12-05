@@ -32,6 +32,7 @@
 .text
   &--insurance-popup
     white-space: pre-line
+
   &--small
     font-size: .8em
     font-style: italic
@@ -47,3 +48,15 @@
 +removePointerDisabledFromCalendar
 
 /* ==== END #35382 ==== */
+
+html[lang="ru"]
+  .flightTable
+    .columnTitle
+      .best:after
+        background-color: #fafdff
+
+html[lang="zh"]
+  .flightTable
+    .columnTitle
+      .best:after
+        background-color: #1eb7ff
