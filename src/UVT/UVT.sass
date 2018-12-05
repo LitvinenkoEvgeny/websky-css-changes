@@ -422,19 +422,46 @@ body
 /* ==== END remove border at items in flightTable ==== */
 
 .compareTableWrap, .compareTabsWrap
-  i
-    background-size: contain !important
-    display: inline-block
-    width: 20px
-    height: 30px
+  .col1
+    i
+      background-size: contain !important
+      display: inline-block
+      width: 20px
+      height: 30px
 
-    &:before
-      display: none
+      &:before
+        display: none
 
-  .icon
-    &_ticket-refund-after-departure
-      background: $ticketRefundAfterDepartureIcon no-repeat center center
-    &_ticket-refund-after-departure
-      background: $ticketRefundAfterDepartureIcon no-repeat center center
+    .icon
+
+      &_ticket-refund-after-departure
+        background: $ticketRefundAfterDepartureIcon no-repeat center center
+
+      &_ticket-refund
+        background: $ticketRefundNoIcon no-repeat center center
+
+      &_luggage
+        background: $luggageGrayIcon no-repeat center center
+        width: 15px
+        margin-left: 4px
+
+      &_carryon
+        background: $carryonGrayIcon no-repeat center center
+        width: 15px
+        margin-left: 4px
+
+      &_ticket-change
+        background: $ticketChangeGrayIcon no-repeat center center
+
+      &_captcha-reload
+        background: $ticketChangeAfterDeparture no-repeat center center
+
+      &_child-discount, &_transfer, &_users
+        background: $childDiscountGrayIcon no-repeat center center
+        width: 15px
+        margin-left: 2px
+
+
+
 
 
