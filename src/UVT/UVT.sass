@@ -326,8 +326,12 @@ body
       &_ticket-refund_no
         background-image: $ticketRefundNoIcon
 
+
       &_luggage
         background: $luggageYesIcon
+
+        &_no
+          background: $luggageNoIcon
 
         &:before
           display: none
@@ -335,12 +339,18 @@ body
       &_ticket-change
         background: $ticketChangeYesIcon
 
+        &_no
+          background: $ticketChangeNoIcon
+
         &:before
           display: none
 
       &_ticket-refund
         background-image: $ticketChangeYesIcon
         margin-top: 0
+
+        &_no
+          background: $ticketRefundNoIcon
 
         &:before
           display: none
@@ -409,5 +419,22 @@ body
   .premium
     background: $premiumBrandColor
 
-
 /* ==== END remove border at items in flightTable ==== */
+
+.compareTableWrap, .compareTabsWrap
+  i
+    background-size: contain !important
+    display: inline-block
+    width: 20px
+    height: 30px
+
+    &:before
+      display: none
+
+  .icon
+    &_ticket-refund-after-departure
+      background: $ticketRefundAfterDepartureIcon no-repeat center center
+    &_ticket-refund-after-departure
+      background: $ticketRefundAfterDepartureIcon no-repeat center center
+
+
