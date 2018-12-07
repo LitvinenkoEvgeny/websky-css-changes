@@ -323,8 +323,13 @@ body
         &:before
           display: none
 
-      &_ticket-refund_no
-        background-image: $ticketRefundNoIcon
+      &_ticket-refund
+
+        &_no
+          background-image: $ticketRefundNoIcon
+
+        &_yes
+          background: $ticketRefundYesIcon
 
 
       &_luggage
@@ -333,14 +338,20 @@ body
         &_no
           background: $luggageNoIcon
 
+        &_yes
+          background: $luggageYesIcon
+
         &:before
           display: none
 
       &_ticket-change
-        background: $ticketChangeYesIcon
 
         &_no
           background: $ticketChangeNoIcon
+
+        &_yes
+          background: $ticketChangeYesIcon
+
 
         &:before
           display: none
@@ -356,17 +367,20 @@ body
           display: none
 
       &_child-discount
-        background-size: contain !important
-        background: $childDiscountYesIcon no-repeat
-        width: 17px
-        position: relative
-        top: 1px
+
+        &_yes
+          background: $childDiscountYesIcon no-repeat
+          background-size: contain
+          width: 17px
+          position: relative
+          top: 1px
 
         &:before
           display: none
 
 .flightTable .options i.icon_ticket-refund
   margin-top: 0
+
 
 .flightTable
   .headrow
@@ -421,6 +435,7 @@ body
 
 /* ==== END remove border at items in flightTable ==== */
 
+/* compare table icons */
 .compareTableWrap, .compareTabsWrap
   .col1
     i
