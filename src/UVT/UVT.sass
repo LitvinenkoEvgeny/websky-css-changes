@@ -344,6 +344,13 @@ body
         &:before
           display: none
 
+      &_seat
+        &_no
+          background: $seatNoIcon
+
+        &_yes
+          background: $seatYesIcon
+
       &_ticket-change
 
         &_no
@@ -454,6 +461,16 @@ body
 
       &_ticket-refund-after-departure
         background: $ticketRefundAfterDepartureIcon no-repeat center center
+
+      &_seat
+        background: $seatGrayIcon no-repeat center center
+        width: 13px
+        margin-left: 3px
+
+        &_comfortable
+          background: $seatGrayIcon no-repeat center center
+          width: 13px
+          margin-left: 3px
 
       &_ticket-refund
         background: $ticketRefundGrayIcon no-repeat center center
