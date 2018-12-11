@@ -371,7 +371,7 @@ body
           background: $ticketRefundNoIcon
 
         &_yes
-          background-image: $ticketChangeYesIcon
+          background-image: $ticketRefundYesIcon
 
         &:before
           display: none
@@ -384,6 +384,13 @@ body
           width: 17px
           position: relative
           top: 1px
+
+        &_no
+          background: $childDiscountNoIcon no-repeat
+          background-size: contain
+          width: 19px
+          position: relative
+          top: 2px
 
         &:before
           display: none
@@ -496,7 +503,10 @@ body
         width: 15px
         margin-left: 2px
 
-
+.flightTable
+  .options
+    li
+      padding-right: 5px !important
 
 
 
