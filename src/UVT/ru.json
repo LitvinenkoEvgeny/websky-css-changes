@@ -1,0 +1,489 @@
+[
+  {
+    "code": "RT.TARIFFS YU.Y.1.PROMO",
+    "name": "PROMO",
+    "cssClass": "promo",
+    "props": [
+      {
+        "code": "carryon",
+        "name": "carryon (15x35x45) cm",
+        "desc": "carryon",
+        "shortDesc": "5 kg.",
+        "available": "yes"
+      },
+      {
+        "code": "luggage",
+        "name": "Luggage (50 * 50 * 103) cm",
+        "desc": "Luggage",
+        "available": "no"
+      },
+      {
+        "code": "ticket-refund",
+        "name": "Return ticket before departure",
+        "desc": "Return before departure",
+        "available": "no"
+      },
+      {
+        "code": "ticket-refund-after-departure",
+        "name": "Return ticket after departure",
+        "desc": "Returns after departure",
+        "available": "no"
+      },
+      {
+        "code": "ticket-change",
+        "name": "Changes in ticket before departure",
+        "desc": "Changes in ticket before departure",
+        "available": "no"
+      },
+      {
+        "code": "captcha-reload",
+        "name": "Changes in ticket after departure",
+        "desc": "Changes in ticket after departure",
+        "available": "no"
+      },
+      {
+        "code": "seat",
+        "name": "Choice of place",
+        "shortDesc": "from 300 r.",
+        "available": "yes"
+      },
+      {
+        "code": "seat_comfortable",
+        "name": "Choosing a place of superior comfort",
+        "desc": "Choosing a place of superior comfort",
+        "shortDesc": "from 1000 rub.",
+        "available": "yes"
+      },
+      {
+        "code": "child-discount",
+        "name": "Discounts for children up to 2 years old",
+        "shortDesc": "100/90% Domestic / <br> International flights",
+        "available": "yes"
+      },
+      {
+        "code": "users",
+        "name": "Discounts for children from 2 to 12 years old",
+        "shortDesc": "15%",
+        "available": "yes"
+      }
+    ],
+    "importantProps": [
+      {
+        "code": "carryon_yes",
+        "name": "carryon"
+      },
+      {
+        "code": "luggage_no",
+        "name": "Luggage"
+      },
+      {
+        "code": "ticket-change_no",
+        "name": "The ticket is not reissued"
+      },
+      {
+        "code": "ticket-refund_no",
+        "name": "Ticket is non-refundable"
+      },
+      {
+        "code": "seat_yes",
+        "name": "Choosing a place"
+      },
+      {
+        "code": "child-discount_yes",
+        "name": "Discounts for children"
+      }
+    ]
+  },
+  {
+    "code": "RT.TARIFFS YU.Y.2.LIGHT",
+    "name": "LITE",
+    "hideIfEmpty": true,
+    "cssClass": "light",
+    "props": [
+      {
+        "code": "carryon",
+        "name": "carryon (15x35x45) cm",
+        "desc": "carryon",
+        "shortDesc": "5 kg",
+        "available": "yes"
+      },
+      {
+        "code": "luggage",
+        "name": "Luggage (50 * 50 * 103) cm",
+        "desc": "Luggage",
+        "shortDesc": "10 kg",
+        "available": "yes"
+      },
+      {
+        "code": "ticket-refund",
+        "name": "Return ticket before departure",
+        "desc": "Return before departure",
+        "available": "yes"
+      },
+      {
+        "code": "ticket-refund-after-departure",
+        "name": "Return ticket after departure",
+        "desc": "Returns after departure",
+        "available": "no"
+      },
+      {
+        "code": "ticket-change",
+        "name": "Changes in ticket before departure",
+        "desc": "Changes in ticket before departure",
+        "shortDesc": "Allowed with charges (in the Russian Federation - 3000 rubles, <br> international flight - 80 euros)",
+        "available": "yes"
+      },
+      {
+        "code": "captcha-reload",
+        "name": "Changes in ticket after departure",
+        "desc": "Changes in ticket after departure",
+        "shortDesc": "Allowed with charges (in the Russian Federation - 5000 rubles, <br> international flight - 100 euros)",
+        "available": "yes"
+      },
+      {
+        "code": "seat",
+        "name": "Choice of place",
+        "shortDesc": "from 300 r.",
+        "available": "yes"
+      },
+      {
+        "code": "seat_comfortable",
+        "name": "Choosing a place of superior comfort",
+        "desc": "Choosing a place of superior comfort",
+        "shortDesc": "from 1000 rub.",
+        "available": "yes"
+      },
+      {
+        "code": "child-discount",
+        "name": "Discounts for children up to 2 years old",
+        "shortDesc": "100/90% Domestic / <br> International flights",
+        "available": "yes"
+      },
+      {
+        "code": "users",
+        "name": "Discounts for children from 2 to 12 years old",
+        "shortDesc": "15%",
+        "available": "yes"
+      }
+    ],
+    "importantProps": [
+      {
+        "code": "carryon_yes",
+        "name": "carryon"
+      },
+      {
+        "code": "luggage_yes",
+        "name": "Luggage"
+      },
+      {
+        "code": "ticket-change_yes",
+        "name": "Ticket exchange before departure"
+      },
+      {
+        "code": "ticket-refund_no",
+        "name": "Ticket is non-refundable"
+      },
+      {
+        "code": "seat_yes",
+        "name": "Choosing a place"
+      },
+      {
+        "code": "child-discount_yes",
+        "name": "Discounts for children"
+      }
+    ]
+  },
+  {
+    "code": "RT.TARIFFS YU.Y.3.OPTIMUM",
+    "name": "OPTIMUM",
+    "hideIfEmpty": true,
+    "cssClass": "flexible",
+    "props": [
+      {
+        "code": "carryon",
+        "name": "carryon (15x35x45) cm",
+        "desc": "carryon",
+        "shortDesc": "5 kg",
+        "available": "yes"
+      },
+      {
+        "code": "luggage",
+        "name": "Luggage (50 * 50 * 103) cm",
+        "desc": "Luggage",
+        "shortDesc": "20 kg",
+        "available": "yes"
+      },
+      {
+        "code": "ticket-refund",
+        "name": "Return ticket before departure",
+        "desc": "Return before departure",
+        "shortDesc": "Allowed with charges (in the Russian Federation - 3000 rubles, <br> international flight - 80 euros)",
+        "available": "yes"
+      },
+      {
+        "code": "ticket-refund-after-departure",
+        "name": "Return ticket after departure",
+        "desc": "Returns after departure",
+        "shortDesc": "Allowed with charges (in the Russian Federation - 5000 rubles, <br> international flight - 100 euros)",
+        "available": "yes"
+      },
+      {
+        "code": "ticket-change",
+        "name": "Changes in ticket before departure",
+        "desc": "Changes in ticket before departure",
+        "shortDesc": "Allowed with charges (in the Russian Federation - 2000 rubles, <br> international flight to a higher fare)",
+        "available": "yes"
+      },
+      {
+        "code": "captcha-reload",
+        "name": "Changes in ticket after departure",
+        "desc": "Changes in ticket after departure",
+        "shortDesc": "Allowed with charges (in the Russian Federation - 3000 rubles, <br> international flight - 80 euros)",
+        "available": "yes"
+      },
+      {
+        "code": "seat",
+        "name": "Choice of place",
+        "shortDesc": "from 300 r.",
+        "available": "yes"
+      },
+      {
+        "code": "seat_comfortable",
+        "name": "Choosing a place of superior comfort",
+        "desc": "Choosing a place of superior comfort",
+        "shortDesc": "from 1000 rub.",
+        "available": "yes"
+      },
+      {
+        "code": "child-discount",
+        "name": "Discounts for children up to 2 years old",
+        "shortDesc": "100/90% Domestic / <br> International flights",
+        "available": "yes"
+      },
+      {
+        "code": "users",
+        "name": "Discounts for children from 2 to 12 years old",
+        "shortDesc": "15%",
+        "available": "yes"
+      }
+    ],
+    "importantProps": [
+      {
+        "code": "carryon_yes",
+        "name": "carryon"
+      },
+      {
+        "code": "luggage_yes",
+        "name": "Luggage"
+      },
+      {
+        "code": "ticket-change_yes",
+        "name": "Ticket Exchange"
+      },
+      {
+        "code": "ticket-refund_yes",
+        "name": "return ticket"
+      },
+      {
+        "code": "seat_yes",
+        "name": "Choosing a place"
+      },
+      {
+        "code": "child-discount_yes",
+        "name": "Discounts for children"
+      }
+    ]
+  },
+  {
+    "code": "RT.TARIFFS YU.Y.4.PREMIUM",
+    "name": "PREMIUM",
+    "hideIfEmpty": true,
+    "cssClass": "standart",
+    "props": [
+      {
+        "code": "carryon",
+        "name": "carryon (15x35x45) cm",
+        "desc": "carryon",
+        "shortDesc": "5 kg",
+        "available": "yes"
+      },
+      {
+        "code": "luggage",
+        "name": "Luggage (50 * 50 * 103) cm",
+        "desc": "Luggage",
+        "shortDesc": "30 kg",
+        "available": "yes"
+      },
+      {
+        "code": "ticket-refund",
+        "name": "Return ticket before departure",
+        "desc": "Return before departure",
+        "shortDesc": "Allowed with charges (in the Russian Federation - 2000 rubles, <br> international flight - 30 euros)",
+        "available": "yes"
+      },
+      {
+        "code": "ticket-refund-after-departure",
+        "name": "Return ticket after departure",
+        "desc": "Returns after departure",
+        "shortDesc": "Allowed with charges (in the Russian Federation - 3000 rubles, <br> international flight - 80 euros)",
+        "available": "yes"
+      },
+      {
+        "code": "ticket-change",
+        "name": "Changes in ticket before departure",
+        "desc": "Changes in ticket before departure",
+        "shortDesc": "Allowed with charges (in the Russian Federation - 1500 rubles, <br> international flight - 30 euros)",
+        "available": "yes"
+      },
+      {
+        "code": "captcha-reload",
+        "name": "Changes in ticket after departure",
+        "desc": "Changes in ticket after departure",
+        "shortDesc": "Allowed with charges (in the Russian Federation - 2000 rubles, <br> international flight - 60 euros)",
+        "available": "yes"
+      },
+      {
+        "code": "seat",
+        "name": "Choice of place",
+        "available": "yes"
+      },
+      {
+        "code": "seat_comfortable",
+        "name": "Choosing a place of superior comfort",
+        "desc": "Choosing a place of superior comfort",
+        "shortDesc": "from 1000 rub.",
+        "available": "yes"
+      },
+      {
+        "code": "child-discount",
+        "name": "Discounts for children up to 2 years old",
+        "shortDesc": "100/90% Domestic / <br> International flights",
+        "available": "yes"
+      },
+      {
+        "code": "users",
+        "name": "Discounts for children from 2 to 12 years old",
+        "shortDesc": "25%",
+        "available": "yes"
+      }
+    ],
+    "importantProps": [
+      {
+        "code": "carryon_yes",
+        "name": "carryon"
+      },
+      {
+        "code": "luggage_yes",
+        "name": "Luggage"
+      },
+      {
+        "code": "ticket-change_yes",
+        "name": "Ticket Exchange"
+      },
+      {
+        "code": "ticket-refund_yes",
+        "name": "return ticket"
+      },
+      {
+        "code": "seat_no",
+        "name": "Choosing a place"
+      },
+      {
+        "code": "child-discount_yes",
+        "name": "Discounts for children"
+      }
+    ]
+  },
+  {
+    "code": "RT. TARIFFS YU.Y.5.SPECIAL",
+    "name": "SPECIAL",
+    "hideIfEmpty": true,
+    "cssClass": "premium",
+    "props": [
+      {
+        "code": "carryon",
+        "name": "carryon (15x35x45) cm",
+        "desc": "carryon",
+        "shortDesc": "5 kg",
+        "available": "yes"
+      },
+      {
+        "code": "luggage",
+        "name": "Luggage",
+        "desc": "Luggage",
+        "shortDesc": "20 kg",
+        "available": "yes"
+      },
+      {
+        "code": "ticket-refund",
+        "name": "Return ticket before departure",
+        "desc": "Return before departure",
+        "available": "paid",
+        "price": "2000"
+      },
+      {
+        "code": "ticket-refund-after-departure",
+        "name": "Return ticket after departure",
+        "desc": "Returns after departure",
+        "available": "paid",
+        "price": "5000"
+      },
+      {
+        "code": "ticket-change",
+        "name": "Ticket re-issuance prior to departure",
+        "desc": "Re-registration before departure",
+        "available": "paid",
+        "price": "1500"
+      },
+      {
+        "code": "captcha-reload",
+        "name": "Ticket change after departure",
+        "desc": "Ticket change after departure",
+        "available": "paid",
+        "price": "2000"
+      },
+      {
+        "code": "child-discount",
+        "name": "Discounts for children 0-2 years old",
+        "desc": "Children 0-2-x",
+        "shortDesc": "100%",
+        "available": "yes"
+      },
+      {
+        "code": "seat",
+        "name": "Discounts for children 0-2 years old with a place",
+        "desc": "Children 0-2 with a place",
+        "shortDesc": "25%",
+        "available": "yes"
+      },
+      {
+        "code": "users",
+        "name": "Discounts for children from 2 to 12 years old",
+        "shortDesc": "25%",
+        "available": "yes"
+      }
+    ],
+    "importantProps": [
+      {
+        "code": "carryon_yes",
+        "name": "carryon"
+      },
+      {
+        "code": "luggage_yes",
+        "name": "Luggage"
+      },
+      {
+        "code": "ticket-change_yes",
+        "name": "Ticket Exchange"
+      },
+      {
+        "code": "ticket-refund_yes",
+        "name": "return ticket"
+      },
+      {
+        "code": "child-discount_yes",
+        "name": "Discounts for children"
+      }
+    ]
+  }
+]
