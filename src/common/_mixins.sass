@@ -161,22 +161,28 @@
 =setSearchStepsColor($color)
   .searchSteps ol li
     color: $color
+
     &:after
       color: $color
       border-color: $color
+
     &.active, &.prev
       background: transparent
       color: $color
+
       &:after
         color: $color
         border-color: $color
+
     &.active
       &:before
         background: $color
+
     &.prev
       a
         color: $color
         background-color: transparent
+
         &:hover
           &:after
             background: $color
@@ -185,13 +191,17 @@
   .orderSearchForm, .timeTableSearchForm
     .calendarBtn, .arrowDown
       color: $color
+
     .btnTransfer
       color: $color
+
     .btnPlus i
       color: $color
+
     .bonusItem
       label
         color: $color
+
       .textInp
         &:focus
           border-color: $color
@@ -213,6 +223,7 @@
 
   .searchParams__i .changeParams
     color: $color
+
     &:after
       color: inherit
 
@@ -236,6 +247,7 @@
   .searchResultsControl .ticketChange .btnRow .btn_next,
   .ticketChange .btnRow .btn
     background: $color
+
     &:hover
       background: $hoverColor
 
@@ -268,8 +280,10 @@
       &.active
         .selectedInfo__i
           box-shadow: none
+
           > a
             color: $third
+
       &__i
         > a
           color: #4d4d4d
@@ -283,6 +297,7 @@
 =setSearchVariantsColor($primary, $secondary, $textColor: white, $colorSet: (initial, initial, initial, initial))
   .chooseFlight .flightWay a
     color: $primary
+
     span
       &:first-child
         &:after
@@ -299,8 +314,10 @@
         td
           &.active
             background: $primary
+
             a
               color: $textColor
+
               strong
                 color: $textColor
 
@@ -322,6 +339,7 @@
         &.active
           a
             background: $primary
+
     .columnTitle
       .name
         a
@@ -330,6 +348,8 @@
 
   .compareTableWrap
     /* Таблица сравнения тарифов */
+
+
     table tr:first-child
       @for $index from 1 through length($colorSet)
         $color: nth($colorSet, $index)
@@ -354,8 +374,10 @@
           .dep, .arr
             &__time
               color: $primary
+
             &__point_city
               color: $primary
+
     .flight
       border-color: $primary
 
@@ -375,8 +397,10 @@
     .item
       &.active
         background: $primary
+
         a
           color: #ffffff
+
           .price,
           .date,
           .date_text
@@ -387,6 +411,7 @@
         &__label
           > span
             border-color: $primary
+
         &__content
           &__bottom
             &__link
@@ -405,14 +430,18 @@
   .passengersInfo
     h2
       color: $primaryColor
+
     .login
       a
         color: $primaryColor
         border-color: inherit
+
         &:after
           border-color: inherit
+
     .itemName
       color: $primaryColor
+
       &__number
         color: $primaryColor
 
@@ -431,6 +460,7 @@
     .customCheckbox
       span
         border-color: $secondaryColor
+
       input
         &:checked
           + span:after
@@ -439,6 +469,7 @@
   .btn.btn_back
     color: $primaryColor
     border-color: $primaryColor
+
     &:hover
       color: #ffffff
       background: $primaryColor
@@ -447,6 +478,7 @@
     .selectize-input,
     .selectize-input.focus
       color: $primaryColor !important
+
     .ui-select-placeholder.text-muted
       color: $primaryColor
 
@@ -454,21 +486,27 @@
   .checkoutServices__i
     .title
       color: $primaryColor
+
     .list
       > .item
         &.active
           .top
             .iconBox
               background: $primaryColor
+
         .top
           background: $thirdColor
+
           .iconBox
             background: $primaryColor
+
           .btn
             color: $thirdColor
             border-color: $thirdColor
 
     /* mobile styles */
+
+
     .row
       &:first-child
         background: $thirdColor
@@ -477,6 +515,7 @@
   .radioBtn
     input:checked + span
       border-color: $thirdColor
+
       &:after
         background: $thirdColor
   .payMethods a
@@ -499,6 +538,7 @@
   .invoiceDrops
     .title
       background: $secondaryColor
+
       a
         color: $primaryColor
 
@@ -514,6 +554,7 @@
     .btn
       background: $primaryColor
       color: #ffffff
+
       &:hover
         background: $thirdColor
 
@@ -527,8 +568,10 @@
     a.send_receipt
       background-color: $primaryColor
       color: #ffffff
+
       &:hover
         background-color: $thirdColor
+
     a.send_receipt
       background-image: $mailIcon
 
@@ -550,13 +593,19 @@
   .selectDate .item.active a
     background: $backgroundColor
     color: $fontColor
+
     .date_text
       color: $fontColor
 
-=languageMobileColor($color)
+=languageMobileColor($color, $mutedColor)
   /* https://yadi.sk/i/all5Y-nKxu4qKA */
   .ui-select-header.ui-select-header-mobile .selectize-input
     .ui-select-match
       color: $color
+
     &:after
       border-color: $color transparent transparent transparent !important
+
+  .ui-select-header .ui-select-placeholder.text-muted
+    +adaptivity(tablet)
+      color: $mutedColor
