@@ -13,6 +13,7 @@
     white-space: pre
     top: -150%
     left: -170px
+
     &:after
       left: 50%
 
@@ -31,6 +32,7 @@
   &__heading,
   &__descr
     padding-bottom: 20px
+
     a
       color: #004f9c
       font-weight: bold
@@ -41,12 +43,15 @@
 
 .popup_auth
   overflow: hidden
+
   .tooltip
     position: relative
+
     &__inner
       font-size: .9em
       +adaptivity(tablet)
         font-size: .8em
+
     .tooltiptext
       display: none
       width: 390px
@@ -62,6 +67,7 @@
         width: 350px
         height: 420px
         bottom: -170px
+
       &:after
         content: ''
         width: 0
@@ -72,6 +78,7 @@
         border-width: 6px 5px 0 5px
         border-color: #006cc7 transparent transparent transparent
         position: absolute
+
     &:hover
       .tooltiptext
         display: block
@@ -79,4 +86,25 @@
 /* ==== END #40805 ==== */
 
 /* ==== #31373#note-38 ==== */
+
++languageMobileColor(#fff, #fff)
+
+.flightTableWrap.mobileHide
+  padding-bottom: 60px
+
+.flightTableWrap .drop__i .item.active a
+  color: #666666
+
+.orderSearchForm .pikaday__header_mobile.active
+  +adaptivity(tablet)
+    display: none
+
+
+.searchSteps__i
+  // пришлось задать высоту родителю
+  +adaptivity(tablet)
+    height: 52px
+    overflow: hidden
+    margin-top: 10px
+
 /* ==== END #31373#note-38 ==== */
