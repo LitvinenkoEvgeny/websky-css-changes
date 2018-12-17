@@ -128,14 +128,20 @@ body
   background: $lightBlueBrandColor !important
 
 +calendarSelectedStyles()
-  background: $blueBrandColor
+  background: lighten($redBrandColor, 20%) !important
 
 +rangeCalendarStyles()
-  background: lighten($lightBlueBrandColor, 10%) !important
+  background: lighten($redBrandColor, 10%) !important
+  color: #ffffff
+
++rangeStartEndStyles()
+  background: lighten($redBrandColor, 20%) !important
   color: #ffffff
 
 +enabledCalendarStyles()
-  background: #f0f0f0
+  background-color: lighten($flexibleBrandColor, 10%)
+  color: #ffffff
+
 
 /* end calendar styles */
 
@@ -576,4 +582,6 @@ body
 
     &-seat
       display: block
+
+
 /* ==== END 38002#note-98 ==== */
