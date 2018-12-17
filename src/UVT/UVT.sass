@@ -536,9 +536,9 @@ body
 
 .chooseResult__i .tariff__content__item,
 .searchResultsPlain__i .tariff__content__item
-  display: block
   position: relative
   padding-left: 15px
+  display: none
 
   i
     position: absolute
@@ -553,8 +553,27 @@ body
 .chooseResult
   &__i
     .col:nth-of-type(2)
-      .total
-        .right
-          display: none
+    .total
+      .right
+        display: none
 
+.tariff__content
+  > span
+    display: none
+
+  .prop
+    &-carryon
+      display: block
+
+    &-luggage
+      display: block
+
+    &-ticket-refund
+      display: block
+
+    &-ticket-change
+      display: block
+
+    &-seat
+      display: block
 /* ==== END 38002#note-98 ==== */
