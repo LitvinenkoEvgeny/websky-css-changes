@@ -519,6 +519,7 @@ body
 
 .tariff__content .tariff__content__item .icon_check
   color: #56cb00
+  transform: translate(0, -64%)
 
 .tariff__content .tariff__content__item .currency_sign
   font-weight: normal
@@ -563,6 +564,13 @@ body
       .right
         display: none
 
+.tariff
+  &__content
+    //display: flex
+    //justify-content: flex-start
+    //flex-wrap: wrap
+
+
 .tariff__content
   > span
     display: none
@@ -583,5 +591,57 @@ body
     &-seat
       display: block
 
+=addNumberAfter($num)
+  .col1 span::after
+    content: '#{$num}'
+    vertical-align: 60%
+    color: red
+    font-size: 10px
+
+.compareTableWrap table
+  tr
+    &:nth-of-type(5),
+    &:nth-of-type(7),
+    &:nth-of-type(9)
+      display: none
+
+    &:nth-of-type(4)
+      +addNumberAfter(1)
+
+    &:nth-of-type(6)
+      +addNumberAfter(2)
+
+  td
+    padding: 8px 0
+
+  tr:not(:first-of-type)
+    td:not(:first-of-type)
+      font-weight: 400
+
+.coment-t
+  font-size: 11px
+  padding-top: 20px
+
+  p
+    font-size: 10px
+
+  li
+    list-style-type: none
+    padding-bottom: 5px
+
+  .red_note
+    color: red
+
+  a
+    color: #0b6cb1
+    transition: border, 450ms, ease
+    display: inline-block
+    padding: 0
+    border-bottom: 1px dashed #0b6cb1
+    white-space: nowrap
+
+    &:hover
+      color: #0b6cb1
+      border-bottom: 1px dashed #fff
 
 /* ==== END 38002#note-98 ==== */
