@@ -398,8 +398,6 @@ body
           position: relative
           top: 2px
 
-        &:before
-          display: none
 
 .flightTable .options i.icon_ticket-refund
   margin-top: 0
@@ -428,7 +426,7 @@ body
   .light
     background: $lightBrandColor
 
-  .flexible
+  .flexible, .special
     background: $flexibleBrandColor
 
   .standart
@@ -467,7 +465,7 @@ body
       width: 20px
       height: 30px
 
-      &:before
+      &:not(.icon_transfer):before
         display: none
 
     .icon
@@ -504,10 +502,18 @@ body
       &_captcha-reload
         background: $ticketChangeAfterDeparture no-repeat center center
 
-      &_child-discount, &_transfer, &_users
+      &_child-discount, &_users
         background: $childDiscountGrayIcon no-repeat center center
         width: 15px
         margin-left: 2px
+
+      &_transfer
+        &:before
+          content: "\e930"
+          font-size: 16px
+          position: relative
+          top: 6px
+          left: 1px
 
 .flightTable
   .options
@@ -540,11 +546,20 @@ body
   &:before
     display: none
 
+.tariff
+  &__prop
+    &-shortDesc
+      background-color: rgb(232, 232, 232)
+      display: inline-block
+      +adaptivity(phone)
+        margin-left: 5px
+
 
 .chooseResult__i .tariff__content__item,
 .searchResultsPlain__i .tariff__content__item
   position: relative
   padding-left: 15px
+  break-inside: avoid
   display: none
 
   i
@@ -566,9 +581,9 @@ body
 
 .tariff
   &__content
-    //display: flex
-    //justify-content: flex-start
-    //flex-wrap: wrap
+//display: flex
+//justify-content: flex-start
+//flex-wrap: wrap
 
 
 .tariff__content
