@@ -181,6 +181,51 @@ body
       &_insurance
         background-image: $insuranceIcon !important
 
+#checkinForm
+  .list > .item
+    .mobileShow .top
+      .name
+        color: #666666
+        font-weight: bold
+
+        .icon_info
+          color: #666666
+
+      table td:last-child
+        background-color: #ffffff
+
+    .mobileShow .top table td:first-child
+      background: #ffffff
+
+      i
+        display: inline-block
+        width: 40px
+        height: 40px
+        background-size: contain
+        background-repeat: no-repeat
+        background-position: center center
+
+        &:before
+          display: none
+
+        &.icon_
+          +adaptivity(tablet)
+            background-image: $insuranceIcon
+
+        &.icon
+          &_meal
+            background-image: $mealIcon
+
+          &_luggage
+            background-image: $baggageIcon
+
+          &_seat
+            background-image: $seatIcon
+
+          &_insurance
+            background-image: $insuranceIcon
+
+
 /* ==== #41743 ==== */
 
 //body.adaptive .header__logo
@@ -227,3 +272,5 @@ body.adaptive .footer
         display: inline-block
 
 /* ==== END #41743 ==== */
+
+
