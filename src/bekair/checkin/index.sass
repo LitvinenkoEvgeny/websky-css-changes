@@ -1,0 +1,47 @@
+@import '../../common/mixins'
+
+$blue: #00ADC8
+$yellow: #FFEE02
+$yellow-hover: #fef372
+$gray: #4D4D4D
+$gray666: #666666
+$grayE6: #E6E6E6
+
+#checkinForm .list > .item .top
+  background: $blue
+
+#checkinForm .list > .item .top .iconBox
+  background: $yellow
+
+#checkinForm .list > .item .top .iconBox i
+  font-size: 60px
+  color: $gray
+
+.baggage .passenger__link__i__name
+  color: $gray666
+
+#checkinForm .list > .item .top .btn
+  background: $yellow
+  border-color: $yellow
+
+  &:hover
+    background: $yellow-hover
+    border-color: $yellow-hover
+
+  &.active
+    border: none
+    background: none
+    color: #fff
+    font-weight: 600
+    border-bottom: 1px dashed #ffffff
+    display: inline
+    padding: 0
+    &:hover
+      background: #ffffff
+      color: $blue
+
+.webRegistration .registration__footer .btn
+  &:hover
+    background: $grayE6
+
+
