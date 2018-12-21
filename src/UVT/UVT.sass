@@ -445,8 +445,9 @@ body
   .light
     background: $lightBrandColor
 
-  .flexible
+  .flexible, .special
     background: $flexibleBrandColor
+    color: #ffffff
 
   .standart
     background: $premiumBrandColor
@@ -523,36 +524,53 @@ body
 
 /* ==== 38002#note-98 ==== */
 
-.tariff__content .tariff__content__item .icon_check
-  color: #56cb00
-  transform: translate(0, -64%)
+.tariff__content .tariff__content__item
+  .icon_check
+    color: #56cb00
+    top: 0
+    transform: translate(0, 20%)
 
-.tariff__content .tariff__content__item .currency_sign
-  font-weight: normal
-  font-size: 15px
-  color: #666666
-  position: absolute !important
-  left: -4px
-  top: 50%
-  transform: translate(0, -50%) !important
+  &.prop-luggage,
+  &.prop-carryon
+    .icon_check
+      top: 50%
+      transform: translate(0, -64%)
 
-.tariff__content .tariff__content__item .icon_none
-  left: -10px
-  background: $crossIcon center no-repeat
-  background-size: contain
-  width: 18px
-  height: 18px
+.tariff__content .tariff__content__item
+  .currency_sign
+    font-weight: normal
+    font-size: 15px
+    color: #666666
+    position: absolute !important
+    left: -4px
+    top: 0
+    transform: translate(0, 20%) !important
 
-  &:before
-    display: none
+  &.prop-luggage,
+  &.prop-carryon
+    .currency_sign
+      top: 50%
+      transform: translate(0, -64%)
 
-.tariff
-  &__prop
-    &-shortDesc
-      background-color: rgb(232, 232, 232)
-      display: inline-block
-      +adaptivity(phone)
-        margin-left: 5px
+.tariff__content .tariff__content__item
+  .icon_none
+    left: -10px
+    background: $crossIcon center no-repeat
+    background-size: contain
+    width: 18px
+    height: 18px
+    top: 0
+    transform: translate(0, 20%) !important
+
+    &:before
+      display: none
+
+
+  &.prop-luggage,
+  &.prop-carryon
+    .icon_none
+      top: 50%
+      transform: translate(0, -64%) !important
 
 
 .chooseResult__i .tariff__content__item,
@@ -561,6 +579,14 @@ body
   padding-left: 15px
   break-inside: avoid
   display: none
+  flex-direction: column
+  flex: 50% 0 0
+  width: auto
+  justify-content: center
+
+  +adaptivity(phone)
+    flex: 100%
+
 
   i
     position: absolute
@@ -579,14 +605,19 @@ body
       .right
         display: none
 
-.tariff
-  &__content
-//display: flex
-//justify-content: flex-start
-//flex-wrap: wrap
-
-
 .tariff__content
+  display: flex
+  flex-wrap: wrap
+  flex-direction: column
+  height: 100px
+
+  +adaptivity(phone)
+    flex-direction: row
+    height: auto
+
+  &__item
+    display: flex
+
   > span
     display: none
 
@@ -606,6 +637,12 @@ body
     &-seat
       display: block
 
+.tariff
+  &__prop
+    &-shortDesc
+      background-color: rgb(232, 232, 232)
+      display: inline-block
+
 =addNumberAfter($num)
   .col1 span::after
     content: '#{$num}'
@@ -615,15 +652,11 @@ body
 
 .compareTableWrap table
   tr
-    &:nth-of-type(5),
-    &:nth-of-type(7),
-    &:nth-of-type(9)
-      display: none
 
     &:nth-of-type(4)
       +addNumberAfter(1)
 
-    &:nth-of-type(6)
+    &:nth-of-type(5)
       +addNumberAfter(2)
 
   td
@@ -660,3 +693,151 @@ body
       border-bottom: 1px dashed #fff
 
 /* ==== END 38002#note-98 ==== */
+
+=colorizeMobileCompareTable($brandName, $color)
+  #{$brandName}
+    .name__i
+      background: $color
+  .tabsControl
+    #{$brandName}
+      a
+        background-color: $color
+
+.compareTabsWrap
+  +colorizeMobileCompareTable('.flexible, .special', $flexibleBrandColor)
+  +colorizeMobileCompareTable('.light', $lightBrandColor)
+  +colorizeMobileCompareTable('.premium', $premiumBrandColor)
+  +colorizeMobileCompareTable('.standart', $premiumBrandColor)
+
+=addNumberInMobileCompareTable($num)
+  td:nth-of-type(1)
+    span
+      &:after
+        display: inline
+        content: '#{$num}'
+        vertical-align: 60%
+        color: red
+        font-size: 10px
+
+
+.compareTabsWrap.mobileShow
+  .tabsBody
+    tr:nth-of-type(3)
+      +addNumberInMobileCompareTable(1)
+
+    tr:nth-of-type(4)
+      +addNumberInMobileCompareTable(2)
+
+
+    tr
+      td:nth-of-type(2)
+        .currency_sign
+          padding-left: 0
+
+      td:nth-of-type(1)
+        i
+          background-size: contain !important
+          display: inline-block
+          width: 20px
+          height: 30px
+
+          &:not(.icon_transfer):before
+            display: none
+
+        .icon
+
+          &_ticket-refund-after-departure
+            background: $ticketRefundAfterDepartureIcon no-repeat center center
+
+          &_seat
+            background: $seatGrayIcon no-repeat center center
+            width: 13px
+            margin-left: 3px
+
+            &_comfortable
+              background: $seatGrayIcon no-repeat center center
+              width: 13px
+              margin-left: 3px
+
+          &_ticket-refund
+            background: $ticketRefundGrayIcon no-repeat center center
+
+          &_luggage
+            background: $luggageGrayIcon no-repeat center center
+            width: 15px
+            margin-left: 4px
+
+          &_carryon
+            background: $carryonGrayIcon no-repeat center center
+            width: 15px
+            margin-left: 4px
+
+          &_ticket-change
+            background: $ticketChangeGrayIcon no-repeat center center
+
+          &_captcha-reload
+            background: $ticketChangeAfterDeparture no-repeat center center
+
+          &_child-discount, &_users
+            background: $childDiscountGrayIcon no-repeat center center
+            width: 15px
+            margin-left: 2px
+
+          &_transfer
+            &:before
+              content: "\e930"
+              font-size: 16px
+              position: relative
+              top: 6px
+              left: 1px
+
+.popup_detail
+  .tariff
+    &__content
+      @media screen and (max-width: 900px)
+        flex-direction: row
+
+      +adaptivity(tablet)
+        flex-direction: row
+
+      &__item
+        width: auto
+        position: relative
+        padding-left: 10px
+        flex: 50% 0 0
+
+        @media screen and (max-width: 900px)
+          flex: 50%
+
+        +adaptivity(phone)
+          flex: 100%
+
+        &.prop-child-discount,
+        &.prop-transfer
+          display: none
+
+        .icon_check
+          position: absolute
+          left: -10px
+
+      &.prop-luggage,
+      &.prop-carryon
+        .icon_check
+          position: absolute
+          left: -7px
+    .icon_none
+      display: inline-block
+      position: absolute
+
+.infoTooltip
+  background: $blueBrandColor
+  white-space: pre
+  bottom: 100%
+  padding: 10px 20px
+  +adaptivity(phone)
+    white-space: pre-line
+    min-width: 320px
+    top: -180%
+
+  &:after
+    border-color: $blueBrandColor transparent transparent transparent
