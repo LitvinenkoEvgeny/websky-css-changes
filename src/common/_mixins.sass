@@ -354,6 +354,13 @@
     /* Таблица сравнения тарифов */
 
 
+
+
+
+
+
+
+
     table tr:first-child
       @for $index from 1 through length($colorSet)
         $color: nth($colorSet, $index)
@@ -511,6 +518,13 @@
     /* mobile styles */
 
 
+
+
+
+
+
+
+
     .row
       &:first-child
         background: $thirdColor
@@ -613,3 +627,22 @@
   .ui-select-header .ui-select-placeholder.text-muted
     +adaptivity(tablet)
       color: $mutedColor
+
+=colorizeBrandTable($colorSet)
+  .flightTable
+    table > tbody > tr.headrow
+      @for $index from 1 through length($colorSet)
+        $color: nth($colorSet, $index)
+        $index: $index + 1
+        > td:nth-child(#{$index})
+          background: $color
+
+    .chooseFlight
+      &__table
+        @for $index from 1 through length($colorSet)
+          $color: nth($colorSet, $index)
+          $index: $index
+          &__item:nth-of-type(#{$index})
+            +adaptivity(tablet)
+              .chooseFlight__table__item__columnTitle
+                background: $color
