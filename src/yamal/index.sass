@@ -1,5 +1,7 @@
 @import "../common/mixins"
 @import "mixins"
+$redBrandColor: #d51f26
+$blueBrandColor: #182f6b
 
 /* ==== #31373 ==== */
 
@@ -9,4 +11,16 @@
 +removePointerDisabledFromCalendar
 
 /* ==== END #35382 ==== */
+
+/* ==== #31373#38 ==== */
+
++colorizeSegmentPricesCalendar(#ffffff, #666)
+
++segmentPricesCalendarStyles(true)
+  border: 2px solid $redBrandColor
+  box-sizing: border-box
+
++chooseFlightFullWidth()
+
+/* ==== END #31373#38 ==== */
 
