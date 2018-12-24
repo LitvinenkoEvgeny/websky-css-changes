@@ -615,6 +615,14 @@
     .date_text
       color: $fontColor
 
+=segmentPricesCalendarStyles($forActive)
+  @if $forActive == true
+    .selectDate .item.active a
+      @content
+  @else
+    .selectDate .item a
+      @content
+
 =languageMobileColor($color, $mutedColor)
   /* https://yadi.sk/i/all5Y-nKxu4qKA */
   .ui-select-header.ui-select-header-mobile .selectize-input
