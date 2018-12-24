@@ -60,3 +60,33 @@ html[lang="zh"]
     .columnTitle
       .best:after
         background-color: #1eb7ff
+
+
+/* ==== #31373#38 ==== */
+
++languageMobileColor(#ffffff, #ffffff)
+
++adaptivity(tablet)
+  .orderSearchForm .pika-single
+    width: 100% !important
+
++colorizeSegmentPricesCalendar($blueBrandColor, $white)
+
+$brandsColors: (#6cd0ff, #52c8ff, #3cc1ff)
++colorizeBrandTable($brandsColors)
+
+html[lang="ru"]
+  .chooseFlight__table__item__columnTitle .best
+    top: 3px
+
+html[lang="en"]
+  .chooseFlight__table__item__columnTitle .best
+    top: 3px
+    right: -13px
+
+html[lang="zh"]
+  .chooseFlight__table__item__columnTitle .best
+    top: 3px
+    right: -13px
+
+/* ==== END #31373#38 ==== */
