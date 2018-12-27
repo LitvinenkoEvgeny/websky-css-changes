@@ -254,7 +254,7 @@
   $emergencyExitLeftRightOffset: 5px
 
   table
-    tr.row-has-seat-prop-E:nth-child(2)
+    //tr.row-has-seat-prop-E:nth-child(2)
       td:first-of-type
         &:before
           left: 5px
@@ -311,8 +311,13 @@
 
 +addESIcon('umbrella', $insuranceIcon)
 +addESIcon('seat-reservation', $seatIcon)
++addESIcon('seat', $seatIcon)
 +addESIcon('meal', $mealIcon)
 +addESIcon('luggage', $baggageIcon)
 +addESIcon('aeroexpress', $aeroExpressIcon)
+
+.aeroexpress .passenger
+  background: $redBrandColor
+  color: #ffffff
 
 /* ==== END #41176 ==== */
