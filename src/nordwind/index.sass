@@ -232,3 +232,87 @@
   min-height: calc(100% - 360px)
 
 /* ==== END #41743 ==== */
+
+/* ==== #42215 ==== */
+
+.seat.seat-prop-7A
+  margin-bottom: 30px
+
+  &:before
+    content: ''
+    display: block
+    width: 15px
+    height: 15px
+    background: $toiletIconGray center center no-repeat
+    background-size: contain
+    position: absolute
+    bottom: -25px
+    left: 1px
+    pointer-events: none
+
+.planeBody__i
+  $emergencyExitLeftRightOffset: 5px
+
+  table
+    tr.row-has-seat-prop-E:nth-child(2)
+      td:first-of-type
+        &:before
+          left: 5px
+
+      td:last-of-type
+        &:after
+          right: 5px
+
+    tr.row-has-seat-prop-E
+
+      td:first-of-type,
+      td:last-of-type
+        position: relative
+
+        &:before,
+        &:after
+          content: ''
+          position: absolute
+          display: inline-block
+          width: 19px
+          height: 25px
+          top: 50%
+
+
+      td:first-of-type
+        &:before
+          background: $exitIcon no-repeat center
+          left: -20px
+          transform: rotate(180deg) translate(0, 50%)
+
+      td:last-of-type
+        &:after
+          background: $exitIcon no-repeat center
+          transform: translate(0, -50%)
+          right: -20px
+
+
+/* ==== END #42215 ==== */
+
+/* ==== #41176 ==== */
+=addESIcon($name, $icon)
+  .icon_#{$name}
+    background: $icon no-repeat center !important
+    width: 100% !important
+    height: 100% !important
+
+    &:before
+      display: none
+
+    +adaptivity(tablet)
+      display: block
+      width: 60px !important
+      height: 60px !important
+
++addESIcon('umbrella', $insuranceIcon)
++addESIcon('seat-reservation', $seatIcon)
++addESIcon('meal', $mealIcon)
++addESIcon('luggage', $baggageIcon)
++addESIcon('aeroexpress', $aeroExpressIcon)
+
+/* ==== END #41176 ==== */

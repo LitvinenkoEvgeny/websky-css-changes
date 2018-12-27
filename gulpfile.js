@@ -3,6 +3,7 @@ const sass = require('gulp-sass');
 const sourcemaps = require('gulp-sourcemaps');
 const autoprefixer = require('gulp-autoprefixer');
 const cssMin = require('gulp-css');
+const inline = require('sass-inline-image');
 
 sass.compiler = require('node-sass');
 
@@ -16,7 +17,8 @@ gulp.task('sass', () => {
     return gulp.src(['src/**/*.sass', 'src/**/*.scss'])
         .pipe(sourcemaps.init())
         .pipe(sass({
-            outputStyle: 'compressed'
+            outputStyle: 'compressed',
+            functions: inline()
         }).on('error', sass.logError))
         .pipe(autoprefixer({
             browsers: ['last 2 versions']

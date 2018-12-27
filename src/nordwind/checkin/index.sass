@@ -282,3 +282,88 @@ body.adaptive .footer
   display: none
 
 /* ==== END hide info icon ==== */
+
+/* ==== #42215 ==== */
+.planeBody__i
+  .door
+    content: ''
+    color: transparent
+    background: $exitIcon center no-repeat
+    background-size: contain
+    cursor: default
+    position: relative
+
+    $topOffset: 1px
+
+    &:before
+      font-size: .8em
+      position: absolute
+      content: 'Выход'
+      display: inline-block
+      color: #000000
+      transform: translate(0, $topOffset)
+
+    &--left
+      transform: rotate(180deg)
+      left: -20px
+
+      &:before
+        transform: rotate(-180deg) translate(0, $topOffset)
+        right: 100%
+
+    &--right
+      right: -10px
+      top: -1px
+
+      &:before
+        top: -0.5px
+        right: 100%
+
+  .wc
+    content: ''
+    background: $toiletIconGray center no-repeat
+
+    background-size: contain
+    color: transparent
+    position: relative
+    cursor: pointer
+    width: 20px
+
+    &:before
+      content: 'туалетная комната'
+      background: #505050
+      border-radius: 3px
+      box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.3)
+      padding: 8px 10px
+      color: #ffffff
+      white-space: nowrap
+      position: absolute
+      bottom: 180%
+      font-size: .8em
+      display: none
+
+    &:hover
+      &:before
+        display: block
+        left: -55px
+
+
+html[lang="ru"]
+  .planeBody__i
+    .wc
+      &:before
+        content: 'туалетная комната'
+
+html[lang="en"]
+  .planeBody__i
+    .wc
+      &:before
+        content: 'water closet'
+
+html[lang="en"]
+  .planeBody__i
+    .door
+      &:before
+        content: 'exit'
+
+/* ==== END #42215 ==== */
