@@ -321,4 +321,24 @@
   background: $redBrandColor
   color: #ffffff
 
+.seatSelect .seat.seat.active:after
+  margin-left: 0
+  margin-right: 0
+  margin-top: 0
+
+.seatSelect .seat.selectedByOrderPassenger
+  &:after
+    background: $passengerIcon center no-repeat
+    background-size: contain
+    top: 50%
+    height: 8px
+    width: 8px
+    left: 50%
+    transform: translate(-50%, -50%)
+    border: none
+    border-radius: 0
+    margin-top: 0
+    margin-right: 0
+    margin-left: 0
+
 /* ==== END #41176 ==== */
