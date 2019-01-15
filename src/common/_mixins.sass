@@ -359,6 +359,12 @@
 
 
 
+
+
+
+
+
+
     table tr:first-child
       @for $index from 1 through length($colorSet)
         $color: nth($colorSet, $index)
@@ -615,6 +621,14 @@
     .date_text
       color: $fontColor
 
+=segmentPricesCalendarStyles($forActive)
+  @if $forActive == true
+    .selectDate .item.active a
+      @content
+  @else
+    .selectDate .item a
+      @content
+
 =languageMobileColor($color, $mutedColor)
   /* https://yadi.sk/i/all5Y-nKxu4qKA */
   .ui-select-header.ui-select-header-mobile .selectize-input
@@ -627,3 +641,22 @@
   .ui-select-header .ui-select-placeholder.text-muted
     +adaptivity(tablet)
       color: $mutedColor
+
+=colorizeBrandTable($colorSet)
+  .flightTable
+    table > tbody > tr.headrow
+      @for $index from 1 through length($colorSet)
+        $color: nth($colorSet, $index)
+        $index: $index + 1
+        > td:nth-child(#{$index})
+          background: $color
+
+    .chooseFlight
+      &__table
+        @for $index from 1 through length($colorSet)
+          $color: nth($colorSet, $index)
+          $index: $index
+          &__item:nth-of-type(#{$index})
+            +adaptivity(tablet)
+              .chooseFlight__table__item__columnTitle
+                background: $color
