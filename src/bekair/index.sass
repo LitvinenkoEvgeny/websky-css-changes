@@ -23,17 +23,19 @@
   .item.item_peoples
     .col
       width: 50%
+
     .item__i
       width: 100%
       margin: 0
+
     .inp__i
       display: flex
       //position: relative
 
       .inpCol:nth-child(1)
         flex: 1
-      //.inpCol:nth-child(2)
-        min-width: 25%
+//.inpCol:nth-child(2)
+  min-width: 25%
 
 
 .flightTable > table > tbody > tr.headrow > td
@@ -43,10 +45,11 @@
 
 .flightTable
   .infoBoxWrap
-    top: -10px
     right: -40px
+
     &:hover
       cursor: pointer
+
   .contentRow
     td:not(:first-child)
       a
@@ -58,6 +61,7 @@
         display: flex
         justify-content: center
         align-items: center
+
         &:hover
           background: $yellowBrandColor
 
@@ -67,8 +71,10 @@
       &.active
         &:after
           border-color: $gray
+
       &:after
         border-color: $blueBrandColor
+
       &.prev
         &:after
           border-color: $blueBrandColor
@@ -88,6 +94,7 @@
         display: flex
         flex-wrap: wrap
         justify-content: space-between
+
       li
         margin: 0
         padding: 10px 0 10px 30px
@@ -144,3 +151,75 @@
 +removePointerDisabledFromCalendar
 
 /* ==== END #35382 ==== */
+
+/* ==== #31373 ==== */
+
+a.child-pickers-switch
+  color: #ffffff
+  border-color: inherit
+
++languageMobileColor(#0093AA, #eeeeee)
+
+.ui-select-header.ui-select-header-mobile .selectize-input .ui-select-match
+  font-size: 20px
+  font-weight: 800
+
+.orderSearchForm.orderSearchForm_change
+  background: #00adc8
+
+.orderSearchForm .item.item_peoples .col
+  +adaptivity(tablet)
+    width: 100%
+
+.orderSearchForm .textInp,
+.orderSearchForm .compactShow
+  background: #ffffff
+
+.flightTable .infoBoxWrap
+  top: 5px
+
+.flightTable .contentRow td:not(:first-child) a:hover
+  background: $secondBlueBrandColor
+  color: #ffffff
+
+  + .infoBoxWrap i
+    color: #ffffff !important
+    z-index: 9
+
++colorizeSegmentPricesCalendar($secondBlueBrandColor, #fff)
+
+.chooseFlight__table__item__columnTitle
+  border: 1px solid #e6e6e6
+  border-top: none
+
++chooseFlightFullWidth
+
+.chooseFlight__table__item__content.active
+  .chooseFlight__table__item__content__link
+    background-color: $secondBlueBrandColor
+    color: #ffffff
+
+.selectedInfo__i > a
+  border-bottom: none
+
+.headerRight .selectedInfo
+  +adaptivity(tablet)
+    margin-bottom: 0
+
+.headerRight .selectedInfo .selectedInfo__i>a
+  +adaptivity(tablet)
+    padding: 10px 15px
+
+.chooseResult__i .tariff__content__item,
+.searchResultsPlain__i .tariff__content__item
+  +adaptivity(phone)
+    padding: 7px 0
+
+.chooseResult__i .tariff,
+.searchResultsPlain__i .tariff
+  +adaptivity(phone)
+    padding: 10px 15px
+
+/* ==== END #31373 ==== */
+
+
