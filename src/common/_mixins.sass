@@ -77,6 +77,10 @@
   .flightTable .contentRow td.active a
     @content
 
+=chooseFlightActiveIconStyles()
+  .flightTable .contentRow td.active i
+    @content
+
 // DEPRECATED
 =setTabletFullWidthAndHeight()
   .chooseFlight__table__item__content__link
@@ -355,12 +359,6 @@
 
 
 
-
-
-
-
-
-
     table tr:first-child
       @for $index from 1 through length($colorSet)
         $color: nth($colorSet, $index)
@@ -519,12 +517,6 @@
 
 
 
-
-
-
-
-
-
     .row
       &:first-child
         background: $thirdColor
@@ -605,6 +597,14 @@
     justify-content: center
     align-items: center
     box-sizing: border-box
+
+=chooseFlightFullWidthAndHeight
+  .flightTable .contentRow > td
+    &:not(.firstCol)
+      a
+        display: inline-flex
+        justify-content: center
+        align-items: center
 
 =colorizeSegmentPricesCalendar($backgroundColor, $fontColor)
   /* colorize segment prices calendar */
