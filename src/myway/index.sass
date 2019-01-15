@@ -1,0 +1,376 @@
+@import "../common/mixins"
+@import "variables"
+
+
+=blueButton()
+  background-color: $primaryBlueColor
+  border-color: $primaryBlueColor
+  color: white
+  opacity: 1
+  &:hover
+    background-color: $primaryPinkColor
+    border-color: $primaryPinkColor
+
+body
+  color: $textColor
+
+.header_small .wrap
+  padding-top: 20px
+  padding-bottom: 20px
+
+.header .logo .img
+  content: $logo
+  transform: scale(1.7)
+  width: 200px
+  background-size: contain !important
+
+\:root
+  font-size: 16px
+  font-family: 'Open Sans', sans-serif
+
+body
+  font-size: 16px
+  color: black
+
+/* ==== Header ==== */
+.header
+  background: $white
+  border: none
+
+  .logo
+    .img
+      background: none
+      +fastTransition(opacity, .15s)
+
+      &:hover
+        opacity: .6
+
+.userNav
+  &__i
+    a
+      color: $black
+      +fastTransition(color, .1s)
+
+      &:hover
+        color: $redBrandColor
+
+/* ==== END Header ==== */
+
+
+/* ==== Search step ==== */
+
+.searchSteps
+  ol
+    li
+      &.active
+        color: $white
+        background: $blueBrandColor
+
+        &:after
+          border-color: $white
+
+      a
+        &:hover
+          background: $redBrandColor
+          color: $white
+
+      &.prev
+        &:hover
+          &:after
+            border-color: $white
+            color: $white
+
+.orderSearchForm
+  .btnTransfer
+    &:hover
+      background: $redBrandColor
+      border-color: $redBrandColor
+
+  .valueControl
+    &.active
+      a
+        &:hover
+          background: $redBrandColor
+
+        &.btnMinus
+          &:hover
+            background: $redBrandColor
+
+            i
+              color: $white
+
+    a
+      i
+        color: $blueBrandColor
+
+      &:hover
+        background: $redBrandColor
+
+.btn
+  &.btn_search
+    background: $blueBrandColor
+    color: $white
+
+    &:hover
+      background: $redBrandColor
+
+/* ==== END Search step ==== */
+
+/* ==== Choose flight step ==== */
+
+.chooseDate
+  .tableWrap
+    table
+      td
+        &.active
+          background: $blueBrandColor
+
+          a
+            color: $white
+
+            &:hover
+              background: $lightBlueBrandColor
+
+/* ==== END Choose flight step ==== */
+
+.flightTable tr td.active,
+.flightTable .contentRow td.active a
+  background: $blueBrandColor
+  color: #ffffff
+
+/* ==== #38002 ==== */
+
+/* calendar styles */
+
++calendarHoverStyles()
+  background: $lightBlueBrandColor !important
+
++calendarSelectedStyles()
+  background: lighten($redBrandColor, 20%) !important
+
++rangeCalendarStyles()
+  background: lighten($redBrandColor, 10%) !important
+  color: #ffffff
+
++rangeStartEndStyles()
+  background: lighten($redBrandColor, 20%) !important
+  color: #ffffff
+
++enabledCalendarStyles()
+  background-color: lighten($primaryBlueColor, 10%)
+  color: #ffffff
+
+
+/* end calendar styles */
+
+/* flight detail */
+.popup_detail .route_item .route_container .route_table .dep,
+.popup_detail .route_item .route_container .route_table .arr
+  vertical-align: middle
+
+/* button in login popup */
+/* and save button in user account */
+.popup__i__footer__buttons__button,
+.btn.btn_save
+  background: $blueBrandColor
+  color: #ffffff
+
+  &:hover
+    background: $redBrandColor
+
+/* add fare families */
+.flightTable > table > tbody > tr > td
+  border-right: 1px solid #e6e6e6
+  border-bottom: 1px solid #e6e6e6
+  border-top: 1px solid #e6e6e6
+
+/* ==== END #38002 ==== */
+
+/* ==== #38002#note-17 ==== */
+
+.chooseDate .tableWrap table td.active a strong
+  color: #ffffff
+
++changeHeight()
+.selectDate .item.active
+  background: $blueBrandColor
+  color: #ffffff
+
+  a
+    color: inherit
+
+    > span:last-child
+      color: #ffffff
+
+.chooseFlight__table__item__content__link
+  width: 100%
+  height: 100%
+  box-sizing: border-box
+  display: flex
+  justify-content: center
+  align-items: center
+
+.chooseFlight__table__item__content.active .chooseFlight__table__item__content__link
+  background: $blueBrandColor
+  color: #ffffff
+
+  &:hover
+    background: $lightBlueBrandColor
+
+  +adaptivity(tablet)
+    &:hover
+      background: $blueBrandColor
+
+.header.header_small .logo
+  //width: auto
+  width: 100%
+  max-width: 100%
+
+  .img
+    background-repeat: no-repeat
+  +adaptivity(tablet)
+//width: 210px
+
+.mainNavBtn span
+  background: $blueBrandColor
+
+.compareTabsWrap .tabsControl li a
+  background: #6183c7
+  color: #ffffff
+
+.compareTabsWrap .name__i
+  background: #6183c7
+  color: #ffffff
+
+.flightTable .chooseFlight__table__item__columnTitle
+  background: #6183c7
+  text-align: center
+
+  .name a
+    display: inline-block
+    font-size: 13px
+    line-height: 14px
+    font-weight: 700
+    color: #fff
+    border-bottom: 1px dashed #fff
+
+.ui-select-header .selectize-input .ui-select-match,
+.ui-select-header .ui-select-placeholder.text-muted
+  color: #3c3838
+  +adaptivity(tablet)
+    color: #ffffff
+
+.ui-select-header .selectize-input:after
+  border-color: #b0b0b0 transparent transparent transparent !important
+  +adaptivity(tablet)
+    border-color: #ffffff transparent transparent transparent !important
+
+/* ==== END #38002#note-17 ==== */
+
+
+/* ==== #38002#note-41 ==== */
+
+.flightTable .contentRow .price-cell__link
+  box-sizing: border-box
+  padding: 39px 10px
+
+.flightTable .contentRow .price-cell
+  &__link
+    display: flex
+    justify-content: center
+    align-items: center
+
+  &__text
+    width: auto
+
+/* ==== END #38002#note-41 ==== */
+
+/* ==== #38002#note-48 ==== */
+
+.flightTable .contentRow td.active
+  .price-cell__text
+    display: inline-block
+    position: relative
+
+    &:before
+      font-family: 'OpenSkyIcons' !important
+      content: '\e900'
+      display: block
+      position: absolute
+      top: 50%
+      transform: translateY(-50%)
+      font-size: 14px
+      left: -23px
+
+.btn_receipt_cont a.show_receipt,
+.btn_receipt_cont a.send_receipt
+  background-color: $blueBrandColor
+  color: #ffffff
+
+  &:hover
+    background-color: $redBrandColor
+
+.btn_receipt_cont a.send_receipt
+  background-image: $receiptIcon
+
+.invoiceDrops .title
+  background: $blueBrandColor
+
+.invoiceDrops .item .circle i
+  color: $blueBrandColor
+
+.popup .title__i
+  background: $blueBrandColor
+
+/* ==== END #38002#note-48 ==== */
+
+
+
+.searchResultsControl .btn_next
+  +blueButton
+
+.searchResultsPlain__link:hover .flight__i
+  background: lighten($blueBrandColor, 55%)
+
+.chooseResult__i .flight, .searchResultsPlain__i .flight
+  border-top-color: $primaryPinkColor
+
+.selectedInfo__i > a
+  background: $yellowColor
+
+.searchSteps ol li.prev:hover:after
+  pointer-events: none
+
+.passengersInfo input[type="text"],
+.passengersInfo input[type="password"],
+.passengersInfo input[type="tel"],
+.passengersInfo input[type="email"]
+  font-size: .9em
+
+.searchSteps, .regSteps
+  background: #ffffff
+
+.searchSteps ol li.prev a, .regSteps ol li.prev a
+  background: #ffffff
+
+.searchSteps ol li a:hover
+  color: $blueBrandColor
+
+.searchSteps ol li.prev:hover
+  border-bottom-color: $blueBrandColor
+
+  &:after
+    color: $blueBrandColor
+    border-color: $blueBrandColor
+
+.searchSteps ol li.active
+  background: #ffffff
+  color: $primaryPinkColor
+  border-bottom-color: $primaryPinkColor
+
+  &:after
+    border-color: inherit
+
+.searchSteps ol li, .regSteps ol li
+  border-bottom: 3px solid transparent
+
