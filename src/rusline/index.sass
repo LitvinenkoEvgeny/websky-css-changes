@@ -3,7 +3,8 @@
 
 /* ==== #40126 ==== */
 
-.infoTooltip
+.infoTooltip,
+.errorMessage--format .errorMessage
   background: #ff1723
   white-space: pre
   bottom: 115%
@@ -11,5 +12,19 @@
   top: initial
   &:after
     border-top-color: #ff1723
+
+.errorMessage--format .errorMessage
+  &:after
+    left: 20%
+
+.content .content__i .searchResultsControl .searchResultsControl__i .btn.btn_next
+  display: inline-block !important
+
+.passengersInfo input[type="text"],
+.passengersInfo input[type="password"],
+.passengersInfo input[type="tel"],
+.passengersInfo input[type="email"]
+  box-sizing: border-box
+  height: 40px
 
 /* ==== END #40126 ==== */
