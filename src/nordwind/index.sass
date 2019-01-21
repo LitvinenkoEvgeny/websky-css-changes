@@ -120,7 +120,7 @@
   top: -34px
 
 .seatSelect .seat.seat-prop-not_for_infant .seatName
-  //top: -130px
+//top: -130px
 
 /* ==== END #40625 ==== */
 
@@ -342,3 +342,10 @@
     margin-left: 0
 
 /* ==== END #41176 ==== */
+
+.seatSelect .seat
+  &.seat-rfisc-PRS,
+  &.seat-rfisc-PFS,
+  &.seat-rfisc-PSA
+    &.seat_disabled
+      background: $seatDisabledBig center bottom no-repeat
