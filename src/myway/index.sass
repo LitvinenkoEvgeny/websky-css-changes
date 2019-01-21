@@ -1,6 +1,11 @@
 @import "../common/mixins"
 @import "variables"
 
+@font-face
+  font-family: "georgian lower"
+  font-style: normal
+  font-weight: 500
+  src: url("/resources/websky/custom/georgian-lower.woff") format("woff")
 
 =blueButton()
   background-color: $primaryBlueColor
@@ -374,3 +379,11 @@ body
 .searchSteps ol li, .regSteps ol li
   border-bottom: 3px solid transparent
 
+
+.logo
+  a
+    outline: none
+
+html[lang="ka"]
+  .pika-label
+    font-family: 'georgian lower'

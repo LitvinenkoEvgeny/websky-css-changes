@@ -1,5 +1,11 @@
 @import "../common/mixins"
 
+@font-face
+  font-family: "georgian lower"
+  font-style: normal
+  font-weight: 500
+  src: url("/resources/websky/custom/georgian-lower.woff") format("woff")
+
 /* ==== #35382 ==== */
 
 +removePointerDisabledFromCalendar
@@ -16,3 +22,6 @@
 +chooseFlightFullWidthAndHeight
 
 /* ==== END #31373 ==== */
+html[lang="ka"]
+  .pika-label
+    font-family: 'georgian lower'
